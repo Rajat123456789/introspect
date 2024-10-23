@@ -1,0 +1,1609 @@
+{
+  "user": {
+    "display_name": "Rajat",
+    "external_urls": {
+      "spotify": "https://open.spotify.com/user/31ffsmpaigf2oxwv6ezr56rgtt3m"
+    },
+    "followers": {
+      "href": null,
+      "total": 0
+    },
+    "href": "https://api.spotify.com/v1/users/31ffsmpaigf2oxwv6ezr56rgtt3m",
+    "id": "31ffsmpaigf2oxwv6ezr56rgtt3m",
+    "images": [
+      {
+        "height": 300,
+        "url": "https://i.scdn.co/image/ab6775700000ee859a04eeefd16f6d5e60c32e9d",
+        "width": 300
+      },
+      {
+        "height": 64,
+        "url": "https://i.scdn.co/image/ab67757000003b829a04eeefd16f6d5e60c32e9d",
+        "width": 64
+      }
+    ],
+    "type": "user",
+    "uri": "spotify:user:31ffsmpaigf2oxwv6ezr56rgtt3m"
+  },
+  "timestamp": "2024-10-22T17:32:25.543398",
+  "top_artists": {
+    "short_term": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Mv8GjQa7LKUGCAqa9qqdb"
+        },
+        "followers": {
+          "href": null,
+          "total": 9776493
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6Mv8GjQa7LKUGCAqa9qqdb",
+        "id": "6Mv8GjQa7LKUGCAqa9qqdb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17890b6c3d093f9b02aad628eaf",
+            "width": 160
+          }
+        ],
+        "name": "Vishal-Shekhar",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:6Mv8GjQa7LKUGCAqa9qqdb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4fEkbug6kZzzJ8eYX6Kbbp"
+        },
+        "followers": {
+          "href": null,
+          "total": 19055193
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4fEkbug6kZzzJ8eYX6Kbbp",
+        "id": "4fEkbug6kZzzJ8eYX6Kbbp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174b09a31f853166e721d4d46b2",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178b09a31f853166e721d4d46b2",
+            "width": 160
+          }
+        ],
+        "name": "KK",
+        "popularity": 79,
+        "type": "artist",
+        "uri": "spotify:artist:4fEkbug6kZzzJ8eYX6Kbbp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"
+        },
+        "followers": {
+          "href": null,
+          "total": 39665451
+        },
+        "genres": [
+          "filmi",
+          "indian instrumental",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1wRPtKGflJrBx9BmLsSwlU",
+        "id": "1wRPtKGflJrBx9BmLsSwlU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178cb6926f44f620555ba444fca",
+            "width": 160
+          }
+        ],
+        "name": "Pritam",
+        "popularity": 89,
+        "type": "artist",
+        "uri": "spotify:artist:1wRPtKGflJrBx9BmLsSwlU"
+      }
+    ],
+    "medium_term": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"
+        },
+        "followers": {
+          "href": null,
+          "total": 39665451
+        },
+        "genres": [
+          "filmi",
+          "indian instrumental",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1wRPtKGflJrBx9BmLsSwlU",
+        "id": "1wRPtKGflJrBx9BmLsSwlU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178cb6926f44f620555ba444fca",
+            "width": 160
+          }
+        ],
+        "name": "Pritam",
+        "popularity": 89,
+        "type": "artist",
+        "uri": "spotify:artist:1wRPtKGflJrBx9BmLsSwlU"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Mv8GjQa7LKUGCAqa9qqdb"
+        },
+        "followers": {
+          "href": null,
+          "total": 9776493
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6Mv8GjQa7LKUGCAqa9qqdb",
+        "id": "6Mv8GjQa7LKUGCAqa9qqdb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17890b6c3d093f9b02aad628eaf",
+            "width": 160
+          }
+        ],
+        "name": "Vishal-Shekhar",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:6Mv8GjQa7LKUGCAqa9qqdb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0kJO65h553i1iGsZutBuqz"
+        },
+        "followers": {
+          "href": null,
+          "total": 5458706
+        },
+        "genres": [
+          "classic pakistani pop",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0kJO65h553i1iGsZutBuqz",
+        "id": "0kJO65h553i1iGsZutBuqz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb350e3fb8d433acb3ab869864",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174350e3fb8d433acb3ab869864",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178350e3fb8d433acb3ab869864",
+            "width": 160
+          }
+        ],
+        "name": "Adnan Sami",
+        "popularity": 63,
+        "type": "artist",
+        "uri": "spotify:artist:0kJO65h553i1iGsZutBuqz"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4fEkbug6kZzzJ8eYX6Kbbp"
+        },
+        "followers": {
+          "href": null,
+          "total": 19055193
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4fEkbug6kZzzJ8eYX6Kbbp",
+        "id": "4fEkbug6kZzzJ8eYX6Kbbp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174b09a31f853166e721d4d46b2",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178b09a31f853166e721d4d46b2",
+            "width": 160
+          }
+        ],
+        "name": "KK",
+        "popularity": 79,
+        "type": "artist",
+        "uri": "spotify:artist:4fEkbug6kZzzJ8eYX6Kbbp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0GF4shudTAFv8ak9eWdd4Y"
+        },
+        "followers": {
+          "href": null,
+          "total": 12766128
+        },
+        "genres": [
+          "classic bollywood",
+          "filmi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0GF4shudTAFv8ak9eWdd4Y",
+        "id": "0GF4shudTAFv8ak9eWdd4Y",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc9ac92d87de28795c1c49730",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174c9ac92d87de28795c1c49730",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178c9ac92d87de28795c1c49730",
+            "width": 160
+          }
+        ],
+        "name": "Kishore Kumar",
+        "popularity": 76,
+        "type": "artist",
+        "uri": "spotify:artist:0GF4shudTAFv8ak9eWdd4Y"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1dVygo6tRFXC8CSWURQJq2"
+        },
+        "followers": {
+          "href": null,
+          "total": 18426170
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1dVygo6tRFXC8CSWURQJq2",
+        "id": "1dVygo6tRFXC8CSWURQJq2",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178bc959d7569618ec2af2210f5",
+            "width": 160
+          }
+        ],
+        "name": "Sonu Nigam",
+        "popularity": 78,
+        "type": "artist",
+        "uri": "spotify:artist:1dVygo6tRFXC8CSWURQJq2"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5Uvn1P3OFu268QovsUAnDu"
+        },
+        "followers": {
+          "href": null,
+          "total": 2189637
+        },
+        "genres": [
+          "classic bollywood",
+          "filmi",
+          "indian instrumental",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5Uvn1P3OFu268QovsUAnDu",
+        "id": "5Uvn1P3OFu268QovsUAnDu",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0296fa496a2cfc301430589024",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485196fa496a2cfc301430589024",
+            "width": 64
+          }
+        ],
+        "name": "Madan Mohan",
+        "popularity": 60,
+        "type": "artist",
+        "uri": "spotify:artist:5Uvn1P3OFu268QovsUAnDu"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Ff53KvcvAj5U7Z1vojB5o"
+        },
+        "followers": {
+          "href": null,
+          "total": 2679268
+        },
+        "genres": [
+          "boy band",
+          "dance pop",
+          "pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6Ff53KvcvAj5U7Z1vojB5o",
+        "id": "6Ff53KvcvAj5U7Z1vojB5o",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb9414ef07d0ca697726912df1",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051749414ef07d0ca697726912df1",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1789414ef07d0ca697726912df1",
+            "width": 160
+          }
+        ],
+        "name": "*NSYNC",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:6Ff53KvcvAj5U7Z1vojB5o"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx"
+        },
+        "followers": {
+          "href": null,
+          "total": 27963461
+        },
+        "genres": [
+          "classic pakistani pop",
+          "filmi",
+          "modern bollywood",
+          "sufi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2oSONSC9zQ4UonDKnLqksx",
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178c40600e02356cc86f0debe84",
+            "width": 160
+          }
+        ],
+        "name": "Atif Aslam",
+        "popularity": 80,
+        "type": "artist",
+        "uri": "spotify:artist:2oSONSC9zQ4UonDKnLqksx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4YgUVg4p7xtMOrOS4GjiJZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 365486
+        },
+        "genres": [
+          "afghan pop",
+          "chutney",
+          "classic bollywood",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4YgUVg4p7xtMOrOS4GjiJZ",
+        "id": "4YgUVg4p7xtMOrOS4GjiJZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb1dc3081fe7fea3d0e55f3d85",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051741dc3081fe7fea3d0e55f3d85",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1781dc3081fe7fea3d0e55f3d85",
+            "width": 160
+          }
+        ],
+        "name": "Jatin-Lalit",
+        "popularity": 69,
+        "type": "artist",
+        "uri": "spotify:artist:4YgUVg4p7xtMOrOS4GjiJZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1JdHoZwkwOmX2Pl2iTwnzc"
+        },
+        "followers": {
+          "href": null,
+          "total": 1624317
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1JdHoZwkwOmX2Pl2iTwnzc",
+        "id": "1JdHoZwkwOmX2Pl2iTwnzc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ffd233acba3fbc4705ce426c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0270715bb31018f9c5d956f6b9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511617a7ac92753755a467ad99",
+            "width": 64
+          }
+        ],
+        "name": "Vishal Bhardwaj",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:1JdHoZwkwOmX2Pl2iTwnzc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6ohaQzKaXrobAL8paLSaxq"
+        },
+        "followers": {
+          "href": null,
+          "total": 2304433
+        },
+        "genres": [
+          "filmi",
+          "indian folk",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6ohaQzKaXrobAL8paLSaxq",
+        "id": "6ohaQzKaXrobAL8paLSaxq",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb13a6f2195deea1f736d046e4",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517413a6f2195deea1f736d046e4",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17813a6f2195deea1f736d046e4",
+            "width": 160
+          }
+        ],
+        "name": "Salim–Sulaiman",
+        "popularity": 70,
+        "type": "artist",
+        "uri": "spotify:artist:6ohaQzKaXrobAL8paLSaxq"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7nok5RndHMd3FHe4ubHX80"
+        },
+        "followers": {
+          "href": null,
+          "total": 40994
+        },
+        "genres": [
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7nok5RndHMd3FHe4ubHX80",
+        "id": "7nok5RndHMd3FHe4ubHX80",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb739490cf100bb33f7769e867",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174739490cf100bb33f7769e867",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178739490cf100bb33f7769e867",
+            "width": 160
+          }
+        ],
+        "name": "Raju Singh",
+        "popularity": 50,
+        "type": "artist",
+        "uri": "spotify:artist:7nok5RndHMd3FHe4ubHX80"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0oOet2f43PA68X5RxKobEy"
+        },
+        "followers": {
+          "href": null,
+          "total": 26630146
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0oOet2f43PA68X5RxKobEy",
+        "id": "0oOet2f43PA68X5RxKobEy",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb59303d54ce789210e745e1a9",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517459303d54ce789210e745e1a9",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17859303d54ce789210e745e1a9",
+            "width": 160
+          }
+        ],
+        "name": "Shreya Ghoshal",
+        "popularity": 84,
+        "type": "artist",
+        "uri": "spotify:artist:0oOet2f43PA68X5RxKobEy"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ZRrPOjBIWoKK5rHedLijj"
+        },
+        "followers": {
+          "href": null,
+          "total": 4894356
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2ZRrPOjBIWoKK5rHedLijj",
+        "id": "2ZRrPOjBIWoKK5rHedLijj",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb20508d4335cdc0a3ec65a3aa",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517420508d4335cdc0a3ec65a3aa",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17820508d4335cdc0a3ec65a3aa",
+            "width": 160
+          }
+        ],
+        "name": "Abhijeet",
+        "popularity": 71,
+        "type": "artist",
+        "uri": "spotify:artist:2ZRrPOjBIWoKK5rHedLijj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5GnnSrwNCGyfAU4zuIytiS"
+        },
+        "followers": {
+          "href": null,
+          "total": 10018368
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5GnnSrwNCGyfAU4zuIytiS",
+        "id": "5GnnSrwNCGyfAU4zuIytiS",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb16691117e2ba803946b203ba",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517416691117e2ba803946b203ba",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17816691117e2ba803946b203ba",
+            "width": 160
+          }
+        ],
+        "name": "Mohit Chauhan",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:5GnnSrwNCGyfAU4zuIytiS"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"
+        },
+        "followers": {
+          "href": null,
+          "total": 53958744
+        },
+        "genres": [
+          "filmi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1mYsTxnqsietFxj1OgoGbG",
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178b19af0ea736c6228d6eb539c",
+            "width": 160
+          }
+        ],
+        "name": "A.R. Rahman",
+        "popularity": 81,
+        "type": "artist",
+        "uri": "spotify:artist:1mYsTxnqsietFxj1OgoGbG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1bTROl5p3rGTpvKeWnGgrw"
+        },
+        "followers": {
+          "href": null,
+          "total": 1032287
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1bTROl5p3rGTpvKeWnGgrw",
+        "id": "1bTROl5p3rGTpvKeWnGgrw",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb93129f8524598bf1ef06ddb7",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517493129f8524598bf1ef06ddb7",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17893129f8524598bf1ef06ddb7",
+            "width": 160
+          }
+        ],
+        "name": "Sohail Sen",
+        "popularity": 67,
+        "type": "artist",
+        "uri": "spotify:artist:1bTROl5p3rGTpvKeWnGgrw"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5wJ1H6ud777odtZl5gG507"
+        },
+        "followers": {
+          "href": null,
+          "total": 5348391
+        },
+        "genres": [
+          "desi pop",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5wJ1H6ud777odtZl5gG507",
+        "id": "5wJ1H6ud777odtZl5gG507",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebfb13d10be20fdcb5a670f551",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174fb13d10be20fdcb5a670f551",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178fb13d10be20fdcb5a670f551",
+            "width": 160
+          }
+        ],
+        "name": "Vishal Mishra",
+        "popularity": 78,
+        "type": "artist",
+        "uri": "spotify:artist:5wJ1H6ud777odtZl5gG507"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0L5GV6LN8SWWUWIdBbTLTZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 6283573
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0L5GV6LN8SWWUWIdBbTLTZ",
+        "id": "0L5GV6LN8SWWUWIdBbTLTZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb3db0499a689aa9b4a47ebba3",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1783db0499a689aa9b4a47ebba3",
+            "width": 160
+          }
+        ],
+        "name": "Shankar-Ehsaan-Loy",
+        "popularity": 72,
+        "type": "artist",
+        "uri": "spotify:artist:0L5GV6LN8SWWUWIdBbTLTZ"
+      }
+    ],
+    "long_term": [
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1wRPtKGflJrBx9BmLsSwlU"
+        },
+        "followers": {
+          "href": null,
+          "total": 39665451
+        },
+        "genres": [
+          "filmi",
+          "indian instrumental",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1wRPtKGflJrBx9BmLsSwlU",
+        "id": "1wRPtKGflJrBx9BmLsSwlU",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebcb6926f44f620555ba444fca",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174cb6926f44f620555ba444fca",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178cb6926f44f620555ba444fca",
+            "width": 160
+          }
+        ],
+        "name": "Pritam",
+        "popularity": 89,
+        "type": "artist",
+        "uri": "spotify:artist:1wRPtKGflJrBx9BmLsSwlU"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4fEkbug6kZzzJ8eYX6Kbbp"
+        },
+        "followers": {
+          "href": null,
+          "total": 19055193
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4fEkbug6kZzzJ8eYX6Kbbp",
+        "id": "4fEkbug6kZzzJ8eYX6Kbbp",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb09a31f853166e721d4d46b2",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174b09a31f853166e721d4d46b2",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178b09a31f853166e721d4d46b2",
+            "width": 160
+          }
+        ],
+        "name": "KK",
+        "popularity": 79,
+        "type": "artist",
+        "uri": "spotify:artist:4fEkbug6kZzzJ8eYX6Kbbp"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/6Mv8GjQa7LKUGCAqa9qqdb"
+        },
+        "followers": {
+          "href": null,
+          "total": 9776493
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/6Mv8GjQa7LKUGCAqa9qqdb",
+        "id": "6Mv8GjQa7LKUGCAqa9qqdb",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb90b6c3d093f9b02aad628eaf",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517490b6c3d093f9b02aad628eaf",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17890b6c3d093f9b02aad628eaf",
+            "width": 160
+          }
+        ],
+        "name": "Vishal-Shekhar",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:6Mv8GjQa7LKUGCAqa9qqdb"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0kJO65h553i1iGsZutBuqz"
+        },
+        "followers": {
+          "href": null,
+          "total": 5458706
+        },
+        "genres": [
+          "classic pakistani pop",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0kJO65h553i1iGsZutBuqz",
+        "id": "0kJO65h553i1iGsZutBuqz",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb350e3fb8d433acb3ab869864",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174350e3fb8d433acb3ab869864",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178350e3fb8d433acb3ab869864",
+            "width": 160
+          }
+        ],
+        "name": "Adnan Sami",
+        "popularity": 63,
+        "type": "artist",
+        "uri": "spotify:artist:0kJO65h553i1iGsZutBuqz"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0GF4shudTAFv8ak9eWdd4Y"
+        },
+        "followers": {
+          "href": null,
+          "total": 12766128
+        },
+        "genres": [
+          "classic bollywood",
+          "filmi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0GF4shudTAFv8ak9eWdd4Y",
+        "id": "0GF4shudTAFv8ak9eWdd4Y",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc9ac92d87de28795c1c49730",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174c9ac92d87de28795c1c49730",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178c9ac92d87de28795c1c49730",
+            "width": 160
+          }
+        ],
+        "name": "Kishore Kumar",
+        "popularity": 76,
+        "type": "artist",
+        "uri": "spotify:artist:0GF4shudTAFv8ak9eWdd4Y"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/7HCqGPJcQTyGJ2yqntbuyr"
+        },
+        "followers": {
+          "href": null,
+          "total": 9348706
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/7HCqGPJcQTyGJ2yqntbuyr",
+        "id": "7HCqGPJcQTyGJ2yqntbuyr",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb1dcbb331f2318db2dd2c6bcf",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051741dcbb331f2318db2dd2c6bcf",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1781dcbb331f2318db2dd2c6bcf",
+            "width": 160
+          }
+        ],
+        "name": "Amit Trivedi",
+        "popularity": 70,
+        "type": "artist",
+        "uri": "spotify:artist:7HCqGPJcQTyGJ2yqntbuyr"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1JdHoZwkwOmX2Pl2iTwnzc"
+        },
+        "followers": {
+          "href": null,
+          "total": 1624317
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1JdHoZwkwOmX2Pl2iTwnzc",
+        "id": "1JdHoZwkwOmX2Pl2iTwnzc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b273ffd233acba3fbc4705ce426c",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0270715bb31018f9c5d956f6b9",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d000048511617a7ac92753755a467ad99",
+            "width": 64
+          }
+        ],
+        "name": "Vishal Bhardwaj",
+        "popularity": 49,
+        "type": "artist",
+        "uri": "spotify:artist:1JdHoZwkwOmX2Pl2iTwnzc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/5Uvn1P3OFu268QovsUAnDu"
+        },
+        "followers": {
+          "href": null,
+          "total": 2189637
+        },
+        "genres": [
+          "classic bollywood",
+          "filmi",
+          "indian instrumental",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/5Uvn1P3OFu268QovsUAnDu",
+        "id": "5Uvn1P3OFu268QovsUAnDu",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab67616d0000b27396fa496a2cfc301430589024",
+            "width": 640
+          },
+          {
+            "height": 300,
+            "url": "https://i.scdn.co/image/ab67616d00001e0296fa496a2cfc301430589024",
+            "width": 300
+          },
+          {
+            "height": 64,
+            "url": "https://i.scdn.co/image/ab67616d0000485196fa496a2cfc301430589024",
+            "width": 64
+          }
+        ],
+        "name": "Madan Mohan",
+        "popularity": 60,
+        "type": "artist",
+        "uri": "spotify:artist:5Uvn1P3OFu268QovsUAnDu"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1dVygo6tRFXC8CSWURQJq2"
+        },
+        "followers": {
+          "href": null,
+          "total": 18426170
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1dVygo6tRFXC8CSWURQJq2",
+        "id": "1dVygo6tRFXC8CSWURQJq2",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebbc959d7569618ec2af2210f5",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174bc959d7569618ec2af2210f5",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178bc959d7569618ec2af2210f5",
+            "width": 160
+          }
+        ],
+        "name": "Sonu Nigam",
+        "popularity": 78,
+        "type": "artist",
+        "uri": "spotify:artist:1dVygo6tRFXC8CSWURQJq2"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2oSONSC9zQ4UonDKnLqksx"
+        },
+        "followers": {
+          "href": null,
+          "total": 27963461
+        },
+        "genres": [
+          "classic pakistani pop",
+          "filmi",
+          "modern bollywood",
+          "sufi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2oSONSC9zQ4UonDKnLqksx",
+        "id": "2oSONSC9zQ4UonDKnLqksx",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebc40600e02356cc86f0debe84",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174c40600e02356cc86f0debe84",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178c40600e02356cc86f0debe84",
+            "width": 160
+          }
+        ],
+        "name": "Atif Aslam",
+        "popularity": 80,
+        "type": "artist",
+        "uri": "spotify:artist:2oSONSC9zQ4UonDKnLqksx"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/2ZRrPOjBIWoKK5rHedLijj"
+        },
+        "followers": {
+          "href": null,
+          "total": 4894356
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/2ZRrPOjBIWoKK5rHedLijj",
+        "id": "2ZRrPOjBIWoKK5rHedLijj",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb20508d4335cdc0a3ec65a3aa",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517420508d4335cdc0a3ec65a3aa",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17820508d4335cdc0a3ec65a3aa",
+            "width": 160
+          }
+        ],
+        "name": "Abhijeet",
+        "popularity": 71,
+        "type": "artist",
+        "uri": "spotify:artist:2ZRrPOjBIWoKK5rHedLijj"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0L5GV6LN8SWWUWIdBbTLTZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 6283573
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0L5GV6LN8SWWUWIdBbTLTZ",
+        "id": "0L5GV6LN8SWWUWIdBbTLTZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb3db0499a689aa9b4a47ebba3",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051743db0499a689aa9b4a47ebba3",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1783db0499a689aa9b4a47ebba3",
+            "width": 160
+          }
+        ],
+        "name": "Shankar-Ehsaan-Loy",
+        "popularity": 72,
+        "type": "artist",
+        "uri": "spotify:artist:0L5GV6LN8SWWUWIdBbTLTZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4W91bbPB2CTSsHwt7eqNl7"
+        },
+        "followers": {
+          "href": null,
+          "total": 11286433
+        },
+        "genres": [
+          "desi pop",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4W91bbPB2CTSsHwt7eqNl7",
+        "id": "4W91bbPB2CTSsHwt7eqNl7",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb84e0829f8e8abff52255fbd3",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab6761610000517484e0829f8e8abff52255fbd3",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f17884e0829f8e8abff52255fbd3",
+            "width": 160
+          }
+        ],
+        "name": "Javed Ali",
+        "popularity": 72,
+        "type": "artist",
+        "uri": "spotify:artist:4W91bbPB2CTSsHwt7eqNl7"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/61JrslREXq98hurYL2hYoc"
+        },
+        "followers": {
+          "href": null,
+          "total": 17640489
+        },
+        "genres": [
+          "classic bollywood",
+          "filmi",
+          "lata"
+        ],
+        "href": "https://api.spotify.com/v1/artists/61JrslREXq98hurYL2hYoc",
+        "id": "61JrslREXq98hurYL2hYoc",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eba0199b159c0c5a9f62333d32",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174a0199b159c0c5a9f62333d32",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178a0199b159c0c5a9f62333d32",
+            "width": 160
+          }
+        ],
+        "name": "Lata Mangeshkar",
+        "popularity": 77,
+        "type": "artist",
+        "uri": "spotify:artist:61JrslREXq98hurYL2hYoc"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/24BYRlsS8uIO4jA71mJ4Js"
+        },
+        "followers": {
+          "href": null,
+          "total": 3066714
+        },
+        "genres": [
+          "desi hip hop",
+          "desi pop",
+          "desi trap",
+          "pakistani hip hop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/24BYRlsS8uIO4jA71mJ4Js",
+        "id": "24BYRlsS8uIO4jA71mJ4Js",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebe6b2aeb708559492ce710c23",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174e6b2aeb708559492ce710c23",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178e6b2aeb708559492ce710c23",
+            "width": 160
+          }
+        ],
+        "name": "Imran Khan",
+        "popularity": 63,
+        "type": "artist",
+        "uri": "spotify:artist:24BYRlsS8uIO4jA71mJ4Js"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/4YgUVg4p7xtMOrOS4GjiJZ"
+        },
+        "followers": {
+          "href": null,
+          "total": 365486
+        },
+        "genres": [
+          "afghan pop",
+          "chutney",
+          "classic bollywood",
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/4YgUVg4p7xtMOrOS4GjiJZ",
+        "id": "4YgUVg4p7xtMOrOS4GjiJZ",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb1dc3081fe7fea3d0e55f3d85",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051741dc3081fe7fea3d0e55f3d85",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1781dc3081fe7fea3d0e55f3d85",
+            "width": 160
+          }
+        ],
+        "name": "Jatin-Lalit",
+        "popularity": 69,
+        "type": "artist",
+        "uri": "spotify:artist:4YgUVg4p7xtMOrOS4GjiJZ"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/71hjb5G92mGoKRSAW3Cj00"
+        },
+        "followers": {
+          "href": null,
+          "total": 5493361
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/71hjb5G92mGoKRSAW3Cj00",
+        "id": "71hjb5G92mGoKRSAW3Cj00",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebd7e0f6a3b721c781859ce6bc",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174d7e0f6a3b721c781859ce6bc",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178d7e0f6a3b721c781859ce6bc",
+            "width": 160
+          }
+        ],
+        "name": "Anu Malik",
+        "popularity": 67,
+        "type": "artist",
+        "uri": "spotify:artist:71hjb5G92mGoKRSAW3Cj00"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/1mYsTxnqsietFxj1OgoGbG"
+        },
+        "followers": {
+          "href": null,
+          "total": 53958744
+        },
+        "genres": [
+          "filmi"
+        ],
+        "href": "https://api.spotify.com/v1/artists/1mYsTxnqsietFxj1OgoGbG",
+        "id": "1mYsTxnqsietFxj1OgoGbG",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebb19af0ea736c6228d6eb539c",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174b19af0ea736c6228d6eb539c",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178b19af0ea736c6228d6eb539c",
+            "width": 160
+          }
+        ],
+        "name": "A.R. Rahman",
+        "popularity": 81,
+        "type": "artist",
+        "uri": "spotify:artist:1mYsTxnqsietFxj1OgoGbG"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/70B80Lwx2sxti0M1Ng9e8K"
+        },
+        "followers": {
+          "href": null,
+          "total": 16302277
+        },
+        "genres": [
+          "chutney",
+          "filmi",
+          "odia pop"
+        ],
+        "href": "https://api.spotify.com/v1/artists/70B80Lwx2sxti0M1Ng9e8K",
+        "id": "70B80Lwx2sxti0M1Ng9e8K",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5eb8de0e6e7e55d7773931ab7f4",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab676161000051748de0e6e7e55d7773931ab7f4",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f1788de0e6e7e55d7773931ab7f4",
+            "width": 160
+          }
+        ],
+        "name": "Udit Narayan",
+        "popularity": 81,
+        "type": "artist",
+        "uri": "spotify:artist:70B80Lwx2sxti0M1Ng9e8K"
+      },
+      {
+        "external_urls": {
+          "spotify": "https://open.spotify.com/artist/0XL6ie7a0NY5FM05b9Rn5L"
+        },
+        "followers": {
+          "href": null,
+          "total": 4061293
+        },
+        "genres": [
+          "filmi",
+          "modern bollywood"
+        ],
+        "href": "https://api.spotify.com/v1/artists/0XL6ie7a0NY5FM05b9Rn5L",
+        "id": "0XL6ie7a0NY5FM05b9Rn5L",
+        "images": [
+          {
+            "height": 640,
+            "url": "https://i.scdn.co/image/ab6761610000e5ebad172e19a5e9c349122e1c18",
+            "width": 640
+          },
+          {
+            "height": 320,
+            "url": "https://i.scdn.co/image/ab67616100005174ad172e19a5e9c349122e1c18",
+            "width": 320
+          },
+          {
+            "height": 160,
+            "url": "https://i.scdn.co/image/ab6761610000f178ad172e19a5e9c349122e1c18",
+            "width": 160
+          }
+        ],
+        "name": "Farhan Akhtar",
+        "popularity": 57,
+        "type": "artist",
+        "uri": "spotify:artist:0XL6ie7a0NY5FM05b9Rn5L"
+      }
+    ]
+  }
+}
