@@ -74,12 +74,12 @@ async def process_videos(video_watch_data):
 
 # Main function to execute the script
 def main():
-    html_file = '/Users/rajatsharma/10-feb-introspect-proj/Gaurav-YouTube.html'
+    html_file = 'scripts/watch-history.html'
     video_watch_data = extract_video_data(html_file, 10000)
     final_video_data = asyncio.run(process_videos(video_watch_data))  # Fixed here
 
     df = pd.DataFrame(final_video_data)
-    df.to_csv('10-feb-2.csv', index=False)
+    df.to_csv('youtube-history-csv.csv', index=False)
     print("CSV file created successfully!")
 
 if __name__ == "__main__":
