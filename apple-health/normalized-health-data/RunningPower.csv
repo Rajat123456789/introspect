@@ -1,0 +1,5 @@
+type,sourceName,value,unit,startDate,endDate,duration,minimum,CardioFitnessMedicationsUse,time,maximum,durationUnit,sum,average,workoutActivityType
+RunningPower,,,W,2023-04-12 05:40:00,4/12/23 6:55,,174.0,,,365.0,,,326.453,
+RunningPower,Casio G-Shock,326.453,W,2023-04-12 06:20:00,4/12/23 6:30,,,,,,,,,
+RunningPower,,,W,2024-01-27 07:20:00,1/27/24 7:56,,81.0,,,151.0,,,102.733,
+RunningPower,Casio G-Shock,102.733,W,2024-01-27 07:40:00,1/27/24 7:53,,,,,,,,,

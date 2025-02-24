@@ -1,0 +1,6 @@
+type,sourceName,value,unit,startDate,endDate,duration,minimum,CardioFitnessMedicationsUse,time,maximum,durationUnit,sum,average,workoutActivityType
+LowCardioFitnessEvent,Casio G-Shock,HKCategoryValueLowCardioFitnessEventLowFitness,,2022-10-17 08:00:00,12/21/22 8:09,,,,,,,,,
+LowCardioFitnessEvent,Casio G-Shock,HKCategoryValueLowCardioFitnessEventLowFitness,,2023-02-19 09:20:00,5/7/23 5:07,,,,,,,,,
+LowCardioFitnessEvent,Casio G-Shock,HKCategoryValueLowCardioFitnessEventLowFitness,,2023-06-20 18:20:00,9/6/23 11:14,,,,,,,,,
+LowCardioFitnessEvent,Casio G-Shock,HKCategoryValueLowCardioFitnessEventLowFitness,,2024-01-24 12:30:00,3/12/24 12:29,,,,,,,,,
+LowCardioFitnessEvent,Casio G-Shock,HKCategoryValueLowCardioFitnessEventLowFitness,,2024-05-17 13:40:00,8/8/24 4:58,,,,,,,,,
