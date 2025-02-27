@@ -1,0 +1,38 @@
+===== YouTube Mental Health Analysis Summary =====
+
+Analysis date: 2025-02-26 23:14:51
+
+=== Temporal Trend Analysis ===
+Daily trends: 698 data points
+Weekly trends: 120 data points
+Monthly trends: 45 data points
+
+=== Mental Health Index ===
+Average index: 2.71
+Overall trend: Mental health appears to be declining (change: -0.07)
+
+=== Viewing Pattern Analysis ===
+Total days analyzed: 47
+Average videos per day: 94.7
+Late night viewing days: 38
+Binge watching days: 43
+Binge watching occurred on 91.5% of days
+
+=== Music Impact Analysis ===
+Top music genres by impact:
+- Unknown: positive impact (0.73)
+- Rock: negative impact (nan)
+
+Music energy types by impact:
+- Neutral: positive impact (0.73)
+
+=== Addiction Risk Analysis ===
+Videos with clickbait titles: 26 (26.0%)
+Videos part of a series: 6 (6.0%)
+
+Top binge trigger categories:
+- Entertainment: 11179 instances
+- Comedy: 6293 instances
+- Shorts: 3307 instances
+
+===== End of Summary =====

@@ -1,0 +1,1076 @@
+[
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.8293856783203621,
+    "count": 1174
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.8168287977018589,
+    "count": 1149
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.7452965247921837,
+    "count": 1025
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.7120814671541792,
+    "count": 940
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.7593522648165036,
+    "count": 937
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6776403867594619,
+    "count": 849
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.6148594560502454,
+    "count": 790
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.6016602578916044,
+    "count": 741
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.6591037069663048,
+    "count": 734
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5454934822077177,
+    "count": 714
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.6319938628904281,
+    "count": 682
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5374367519004931,
+    "count": 666
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.46854735260616354,
+    "count": 621
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.8308614410272155,
+    "count": 595
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.7614686437721907,
+    "count": 580
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.8022125970759463,
+    "count": 577
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.47699780281775644,
+    "count": 549
+  },
+  {
+    "video_category": "Entertainment",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.4312939880936499,
+    "count": 533
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.7662910540148897,
+    "count": 530
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6949765728857681,
+    "count": 524
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.7343376696583768,
+    "count": 503
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6132588130914097,
+    "count": 492
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.6133379586088632,
+    "count": 469
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5431164462281314,
+    "count": 460
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.7067985947366787,
+    "count": 447
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.6269339416803932,
+    "count": 445
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.49441730342299667,
+    "count": 442
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.6839465773241074,
+    "count": 440
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.6730108784798243,
+    "count": 416
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5488963715302257,
+    "count": 416
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.5476014947233946,
+    "count": 399
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6344862145747191,
+    "count": 382
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.6509303121024334,
+    "count": 378
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5076652654743448,
+    "count": 364
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.8231813927491508,
+    "count": 360
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.7704122437821235,
+    "count": 309
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.41936804813473194,
+    "count": 292
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.5948419878664223,
+    "count": 276
+  },
+  {
+    "video_category": "Comedy",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.45488411419066105,
+    "count": 271
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.6901986525339241,
+    "count": 255
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.5647061396905079,
+    "count": 246
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6310910838163962,
+    "count": 246
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.7595785007638445,
+    "count": 236
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6244999919388746,
+    "count": 222
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.6490677312222496,
+    "count": 217
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.5273657043299608,
+    "count": 209
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.5470694845645276,
+    "count": 199
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.7262842416763309,
+    "count": 190
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.7551381152409773,
+    "count": 182
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5192543205287722,
+    "count": 180
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.5160497296063197,
+    "count": 173
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5864825064391759,
+    "count": 173
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.5925844862971005,
+    "count": 173
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5416505625642882,
+    "count": 163
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.6110808716057252,
+    "count": 161
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.8098349542453368,
+    "count": 145
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.7503569852298411,
+    "count": 142
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5472052529664105,
+    "count": 142
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.5537598181296793,
+    "count": 136
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5848767553620483,
+    "count": 136
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.7719561471495517,
+    "count": 129
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.47728106788089203,
+    "count": 124
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.7180341213695279,
+    "count": 121
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.5588965085645516,
+    "count": 120
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.7152743685034523,
+    "count": 113
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5058677470789543,
+    "count": 113
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.611047574959764,
+    "count": 109
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.49855757412456336,
+    "count": 105
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.6771950469130559,
+    "count": 105
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.782359238427419,
+    "count": 104
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.648752416926201,
+    "count": 99
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.4709812378396793,
+    "count": 98
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6641011961868833,
+    "count": 98
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5491350431417681,
+    "count": 97
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5477817908713692,
+    "count": 95
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6357532254558926,
+    "count": 94
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.5762418861622393,
+    "count": 92
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.5164001622925634,
+    "count": 92
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6592473076148463,
+    "count": 88
+  },
+  {
+    "video_category": "Shorts",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.4905308882395427,
+    "count": 84
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5495521280737152,
+    "count": 84
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.6743456224600475,
+    "count": 84
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.6559513403875072,
+    "count": 82
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.7485256441581395,
+    "count": 81
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.7153768686600676,
+    "count": 81
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.584555103431774,
+    "count": 79
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6342467061984233,
+    "count": 78
+  },
+  {
+    "video_category": "Technology",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.49900921147603255,
+    "count": 78
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.5386982858181,
+    "count": 78
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.603228345319822,
+    "count": 77
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.698410635323901,
+    "count": 76
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.5922127950030404,
+    "count": 74
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.6123438332762037,
+    "count": 70
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.5504639898152912,
+    "count": 68
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.6420837338290997,
+    "count": 67
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.596044630729235,
+    "count": 65
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.5723934983834621,
+    "count": 64
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5773112215101722,
+    "count": 64
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.6865437258966267,
+    "count": 64
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.5757469688692403,
+    "count": 62
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6522111061119261,
+    "count": 62
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5594200443048947,
+    "count": 61
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5641814256707827,
+    "count": 60
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.6479600831866265,
+    "count": 60
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.582244283166425,
+    "count": 58
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.574965523000349,
+    "count": 57
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.5216613877237891,
+    "count": 57
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.6046755920376692,
+    "count": 57
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.524314109236002,
+    "count": 56
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.5602055224505338,
+    "count": 55
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.5172202736139297,
+    "count": 54
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.523300197326912,
+    "count": 53
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.5707027637491039,
+    "count": 51
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.5688290845374673,
+    "count": 49
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.6037354797733074,
+    "count": 49
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5531313332418603,
+    "count": 48
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5336155098803501,
+    "count": 47
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.659311593847072,
+    "count": 47
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5768849389708562,
+    "count": 46
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5656470901436276,
+    "count": 45
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.5043905907207066,
+    "count": 45
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.5546959166119738,
+    "count": 41
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.45848675519227977,
+    "count": 40
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.5413037993013858,
+    "count": 40
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5698181673884392,
+    "count": 40
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.49746531171676417,
+    "count": 39
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5042113829881717,
+    "count": 39
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.5310975718192563,
+    "count": 39
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.47777010232974326,
+    "count": 39
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.5660036786606436,
+    "count": 38
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.5000984770687003,
+    "count": 38
+  },
+  {
+    "video_category": "Podcast",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5400219340534773,
+    "count": 34
+  },
+  {
+    "video_category": "Reviews",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5864847284906051,
+    "count": 34
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.5633113629677717,
+    "count": 34
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.5242498652501539,
+    "count": 33
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.4762231626293875,
+    "count": 33
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.522927160224607,
+    "count": 31
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.49755468858139873,
+    "count": 28
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.50568867943905,
+    "count": 27
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.5159130188135,
+    "count": 26
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.550387461980184,
+    "count": 24
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.49793396517634386,
+    "count": 24
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.8012749155362449,
+    "count": 24
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.8790983428125796,
+    "count": 23
+  },
+  {
+    "video_category": "Gaming",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.541732224551114,
+    "count": 22
+  },
+  {
+    "video_category": "News",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.44291234016418457,
+    "count": 18
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.7075139021172244,
+    "count": 17
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5733814164996147,
+    "count": 16
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.6639399547129868,
+    "count": 16
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.650631958246231,
+    "count": 15
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5512468091079166,
+    "count": 14
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.4801209398678371,
+    "count": 14
+  },
+  {
+    "video_category": "Sports",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.4828504366534097,
+    "count": 14
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.41084474325180054,
+    "count": 13
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.3741960089940291,
+    "count": 13
+  },
+  {
+    "video_category": "Tutorial",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.6866059761780959,
+    "count": 13
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6942698634587801,
+    "count": 13
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.6065841385951408,
+    "count": 13
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.6211615627010664,
+    "count": 12
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5927555590867997,
+    "count": 10
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.4982909758885701,
+    "count": 9
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "self-improvement and personal growth",
+    "avg_score": 0.6805947609245777,
+    "count": 8
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.5267627962997982,
+    "count": 7
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.5103846830981118,
+    "count": 7
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "motivation and mental strength",
+    "avg_score": 0.6873172372579575,
+    "count": 6
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "self-care practices",
+    "avg_score": 0.5795088062683742,
+    "count": 6
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "anxiety and stress management",
+    "avg_score": 0.6097492456436158,
+    "count": 5
+  },
+  {
+    "video_category": "Education",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.48624288439750674,
+    "count": 5
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "mental health experiences",
+    "avg_score": 0.5203017294406891,
+    "count": 4
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "mindfulness and mental wellness",
+    "avg_score": 0.7466599345207214,
+    "count": 4
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "mental health education",
+    "avg_score": 0.5532244741916656,
+    "count": 2
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "sleep and mental wellness",
+    "avg_score": 0.5472574383020401,
+    "count": 2
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "addiction awareness and recovery",
+    "avg_score": 0.6277778148651123,
+    "count": 2
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "emotional health discussion",
+    "avg_score": 0.631819412112236,
+    "count": 2
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "social anxiety and relationships",
+    "avg_score": 0.4158695936203003,
+    "count": 2
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "therapy and mental health support",
+    "avg_score": 0.3501334190368652,
+    "count": 1
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "work-life balance and burnout",
+    "avg_score": 0.4110550880432129,
+    "count": 1
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "trauma awareness and healing",
+    "avg_score": 0.5819242596626282,
+    "count": 1
+  },
+  {
+    "video_category": "Vlogs",
+    "mental_health_category": "depression and emotional support",
+    "avg_score": 0.4655236303806305,
+    "count": 1
+  }
+]

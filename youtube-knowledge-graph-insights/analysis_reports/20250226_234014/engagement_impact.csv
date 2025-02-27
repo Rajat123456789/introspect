@@ -1,0 +1,136 @@
+,engagement_type,category,avg_score,count
+0,trending,self-improvement and personal growth,0.7948579422106484,3918
+1,viral,self-improvement and personal growth,0.7961519057637235,3846
+2,entertaining,self-improvement and personal growth,0.7972378514950363,3767
+3,informative,self-improvement and personal growth,0.8011426454971703,3654
+4,trending,motivation and mental strength,0.7615977703170345,3520
+5,viral,motivation and mental strength,0.7636008399063077,3458
+6,entertaining,motivation and mental strength,0.7640085233451355,3386
+7,informative,motivation and mental strength,0.7673951506994318,3297
+8,trending,mental health experiences,0.7022682370548107,2959
+9,viral,mental health experiences,0.7035813867717987,2909
+10,controversial,self-improvement and personal growth,0.8121840725697723,2908
+11,entertaining,mental health experiences,0.7028872803920225,2822
+12,informative,mental health experiences,0.7027513571657505,2726
+13,controversial,motivation and mental strength,0.7757176399012227,2725
+14,trending,self-care practices,0.6695187303360197,2667
+15,viral,self-care practices,0.6699822687302854,2623
+16,entertaining,self-care practices,0.6705612329507513,2571
+17,informative,self-care practices,0.6733817151884304,2494
+18,controversial,mental health experiences,0.7217013471292476,2457
+19,educational,self-improvement and personal growth,0.8335579478520375,2435
+20,trending,mindfulness and mental wellness,0.7036274327288571,2333
+21,viral,mindfulness and mental wellness,0.705151148234577,2295
+22,entertaining,mindfulness and mental wellness,0.7053961881662894,2278
+23,informative,mindfulness and mental wellness,0.7082227784489837,2205
+24,trending,addiction awareness and recovery,0.6299890271514035,2202
+25,educational,motivation and mental strength,0.7953233986093634,2177
+26,viral,addiction awareness and recovery,0.6308043685416673,2169
+27,entertaining,addiction awareness and recovery,0.6309795236536869,2118
+28,controversial,self-care practices,0.6804911184237536,2112
+29,informative,addiction awareness and recovery,0.6337923935693446,2089
+30,trending,emotional health discussion,0.5996565595195203,2014
+31,viral,emotional health discussion,0.6000861296980948,1982
+32,entertaining,emotional health discussion,0.5986311600732152,1916
+33,controversial,addiction awareness and recovery,0.6359208211959585,1883
+34,controversial,mindfulness and mental wellness,0.7130577065138431,1866
+35,informative,emotional health discussion,0.5988937523395697,1866
+36,trending,work-life balance and burnout,0.5435871048509912,1845
+37,educational,mental health experiences,0.7256872719826267,1828
+38,viral,work-life balance and burnout,0.5435059997314663,1816
+39,trending,mental health education,0.619071949028561,1811
+40,educational,self-care practices,0.7007918059659501,1791
+41,controversial,emotional health discussion,0.6071657525572495,1787
+42,viral,mental health education,0.6194142384178969,1784
+43,entertaining,work-life balance and burnout,0.5415700632920925,1746
+44,entertaining,mental health education,0.6204007323414068,1741
+45,controversial,work-life balance and burnout,0.5502572100570515,1718
+46,informative,work-life balance and burnout,0.5438417933251347,1715
+47,informative,mental health education,0.6254307657427427,1693
+48,trending,trauma awareness and healing,0.5702618849533101,1679
+49,viral,trauma awareness and healing,0.5708686544455792,1655
+50,mature,self-improvement and personal growth,0.8627752662794684,1641
+51,entertaining,trauma awareness and healing,0.5709347717463964,1640
+52,educational,mindfulness and mental wellness,0.7464044827031978,1624
+53,informative,trauma awareness and healing,0.5725359635323479,1610
+54,controversial,mental health education,0.6308682012355296,1588
+55,trending,social anxiety and relationships,0.5059562547725835,1585
+56,mature,motivation and mental strength,0.8397255839613853,1581
+57,viral,social anxiety and relationships,0.5046728820619262,1563
+58,educational,addiction awareness and recovery,0.6588473035325494,1519
+59,entertaining,social anxiety and relationships,0.5023300075475954,1516
+60,trending,therapy and mental health support,0.5815808729370041,1515
+61,viral,therapy and mental health support,0.5818726259729132,1495
+62,controversial,trauma awareness and healing,0.5764897427848863,1480
+63,entertaining,therapy and mental health support,0.5835735963630874,1469
+64,informative,social anxiety and relationships,0.500968021613532,1454
+65,controversial,social anxiety and relationships,0.5035686064459942,1444
+66,family_friendly,self-improvement and personal growth,0.8453148173146192,1433
+67,informative,therapy and mental health support,0.5877021181416684,1430
+68,mature,mental health experiences,0.75854235948263,1423
+69,trending,sleep and mental wellness,0.5406199128694932,1420
+70,viral,sleep and mental wellness,0.5398902533741609,1405
+71,mature,self-care practices,0.7306514310256544,1397
+72,entertaining,sleep and mental wellness,0.5409331370850448,1389
+73,mature,mindfulness and mental wellness,0.7785381551707603,1378
+74,educational,emotional health discussion,0.6074316353811945,1359
+75,informative,sleep and mental wellness,0.5375160137827033,1348
+76,controversial,therapy and mental health support,0.5927530854180842,1334
+77,family_friendly,motivation and mental strength,0.8129584958612593,1327
+78,educational,mental health education,0.6463276244852242,1321
+79,mature,addiction awareness and recovery,0.6723864756053584,1313
+80,family_friendly,self-care practices,0.7262619755446779,1281
+81,educational,trauma awareness and healing,0.585905554949067,1275
+82,trending,anxiety and stress management,0.4487801558858767,1270
+83,viral,anxiety and stress management,0.4477222665692817,1254
+84,educational,work-life balance and burnout,0.5443967866782036,1238
+85,family_friendly,mental health experiences,0.7482411191784228,1219
+86,entertaining,anxiety and stress management,0.44659266932844544,1218
+87,controversial,sleep and mental wellness,0.5398376611235118,1217
+88,family_friendly,mindfulness and mental wellness,0.7750620731813815,1193
+89,controversial,anxiety and stress management,0.44702609138829374,1190
+90,mature,emotional health discussion,0.6132179479558756,1185
+91,informative,anxiety and stress management,0.44545932753468936,1177
+92,mature,trauma awareness and healing,0.5919149645773598,1171
+93,mature,mental health education,0.6603110856457157,1156
+94,trending,depression and emotional support,0.4802342402997994,1136
+95,educational,therapy and mental health support,0.6083919158421897,1127
+96,viral,depression and emotional support,0.479458590809788,1120
+97,mature,therapy and mental health support,0.6108077238682378,1112
+98,mature,work-life balance and burnout,0.5448476991463908,1107
+99,entertaining,depression and emotional support,0.47768618525658924,1091
+100,educational,sleep and mental wellness,0.5407528508197881,1074
+101,family_friendly,addiction awareness and recovery,0.6633679012662353,1067
+102,informative,depression and emotional support,0.4797402537811948,1062
+103,mature,sleep and mental wellness,0.5340061747262453,1028
+104,educational,social anxiety and relationships,0.4727421035864487,1023
+105,controversial,depression and emotional support,0.4774965891793267,1011
+106,family_friendly,emotional health discussion,0.6108077121220701,1003
+107,family_friendly,mental health education,0.6527566163815924,976
+108,family_friendly,trauma awareness and healing,0.5926528058325904,949
+109,mature,social anxiety and relationships,0.4622363306047542,948
+110,family_friendly,work-life balance and burnout,0.5456652682143862,912
+111,family_friendly,therapy and mental health support,0.6076664479088542,893
+112,family_friendly,sleep and mental wellness,0.5440482757776542,891
+113,educational,anxiety and stress management,0.44099000790113657,872
+114,educational,depression and emotional support,0.4758099636260204,850
+115,family_friendly,social anxiety and relationships,0.4696273401074008,829
+116,mature,depression and emotional support,0.46957120717809037,819
+117,mature,anxiety and stress management,0.42240033725846393,778
+118,family_friendly,depression and emotional support,0.47950162602997987,687
+119,family_friendly,anxiety and stress management,0.42477456555581566,643
+120,clickbait,self-improvement and personal growth,0.7709266950812526,316
+121,clickbait,motivation and mental strength,0.7226738371208412,294
+122,clickbait,mental health experiences,0.7074813659755029,241
+123,clickbait,self-care practices,0.6244339114506335,227
+124,clickbait,mindfulness and mental wellness,0.6248247970323098,183
+125,clickbait,emotional health discussion,0.591843109189367,163
+126,clickbait,addiction awareness and recovery,0.5923821533357858,151
+127,clickbait,work-life balance and burnout,0.543351775805156,150
+128,clickbait,mental health education,0.5684972696784718,134
+129,clickbait,social anxiety and relationships,0.561890841476501,126
+130,clickbait,anxiety and stress management,0.4803806300226011,114
+131,clickbait,sleep and mental wellness,0.592956730061107,108
+132,clickbait,trauma awareness and healing,0.5387677490711211,90
+133,clickbait,therapy and mental health support,0.5301174189895391,80
+134,clickbait,depression and emotional support,0.49918619628194016,79

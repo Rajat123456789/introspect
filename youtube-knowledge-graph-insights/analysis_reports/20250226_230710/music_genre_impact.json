@@ -1,0 +1,16 @@
+[
+  {
+    "music_genre": "Rock",
+    "video_id": 1,
+    "impact_score": NaN,
+    "primary_impact": "Unknown",
+    "energy_type": "Neutral"
+  },
+  {
+    "music_genre": "Unknown",
+    "video_id": 33,
+    "impact_score": 0.7344044888461078,
+    "primary_impact": "motivation and mental strength",
+    "energy_type": "Neutral"
+  }
+]

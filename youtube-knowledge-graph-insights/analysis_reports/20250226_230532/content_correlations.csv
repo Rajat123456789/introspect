@@ -1,0 +1,180 @@
+,video_category,mental_health_category,avg_score,count
+0,Entertainment,self-improvement and personal growth,0.8293856783203621,1174
+1,Entertainment,motivation and mental strength,0.8168287977018589,1149
+2,Entertainment,mental health experiences,0.7452965247921837,1025
+3,Entertainment,self-care practices,0.7120814671541792,940
+4,Entertainment,mindfulness and mental wellness,0.7593522648165036,937
+5,Entertainment,addiction awareness and recovery,0.6776403867594619,849
+6,Entertainment,emotional health discussion,0.6148594560502454,790
+7,Entertainment,trauma awareness and healing,0.6016602578916044,741
+8,Entertainment,mental health education,0.6591037069663048,734
+9,Entertainment,work-life balance and burnout,0.5454934822077177,714
+10,Entertainment,therapy and mental health support,0.6319938628904281,682
+11,Entertainment,sleep and mental wellness,0.5374367519004931,666
+12,Entertainment,social anxiety and relationships,0.46854735260616354,621
+13,Comedy,self-improvement and personal growth,0.8308614410272155,595
+14,Comedy,mental health experiences,0.7614686437721907,580
+15,Comedy,motivation and mental strength,0.8022125970759463,577
+16,Entertainment,depression and emotional support,0.47699780281775644,549
+17,Entertainment,anxiety and stress management,0.4312939880936499,533
+18,Shorts,self-improvement and personal growth,0.7662910540148897,530
+19,Comedy,self-care practices,0.6949765728857681,524
+20,Comedy,mindfulness and mental wellness,0.7343376696583768,503
+21,Comedy,addiction awareness and recovery,0.6132588130914097,492
+22,Comedy,emotional health discussion,0.6133379586088632,469
+23,Comedy,work-life balance and burnout,0.5431164462281314,460
+24,Gaming,self-improvement and personal growth,0.7067985947366787,447
+25,Comedy,mental health education,0.6269339416803932,445
+26,Comedy,social anxiety and relationships,0.49441730342299667,442
+27,Shorts,motivation and mental strength,0.6839465773241074,440
+28,Gaming,motivation and mental strength,0.6730108784798243,416
+29,Comedy,trauma awareness and healing,0.5488963715302257,416
+30,Comedy,therapy and mental health support,0.5476014947233946,399
+31,Shorts,self-care practices,0.6344862145747191,382
+32,Shorts,mental health experiences,0.6509303121024334,378
+33,Comedy,sleep and mental wellness,0.5076652654743448,364
+34,Technology,self-improvement and personal growth,0.8231813927491508,360
+35,Technology,motivation and mental strength,0.7704122437821235,309
+36,Comedy,anxiety and stress management,0.41936804813473194,292
+37,Shorts,mindfulness and mental wellness,0.5948419878664223,276
+38,Comedy,depression and emotional support,0.45488411419066105,271
+39,Technology,mental health experiences,0.6901986525339241,255
+40,Gaming,mental health experiences,0.5647061396905079,246
+41,Technology,self-care practices,0.6310910838163962,246
+42,Sports,self-improvement and personal growth,0.7595785007638445,236
+43,Technology,addiction awareness and recovery,0.6244999919388746,222
+44,Technology,mindfulness and mental wellness,0.6490677312222496,217
+45,Shorts,addiction awareness and recovery,0.5273657043299608,209
+46,Shorts,emotional health discussion,0.5470694845645276,199
+47,Sports,motivation and mental strength,0.7262842416763309,190
+48,Tutorial,self-improvement and personal growth,0.7551381152409773,182
+49,Shorts,work-life balance and burnout,0.5192543205287722,180
+50,Shorts,mental health education,0.5160497296063197,173
+51,Shorts,social anxiety and relationships,0.5864825064391759,173
+52,Technology,emotional health discussion,0.5925844862971005,173
+53,Technology,work-life balance and burnout,0.5416505625642882,163
+54,Technology,mental health education,0.6110808716057252,161
+55,Podcast,self-improvement and personal growth,0.8098349542453368,145
+56,News,self-improvement and personal growth,0.7503569852298411,142
+57,Technology,trauma awareness and healing,0.5472052529664105,142
+58,Gaming,self-care practices,0.5537598181296793,136
+59,Shorts,sleep and mental wellness,0.5848767553620483,136
+60,Podcast,motivation and mental strength,0.7719561471495517,129
+61,Shorts,anxiety and stress management,0.47728106788089203,124
+62,News,motivation and mental strength,0.7180341213695279,121
+63,Technology,therapy and mental health support,0.5588965085645516,120
+64,Podcast,mental health experiences,0.7152743685034523,113
+65,Shorts,trauma awareness and healing,0.5058677470789543,113
+66,Sports,mental health experiences,0.611047574959764,109
+67,Technology,anxiety and stress management,0.49855757412456336,105
+68,Tutorial,motivation and mental strength,0.6771950469130559,105
+69,Reviews,self-improvement and personal growth,0.782359238427419,104
+70,News,mental health experiences,0.648752416926201,99
+71,Shorts,therapy and mental health support,0.4709812378396793,98
+72,Tutorial,self-care practices,0.6641011961868833,98
+73,Technology,sleep and mental wellness,0.5491350431417681,97
+74,Technology,social anxiety and relationships,0.5477817908713692,95
+75,Podcast,self-care practices,0.6357532254558926,94
+76,Sports,self-care practices,0.5762418861622393,92
+77,Gaming,addiction awareness and recovery,0.5164001622925634,92
+78,Podcast,addiction awareness and recovery,0.6592473076148463,88
+79,Shorts,depression and emotional support,0.4905308882395427,84
+80,Gaming,work-life balance and burnout,0.5495521280737152,84
+81,Reviews,self-care practices,0.6743456224600475,84
+82,Podcast,emotional health discussion,0.6559513403875072,82
+83,Reviews,motivation and mental strength,0.7485256441581395,81
+84,Reviews,mental health experiences,0.7153768686600676,81
+85,Tutorial,mental health experiences,0.584555103431774,79
+86,Sports,addiction awareness and recovery,0.6342467061984233,78
+87,Technology,depression and emotional support,0.49900921147603255,78
+88,Gaming,emotional health discussion,0.5386982858181,78
+89,Podcast,mental health education,0.603228345319822,77
+90,Podcast,mindfulness and mental wellness,0.698410635323901,76
+91,News,self-care practices,0.5922127950030404,74
+92,Gaming,mindfulness and mental wellness,0.6123438332762037,70
+93,Sports,mindfulness and mental wellness,0.5504639898152912,68
+94,Reviews,emotional health discussion,0.6420837338290997,67
+95,News,emotional health discussion,0.596044630729235,65
+96,News,addiction awareness and recovery,0.5723934983834621,64
+97,Podcast,trauma awareness and healing,0.5773112215101722,64
+98,Reviews,mindfulness and mental wellness,0.6865437258966267,64
+99,News,mindfulness and mental wellness,0.5757469688692403,62
+100,Reviews,addiction awareness and recovery,0.6522111061119261,62
+101,Podcast,work-life balance and burnout,0.5594200443048947,61
+102,Sports,work-life balance and burnout,0.5641814256707827,60
+103,Tutorial,mindfulness and mental wellness,0.6479600831866265,60
+104,Podcast,therapy and mental health support,0.582244283166425,58
+105,Podcast,social anxiety and relationships,0.574965523000349,57
+106,Sports,emotional health discussion,0.5216613877237891,57
+107,Reviews,mental health education,0.6046755920376692,57
+108,Gaming,social anxiety and relationships,0.524314109236002,56
+109,News,work-life balance and burnout,0.5602055224505338,55
+110,Gaming,anxiety and stress management,0.5172202736139297,54
+111,Gaming,mental health education,0.523300197326912,53
+112,Tutorial,addiction awareness and recovery,0.5707027637491039,51
+113,Reviews,therapy and mental health support,0.5688290845374673,49
+114,Reviews,work-life balance and burnout,0.6037354797733074,49
+115,Reviews,social anxiety and relationships,0.5531313332418603,48
+116,Reviews,trauma awareness and healing,0.5336155098803501,47
+117,Gaming,sleep and mental wellness,0.659311593847072,47
+118,News,social anxiety and relationships,0.5768849389708562,46
+119,News,trauma awareness and healing,0.5656470901436276,45
+120,Podcast,anxiety and stress management,0.5043905907207066,45
+121,Reviews,depression and emotional support,0.5546959166119738,41
+122,News,anxiety and stress management,0.45848675519227977,40
+123,Sports,mental health education,0.5413037993013858,40
+124,Sports,trauma awareness and healing,0.5698181673884392,40
+125,Sports,social anxiety and relationships,0.49746531171676417,39
+126,Gaming,trauma awareness and healing,0.5042113829881717,39
+127,Podcast,depression and emotional support,0.5310975718192563,39
+128,Tutorial,emotional health discussion,0.47777010232974326,39
+129,News,mental health education,0.5660036786606436,38
+130,Reviews,anxiety and stress management,0.5000984770687003,38
+131,Podcast,sleep and mental wellness,0.5400219340534773,34
+132,Reviews,sleep and mental wellness,0.5864847284906051,34
+133,Tutorial,mental health education,0.5633113629677717,34
+134,News,therapy and mental health support,0.5242498652501539,33
+135,Sports,anxiety and stress management,0.4762231626293875,33
+136,Tutorial,trauma awareness and healing,0.522927160224607,31
+137,News,depression and emotional support,0.49755468858139873,28
+138,Sports,therapy and mental health support,0.50568867943905,27
+139,Gaming,therapy and mental health support,0.5159130188135,26
+140,Tutorial,therapy and mental health support,0.550387461980184,24
+141,Tutorial,work-life balance and burnout,0.49793396517634386,24
+142,Education,motivation and mental strength,0.8012749155362449,24
+143,Education,self-improvement and personal growth,0.8790983428125796,23
+144,Gaming,depression and emotional support,0.541732224551114,22
+145,News,sleep and mental wellness,0.44291234016418457,18
+146,Education,mental health experiences,0.7075139021172244,17
+147,Sports,sleep and mental wellness,0.5733814164996147,16
+148,Education,mindfulness and mental wellness,0.6639399547129868,16
+149,Education,self-care practices,0.650631958246231,15
+150,Tutorial,social anxiety and relationships,0.5512468091079166,14
+151,Education,work-life balance and burnout,0.4801209398678371,14
+152,Sports,depression and emotional support,0.4828504366534097,14
+153,Tutorial,depression and emotional support,0.41084474325180054,13
+154,Tutorial,anxiety and stress management,0.3741960089940291,13
+155,Tutorial,sleep and mental wellness,0.6866059761780959,13
+156,Education,addiction awareness and recovery,0.6942698634587801,13
+157,Education,emotional health discussion,0.6065841385951408,13
+158,Education,mental health education,0.6211615627010664,12
+159,Education,trauma awareness and healing,0.5927555590867997,10
+160,Education,therapy and mental health support,0.4982909758885701,9
+161,Vlogs,self-improvement and personal growth,0.6805947609245777,8
+162,Education,depression and emotional support,0.5267627962997982,7
+163,Education,social anxiety and relationships,0.5103846830981118,7
+164,Vlogs,motivation and mental strength,0.6873172372579575,6
+165,Vlogs,self-care practices,0.5795088062683742,6
+166,Education,anxiety and stress management,0.6097492456436158,5
+167,Education,sleep and mental wellness,0.48624288439750674,5
+168,Vlogs,mental health experiences,0.5203017294406891,4
+169,Vlogs,mindfulness and mental wellness,0.7466599345207214,4
+170,Vlogs,mental health education,0.5532244741916656,2
+171,Vlogs,sleep and mental wellness,0.5472574383020401,2
+172,Vlogs,addiction awareness and recovery,0.6277778148651123,2
+173,Vlogs,emotional health discussion,0.631819412112236,2
+174,Vlogs,social anxiety and relationships,0.4158695936203003,2
+175,Vlogs,therapy and mental health support,0.3501334190368652,1
+176,Vlogs,work-life balance and burnout,0.4110550880432129,1
+177,Vlogs,trauma awareness and healing,0.5819242596626282,1
+178,Vlogs,depression and emotional support,0.4655236303806305,1

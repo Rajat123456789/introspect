@@ -1,0 +1,106 @@
+,category1,category2,score1,score2,frequency
+0,motivation and mental strength,self-improvement and personal growth,0.7689784876298934,0.8222830382987495,3443
+1,mental health experiences,self-improvement and personal growth,0.7048566955900978,0.8419290131650632,2923
+2,mental health experiences,motivation and mental strength,0.7108103091682059,0.7992731064907141,2817
+3,self-care practices,self-improvement and personal growth,0.6689326404924276,0.8676628005580288,2678
+4,motivation and mental strength,self-care practices,0.8132914344987595,0.6737103834159753,2532
+5,mental health experiences,self-care practices,0.7407404850004539,0.6807634152757986,2423
+6,mindfulness and mental wellness,self-improvement and personal growth,0.7029903780191377,0.8758659263197183,2340
+7,mindfulness and mental wellness,motivation and mental strength,0.7077445098547952,0.8293804227133014,2287
+8,mental health experiences,mindfulness and mental wellness,0.7525367661510899,0.7134181861374153,2236
+9,mindfulness and mental wellness,self-care practices,0.7160184865650535,0.7004280902683491,2221
+10,addiction awareness and recovery,self-improvement and personal growth,0.6294144813077591,0.8795799962828849,2209
+11,addiction awareness and recovery,mental health experiences,0.6320783850149257,0.7689857712476021,2168
+12,addiction awareness and recovery,motivation and mental strength,0.6313575924078698,0.8344836982730811,2156
+13,addiction awareness and recovery,self-care practices,0.6411828738696679,0.7065012008682905,2038
+14,emotional health discussion,mental health experiences,0.6009898501954218,0.7965270736751386,2014
+15,emotional health discussion,self-improvement and personal growth,0.6000597859622839,0.8760808057374003,2007
+16,emotional health discussion,motivation and mental strength,0.600112973222389,0.8356550321670926,1971
+17,addiction awareness and recovery,mindfulness and mental wellness,0.6437312454501668,0.7356579172653771,1962
+18,emotional health discussion,self-care practices,0.6090413378030605,0.7194470350864289,1877
+19,self-improvement and personal growth,work-life balance and burnout,0.8763679231322096,0.5441710285524073,1849
+20,mental health experiences,work-life balance and burnout,0.7889853248527219,0.5447964701947962,1832
+21,mental health education,mental health experiences,0.6188124951305684,0.8106287789468831,1826
+22,mental health education,self-improvement and personal growth,0.61910167256315,0.8926597331639307,1822
+23,motivation and mental strength,work-life balance and burnout,0.8410143564035614,0.5442890669782089,1820
+24,addiction awareness and recovery,emotional health discussion,0.6618423546969738,0.612443471365395,1815
+25,mental health education,motivation and mental strength,0.6203346395147404,0.850556406368789,1796
+26,emotional health discussion,mindfulness and mental wellness,0.609314550933928,0.7535631268368841,1793
+27,mental health education,self-care practices,0.6232533765034375,0.7332627828480637,1771
+28,self-care practices,work-life balance and burnout,0.7188639168265231,0.5498396082295477,1735
+29,addiction awareness and recovery,mental health education,0.672639155865677,0.6274810762691392,1734
+30,emotional health discussion,mental health education,0.6286952684501937,0.6306771285169562,1721
+31,mental health education,mindfulness and mental wellness,0.6282262694258052,0.7700029018498687,1713
+32,self-improvement and personal growth,trauma awareness and healing,0.8962608565189895,0.5691409532366118,1682
+33,addiction awareness and recovery,work-life balance and burnout,0.6635299227011516,0.5501906516337176,1676
+34,mental health experiences,trauma awareness and healing,0.8055036021729929,0.5695250528488913,1676
+35,motivation and mental strength,trauma awareness and healing,0.860365533968854,0.5695267010697982,1659
+36,self-care practices,trauma awareness and healing,0.7381777574576169,0.5719731621940332,1637
+37,addiction awareness and recovery,trauma awareness and healing,0.6865731590931572,0.5716975604904536,1635
+38,emotional health discussion,work-life balance and burnout,0.6242390749536353,0.560159729840492,1631
+39,mindfulness and mental wellness,work-life balance and burnout,0.751757064928402,0.5494765275503652,1622
+40,mindfulness and mental wellness,trauma awareness and healing,0.7787984613711979,0.5727493357202768,1596
+41,emotional health discussion,trauma awareness and healing,0.6295867585657208,0.5792666075904321,1569
+42,mental health experiences,social anxiety and relationships,0.8075820712972822,0.5038221739184727,1558
+43,self-improvement and personal growth,social anxiety and relationships,0.870504506769744,0.5038396274538159,1557
+44,mental health experiences,therapy and mental health support,0.8259738877630487,0.581121216556191,1526
+45,mental health education,trauma awareness and healing,0.6503088230933626,0.5829222145469602,1526
+46,self-improvement and personal growth,therapy and mental health support,0.9001221413495114,0.581255449740613,1525
+47,motivation and mental strength,social anxiety and relationships,0.8339852024688108,0.5020233666310537,1525
+48,mental health education,work-life balance and burnout,0.6439363642392824,0.5620042512149331,1524
+49,motivation and mental strength,therapy and mental health support,0.867354576657986,0.5822587005344735,1509
+50,addiction awareness and recovery,therapy and mental health support,0.6902770381408472,0.5834443362966355,1503
+51,self-care practices,therapy and mental health support,0.7494726114163545,0.5836058384013397,1502
+52,mindfulness and mental wellness,therapy and mental health support,0.7897414779025906,0.5859814193074538,1478
+53,emotional health discussion,therapy and mental health support,0.6448762525156445,0.5885195563263859,1472
+54,mental health education,therapy and mental health support,0.6621946185461326,0.589551695677138,1466
+55,self-care practices,social anxiety and relationships,0.7216058027645441,0.5021466437544428,1447
+56,trauma awareness and healing,work-life balance and burnout,0.5832047852169993,0.5602076582208567,1427
+57,emotional health discussion,social anxiety and relationships,0.6449654205985694,0.5086409541325018,1426
+58,self-improvement and personal growth,sleep and mental wellness,0.8971603787749555,0.5395152206497966,1423
+59,motivation and mental strength,sleep and mental wellness,0.866917216442,0.5395524402949181,1420
+60,mental health experiences,sleep and mental wellness,0.8098613154540527,0.5412664414935907,1406
+61,therapy and mental health support,trauma awareness and healing,0.5965058799100729,0.5916552631094257,1404
+62,self-care practices,sleep and mental wellness,0.7656075868256755,0.5416851974917599,1404
+63,addiction awareness and recovery,social anxiety and relationships,0.6743169494338258,0.5000967638035672,1388
+64,mindfulness and mental wellness,sleep and mental wellness,0.8064180787504797,0.5395597637560388,1385
+65,mindfulness and mental wellness,social anxiety and relationships,0.7603022338818438,0.4967726224397213,1379
+66,therapy and mental health support,work-life balance and burnout,0.5949254955019116,0.5675646958323062,1359
+67,social anxiety and relationships,work-life balance and burnout,0.49944475919407977,0.5777358469371459,1342
+68,addiction awareness and recovery,sleep and mental wellness,0.6921626420579357,0.5362775389198857,1311
+69,mental health education,social anxiety and relationships,0.6627047186684666,0.502269779752465,1309
+70,emotional health discussion,sleep and mental wellness,0.6423019368679677,0.5421033549730263,1301
+71,mental health education,sleep and mental wellness,0.6691243457174063,0.5401724930274187,1288
+72,anxiety and stress management,mental health experiences,0.44868409575383256,0.8351728188702606,1279
+73,anxiety and stress management,self-improvement and personal growth,0.44873813953664593,0.8963101134053978,1278
+74,anxiety and stress management,motivation and mental strength,0.44833624702465724,0.8632729525760363,1264
+75,sleep and mental wellness,trauma awareness and healing,0.5390483155919052,0.601655812399701,1234
+76,social anxiety and relationships,trauma awareness and healing,0.495564958450762,0.5980581964357834,1233
+77,sleep and mental wellness,work-life balance and burnout,0.5404794370489467,0.5715775313460583,1232
+78,anxiety and stress management,self-care practices,0.45033208394167,0.7531439054293598,1229
+79,anxiety and stress management,emotional health discussion,0.4510734153767019,0.6694381472285922,1225
+80,social anxiety and relationships,therapy and mental health support,0.5017525993013459,0.6068730288524697,1196
+81,addiction awareness and recovery,anxiety and stress management,0.7057256588572915,0.4479927363467886,1189
+82,anxiety and stress management,work-life balance and burnout,0.4492925955021939,0.5989369437412893,1185
+83,anxiety and stress management,mindfulness and mental wellness,0.4479624341065815,0.781012674189499,1184
+84,sleep and mental wellness,therapy and mental health support,0.5367460971098279,0.6158585808383954,1183
+85,anxiety and stress management,mental health education,0.4526873682867281,0.6810222808980615,1156
+86,depression and emotional support,mental health experiences,0.48028034244844436,0.8477370759527513,1146
+87,depression and emotional support,emotional health discussion,0.4797957975492467,0.6789065379776728,1141
+88,depression and emotional support,self-improvement and personal growth,0.47931256707139597,0.9019871481004985,1139
+89,depression and emotional support,self-care practices,0.4792604475871506,0.767986982692582,1133
+90,depression and emotional support,motivation and mental strength,0.4774466427793753,0.8736995530403016,1129
+91,addiction awareness and recovery,depression and emotional support,0.7227411229477754,0.47811505498107065,1114
+92,depression and emotional support,mindfulness and mental wellness,0.47788157860616837,0.8079865354068846,1111
+93,depression and emotional support,mental health education,0.48054988341710525,0.6931004071138741,1107
+94,anxiety and stress management,trauma awareness and healing,0.449609085519193,0.6206532860681213,1085
+95,anxiety and stress management,social anxiety and relationships,0.45450678671574135,0.5179655377833989,1082
+96,sleep and mental wellness,social anxiety and relationships,0.5424762690690028,0.4848094002079606,1072
+97,depression and emotional support,trauma awareness and healing,0.48082815025494097,0.62556578002472,1067
+98,depression and emotional support,therapy and mental health support,0.48167042657102144,0.6358273169507654,1063
+99,depression and emotional support,work-life balance and burnout,0.4790488605769519,0.5947391584043187,1041
+100,anxiety and stress management,therapy and mental health support,0.45271726555870373,0.6338309907970808,1035
+101,depression and emotional support,social anxiety and relationships,0.4890883933634512,0.5157430601261911,1008
+102,anxiety and stress management,sleep and mental wellness,0.45058192671982455,0.5639852129552035,983
+103,depression and emotional support,sleep and mental wellness,0.4830654939731303,0.5675648503573774,944
+104,anxiety and stress management,depression and emotional support,0.460294538383843,0.4936304503230639,930
