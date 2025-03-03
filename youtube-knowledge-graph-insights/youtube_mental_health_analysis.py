@@ -45,7 +45,7 @@ class MentalHealthAnalyzer:
             analyses = {
                 'daily': df.set_index('timestamp').groupby([pd.Grouper(freq='D'), 'category'])['score'].mean(),
                 'weekly': df.set_index('timestamp').groupby([pd.Grouper(freq='W'), 'category'])['score'].mean(),
-                'monthly': df.set_index('timestamp').groupby([pd.Grouper(freq='ME'), 'category'])['score'].mean()
+                'monthly': df.set_index('timestamp').groupby([pd.Grouper(freq='M'), 'category'])['score'].mean()
             }
             
             return analyses

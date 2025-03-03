@@ -1,0 +1,10 @@
+YouTube Mental Health Analysis Report
+Generated on: 2025-03-02 14:52:19
+
+EXECUTIVE SUMMARY
+==================
+
+DETAILED ANALYSIS
+=================
+
+Analysis complete. Images of all visualizations are available in the main directory.

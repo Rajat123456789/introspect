@@ -1,0 +1,4323 @@
+{
+  "daily": [
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6381798608908578
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4835120172877061
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5267400315829686
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5746745720224561
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5847859680652618
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6621768775988709
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6269887574573061
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7378245773640546
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6159212304942909
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8123055051546544
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.6219959445297718
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.553762880393437
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5475921432177225
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5329025191339579
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5626937583381054
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6548285938444591
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5651287649359021
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5255460470914841
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6134752120290484
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6374227106571198
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6217579879821875
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.646131235573973
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7182175719738007
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6637052076478158
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7677877576727616
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5223687042792639
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.6127000600099564
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.668466101993214
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6564919874072075
+    },
+    {
+      "timestamp": "2024-12-30T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5845124423503876
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.4355231424172719
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.33365493019421893
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.5298864990472794
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6992756724357605
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7075236092011133
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.4537181258201599
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.5992499717644283
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6652526259422302
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6204149465148265
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4566534205394633
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.45499792098999026
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.594251960515976
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5887105247626702
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7480302813553041
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7098269797861576
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7617110426043286
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7063156568087064
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8137755092719327
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5014452362382734
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4877898699707455
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5826755625861032
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5805031367038426
+    },
+    {
+      "timestamp": "2025-01-01T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5589443341244099
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5927766976149186
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.49831195672353107
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.667528224842889
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5451934506063876
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5760264178117116
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.626922735641169
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.5832829372636203
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7372768664998668
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.5614902618769053
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7439647522327062
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5517585846510801
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5861417055130005
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6152702085673809
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5161847787744859
+    },
+    {
+      "timestamp": "2025-01-02T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5322533661410922
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6355452620983124
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4503090771344992
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.6003290514151255
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5589532178861124
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5356997056649282
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6696069194210901
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.670076327288852
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7122721832990646
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6069020109298902
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7629607900192863
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5608248144388199
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5176831090992148
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5464355541127068
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5562751363305485
+    },
+    {
+      "timestamp": "2025-01-03T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5085403134948329
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6362329396334562
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4463416715463003
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4940305103858312
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5949149389158596
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5565811781322255
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6968920826911926
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6170974101709283
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7188855441840919
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6305080675161802
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7849806741226552
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5279063747988807
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.6009798426377145
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5855822173448709
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5675947689093076
+    },
+    {
+      "timestamp": "2025-01-04T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5533493787050248
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6753861943016881
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.46656673508031027
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5210048456986746
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5886424309328983
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6086302854512867
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6822585319027756
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6928443276882171
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7817328191465802
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.5923361613832671
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7804873104278858
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5491124606794782
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5024894791490891
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5601451210677624
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5927257286874872
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5435928934150271
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6653606868707217
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4219034846339907
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4615306178728739
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5954689162748831
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6177925268809
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7294669964096763
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7652723650847163
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7661464269223967
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6634579291849425
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8250055547271457
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5585249329314512
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.45898529328405857
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5160786012808481
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5431152983852054
+    },
+    {
+      "timestamp": "2025-01-06T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5004596740007401
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6244645091620359
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5519211646169424
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49762378819286823
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5673684374644206
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5870291728239793
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6288654739950218
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6577563430811908
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7347105122171342
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.5886211473008861
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.771136736047679
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5747902654111385
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.53096374720335
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5745483189821243
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5756663807800838
+    },
+    {
+      "timestamp": "2025-01-07T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.494036973764499
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5988974404685637
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.38529952565828957
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.43616713484128317
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5623973707358042
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.616548028257158
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7492185723450449
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6942079591028618
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.821046052909479
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6600703166590797
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8272764695451614
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.4875623628497124
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.49411057508908784
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5808314546942711
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5421969271623172
+    },
+    {
+      "timestamp": "2025-01-08T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5212790806378637
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.639002924412489
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.40751645565032957
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4283425043458524
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5950040970299695
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6684258331855139
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7603703048494127
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.769767704398133
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8592783530121264
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7502440546834191
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8594648775955042
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.49757609477168635
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.43360597093900044
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.588697994882996
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5730794566018241
+    },
+    {
+      "timestamp": "2025-01-09T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.538279645718061
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6455449163913727
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.3622380793094635
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.3564866781234741
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5706246793270111
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6340429484844208
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.8155736327171326
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7164095640182495
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8310075402259827
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7406784296035767
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7525893648465475
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.3974599838256836
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4568890631198883
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5051280111074448
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5760041177272797
+    },
+    {
+      "timestamp": "2025-01-10T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5289710909128189
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6960993529977025
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4125966297255622
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4584960180979509
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6326915339419716
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6449766415688727
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7740506523034789
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7689580968240413
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8215425033122301
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7279469488665115
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8302388839861926
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5689399798711141
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4638382302176568
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6105221966281533
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5996439860147589
+    },
+    {
+      "timestamp": "2025-01-11T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5564688028473603
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5084050931036472
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.3268294036388397
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.3662273983160655
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.49785560369491577
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5273847530285517
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.584474139743381
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6249020662572649
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.6789974756538868
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.4899405539035797
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.6727960765361786
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.4229568541049957
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4168861309687297
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.4767431244254112
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5107434809207916
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.41270097096761066
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.671677162249883
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4214730247855186
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4759146457626706
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6447669586965016
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6612640470266342
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7859362279996276
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7856516778469086
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.869608714725032
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7277001632798102
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8639259275161859
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.49490197232136357
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4861671911633533
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6257950571867136
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5938553625139696
+    },
+    {
+      "timestamp": "2025-01-13T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5408927422982676
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.627759522560871
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4373327387230737
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.46701282087494345
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5759976608999844
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6023099206644913
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7135908941964846
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7483245911020221
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8121111111060993
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7075891985612757
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8066420528021726
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.4949276035740262
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4632542704542478
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5533775644642966
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5150902143546513
+    },
+    {
+      "timestamp": "2025-01-14T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.526527421342002
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6706712831150402
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43550757625523734
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.457182723742265
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6357036045953339
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.660412955408295
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7682908387457739
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7446194908075165
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8309294874920989
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.725531700750192
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8712530998569546
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5273306217304495
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4857740541721912
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6505121654934354
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5829505360856349
+    },
+    {
+      "timestamp": "2025-01-15T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5522847741234059
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6148404666021758
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4582291046778361
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4931658980521289
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5863748906656753
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6119729869249391
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7034476339817047
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7265516254636977
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7689794488251209
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6707288660700359
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7715900360860608
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.529967959584861
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5032231654181625
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5709894895553589
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5461946765058919
+    },
+    {
+      "timestamp": "2025-01-16T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5389050701085258
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6497854510178933
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4229674677054087
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4939400404691696
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6319829809168974
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6782892644405365
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.8011719733476639
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7705686809840026
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8487665322091844
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7413051260842217
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8350597258770105
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5161261734637347
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.48123342792193097
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.590575362029283
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5770100404818853
+    },
+    {
+      "timestamp": "2025-01-17T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5530782264211903
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6123507746002254
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4099129373962815
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.452261993208447
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5855270516676981
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6262172146567276
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7188934094604404
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7047290537092421
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7623770385980606
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6884360038614893
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7795262777287028
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5021489337086678
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4646401298046112
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5811665685887032
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5494667026731703
+    },
+    {
+      "timestamp": "2025-01-18T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5477469727910799
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5315070028106371
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5007119669633753
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5174347519874573
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5293176254710635
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.557298791195665
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6458448181076656
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.5894337771903901
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.6911007835493459
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.608696106672287
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7681114139945008
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5346928712199716
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5233382701873779
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5484810541657841
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5183944183847179
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.47785806964183675
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.640945223874824
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43685356171234796
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4933531040495092
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5946175465360284
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.586384906537003
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6957963798884992
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6863139569759369
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.713575005531311
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6707591539079493
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7885842233896255
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5658801347017288
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5385474528257663
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5902586671022269
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5879442297360477
+    },
+    {
+      "timestamp": "2025-01-20T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.526155928770701
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6405933921776928
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43320508892574006
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4607640401675151
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5828255694359541
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6135901861720615
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7070203892147268
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.722228013044965
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7809044690086291
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6926783064349753
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8259741570367369
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5409212334832149
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4849226466596943
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5909535599791486
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5737414036268069
+    },
+    {
+      "timestamp": "2025-01-21T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5340642074986202
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6567302978620296
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.421760219335556
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.45922410011291503
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6324948642183753
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6679132396683973
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7537533587879605
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7731039710342884
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.81181800365448
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6985804635015401
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8167547690016883
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.509765308101972
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5067618608474731
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6348567977547646
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5974528735334222
+    },
+    {
+      "timestamp": "2025-01-22T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5638862454122112
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6399603661090608
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.446948685429313
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5037193630750363
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6109633887452739
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6054550904148029
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6943289166615333
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7157005459478457
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.760096052231697
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6857646133750677
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7842543295838617
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.560238391160965
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5038128582870259
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5971101739189841
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6006798498008562
+    },
+    {
+      "timestamp": "2025-01-23T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5271799099027065
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6615588120472284
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43013900690353835
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4301256159941355
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6346790224745653
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6532937578029103
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7641549392238908
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7651526500197018
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8368464377191331
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7209827867539033
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8425595584588174
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5150385467629683
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.46075997463727403
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5953565506321011
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5808878022691478
+    },
+    {
+      "timestamp": "2025-01-24T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5404678957802909
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6315456139189857
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.49806415239969887
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4979512176730416
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6338431783344435
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.602326671714368
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.647918614000082
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6563543800649971
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7064263131104264
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6096100573604172
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7560073254538364
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5410555054744085
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5201136827468872
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5532257987393273
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5714582670480013
+    },
+    {
+      "timestamp": "2025-01-25T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5653157191617149
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5900959852668974
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5400184616446495
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5189741466726575
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6140338274148794
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5899303555488586
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6442669773101807
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6451955205864377
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.746983670629561
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.619099117460705
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8424182425845753
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5638156660965511
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.6191551052033901
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5110971093177795
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.536739033460617
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5565689589296069
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6469614446163178
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.3854149315092299
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.43121615187688306
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5832088464914367
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6300721850834394
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6824543883695322
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6620819317667108
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.750299146009046
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6733280221621195
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7911005385897376
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5160318695265671
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4667644612491131
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5569953986576626
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5605703074681131
+    },
+    {
+      "timestamp": "2025-01-27T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5032850378751754
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.537720674276352
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.6271153092384338
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49351827800273895
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5666146278381348
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5996289451917013
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.5268948839770423
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.5706896824496133
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7069581270217895
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7502936639569022
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7940793991088867
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.48467832803726196
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5910967389742533
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5447480231523514
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5724539384245872
+    },
+    {
+      "timestamp": "2025-01-28T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5692298710346222
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6310361372797113
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4008280291701808
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4373589614406228
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6290825836512507
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6487519132847689
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7780689308877851
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7546797826372343
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8471784311182359
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.702061594525973
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8442868288192484
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5292924691078275
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.47371782180739613
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5912636340932643
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5797630424300829
+    },
+    {
+      "timestamp": "2025-01-29T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5086638072751603
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6604827709239105
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4369189401990489
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4415981861261221
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6214302404360338
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6599729852242904
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7501059871267628
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.765807100571692
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.8026530897042837
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.714912321079861
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8176170323382724
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5207709919433204
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4853454198349606
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6085728513744643
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5679603552117067
+    },
+    {
+      "timestamp": "2025-01-30T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5554332045408396
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.666883917694742
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4510200255446964
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4584968611598015
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.650857958851791
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6172943946562315
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.698185546696186
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7633403359457503
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7654682517051696
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.7036198880523443
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8032152325742774
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5507576100287899
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5041417163961074
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5430177284611596
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5742797132800607
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5773926600813866
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6405225767808802
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4701098340749741
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.508721838620576
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6209269878340931
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6330720811254449
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.727810394599897
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7164540556810235
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7564363450263486
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6857294648885727
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7895842352947156
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.6187825432994909
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5096709995956744
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5848470334968869
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5937070167239975
+    },
+    {
+      "timestamp": "2025-02-01T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5664115409920181
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5912926782326526
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4826585788552354
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.47468616474758496
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5965408317248027
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5565750353169023
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.648424816224002
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6361489970433084
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7022137964473051
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.5682447478175163
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7531983057657877
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5540094160371356
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.505602541897032
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5282694468131433
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5354931908845901
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.575100741452641
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.642480170025545
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.46610263735055923
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49880581258273704
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5945323170036882
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6332584545593853
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7346917032895974
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7195205639486444
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7747082561894036
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6808474961428614
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8044050139212898
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5460595761736234
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4979104280976926
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5825656955843573
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5601893961429596
+    },
+    {
+      "timestamp": "2025-02-03T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5669788309570515
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5410211361371553
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5620108619332314
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.717144509156545
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.4828830613539769
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5380090044604408
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.5473135489004629
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.5657658184829512
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.6822875892293865
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.5568133363356957
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7011161197063535
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5630533993244171
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5273188278079033
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5428011119365692
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.7046710004409155
+    },
+    {
+      "timestamp": "2025-02-04T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5364967828447168
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6444342087726204
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.46354751884937284
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.48123547782500586
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6370563472358926
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6700988858938217
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7017857215801875
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7063502471555363
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7569139574826097
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6758465254397104
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7987898798825229
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5767436853863976
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5383142006548145
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5830231508980058
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6001445857378153
+    },
+    {
+      "timestamp": "2025-02-05T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5759886891654368
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6453806555271149
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4554264519895826
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5194449079036713
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6329067874213924
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.637232368312231
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7124641270321959
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7589136228916493
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7774256453627632
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.667004576751164
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7942558483461316
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5772743654601714
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5642093703514193
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.6225453862122127
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6343660958939128
+    },
+    {
+      "timestamp": "2025-02-06T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5536230755123225
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6142146219981128
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4474313107670331
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.48765731347140984
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5781134729800017
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5980544683180358
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7030444856733084
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6854807020218905
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7341004315159083
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6572580026449079
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7869423026020087
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5408033457264971
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5319744454962867
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5663487666692489
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5635633944779977
+    },
+    {
+      "timestamp": "2025-02-07T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5252069452988732
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5806168756986919
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.47939950837330386
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.53298501946308
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5643726682317429
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5799980030414906
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6675161035465342
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.602243031601648
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7346003808028309
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6042745611207052
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.775730824953801
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5408537481960497
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5551092107685245
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.549081792150225
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5533524168034395
+    },
+    {
+      "timestamp": "2025-02-08T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5475169226290688
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.583615992218256
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.40962634384632113
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4643883118405938
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5738685462744005
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5823641372661964
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6579825457717691
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6593821973769696
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7468318862374872
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6715728988250097
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7685480160084931
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5403963125803891
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5146016146649014
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5480668464811836
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.532860343553582
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5454467178559771
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5927738354161933
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4571373691161474
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5327629446983337
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6017668467500935
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6068344630300999
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7050960811091141
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6723279405723919
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7688823276525968
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6925841802731156
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7893873208098942
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.537510273548273
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5147790274558923
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5808413292680468
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5487837782927922
+    },
+    {
+      "timestamp": "2025-02-10T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.513813506539275
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5821874846541693
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43484824457589316
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49662022572010756
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6288169532451989
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6285271048545837
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6858372707316216
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7282219848771027
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7432915657480187
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6618829185241147
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7750073865813724
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5630073616137872
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5298693051525191
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5710995197296143
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5607365931189338
+    },
+    {
+      "timestamp": "2025-02-11T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5600370472917954
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6471958201507042
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.42029710791327735
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4499400247787607
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6007209876004387
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6315092657293592
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7113330490785102
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.714483898974234
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7782742846757174
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.713288614526391
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8228216032896724
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5010580036200976
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.47312775865579265
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5813925182041915
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5640096962451935
+    },
+    {
+      "timestamp": "2025-02-12T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5235194816039159
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.5616890341043472
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4816237092018127
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5795414447784424
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5395116209983826
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.7127615213394165
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6665076414744059
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.5440362989902496
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.6926973674978528
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.635669598976771
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7355148924721612
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.4229494929313659
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5289545059204102
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.7492569088935852
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.6486853957176208
+    },
+    {
+      "timestamp": "2025-02-13T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.6737663149833679
+    }
+  ],
+  "weekly": [
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6381798608908578
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4835120172877061
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5267400315829686
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5746745720224561
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5847859680652618
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6621768775988709
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6269887574573061
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7378245773640546
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6159212304942909
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8123055051546544
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.6219959445297718
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.553762880393437
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5475921432177225
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5329025191339579
+    },
+    {
+      "timestamp": "2024-12-29T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5626937583381054
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6329306049878338
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.475478822109746
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5145185176283121
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5805574148529913
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5763276552820539
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6756474457738936
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6620071942404825
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7389141614489918
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6349698337665292
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7738789420948442
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.530307668948842
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5333808874711394
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5865352783620972
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5767061116858425
+    },
+    {
+      "timestamp": "2025-01-05T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5482794506394345
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6385741291774644
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4296360422264446
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.45106454389263884
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5908003834689536
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.627079359285391
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7194669345563108
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7272419924871909
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7893519382850797
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6724112844183332
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8073970302176557
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.528477920293808
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.47032193714425763
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5748603729640737
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.567323069254013
+    },
+    {
+      "timestamp": "2025-01-12T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.523151361828397
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6246778929113943
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43674418839472756
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4728701642065337
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5965637545009236
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6288368813400194
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7233443034078736
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7182330967888
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7797001460478419
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6896613288169716
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8014290498789921
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5138491357414467
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4840998509350945
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5942912667577717
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5567625307306951
+    },
+    {
+      "timestamp": "2025-01-19T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5366521392032685
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6437041856724008
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4437276986949647
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4673230822416062
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6100664913838862
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.622495837674156
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7108501972168939
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7230488803997561
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7732447741242746
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6848875527371324
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8102643138274479
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5383549310325637
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.49709773194789886
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5927296376453256
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5827071155231304
+    },
+    {
+      "timestamp": "2025-01-26T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5395535304174794
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6339747116203708
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.44478308525654153
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4628896218538284
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6152967982764902
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.623692761724576
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7038985633382611
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7093411183836472
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7570114444443768
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.666146001379977
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.790664329367902
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5518164019584656
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.4943869915347867
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5731803515824405
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5701649778938944
+    },
+    {
+      "timestamp": "2025-02-02T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5492221952374302
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6196409276200001
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4574846251507026
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49607372646396225
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5935312807023954
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.619785702766826
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6952167875380908
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6859404020738923
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7517472425693182
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6587544783949852
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7861539663663552
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5530168387175953
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5277064192349632
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5754683835726035
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.572497076504714
+    },
+    {
+      "timestamp": "2025-02-09T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5536375798483893
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6064877643086816
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.43724887407555874
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49417334925997386
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.6095678346608978
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6240069248997573
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6989931979861992
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.70537993628928
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7595828823277871
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6868887414102969
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7914696983324729
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5326510369777679
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.508470291854771
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5789772868156433
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5593352925682825
+    },
+    {
+      "timestamp": "2025-02-16T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5341190943415736
+    }
+  ],
+  "monthly": [
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6423420441292581
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.5054857570391434
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.5264258251378411
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5798350804811948
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.5853338169329094
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.6443567349946588
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6333249689390262
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.730823637132185
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6255620395143827
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7913216492161155
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.594824879006906
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5688106709338249
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5800217419135861
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.561243286258296
+    },
+    {
+      "timestamp": "2024-12-31T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5681484293411759
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6373417446152173
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4384835727352033
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.4666220889535061
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.60155199097997
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6222451079823796
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.7138857286890913
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.7163625221476986
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7751331509663649
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6797356703983886
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.8033155034582111
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5279193155939291
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.49130874677398884
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5860126449417496
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5698450520960954
+    },
+    {
+      "timestamp": "2025-01-31T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5356338538642984
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "addiction awareness and recovery",
+      "score": 0.6164924179487342
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "anxiety and stress management",
+      "score": 0.4568870343894602
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "depression and emotional support",
+      "score": 0.49537931498268556
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "emotional health discussion",
+      "score": 0.5992192218884584
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "mental health education",
+      "score": 0.6169525584545583
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "mental health experiences",
+      "score": 0.694013003137336
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "mindfulness and mental wellness",
+      "score": 0.6887881995877007
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "motivation and mental strength",
+      "score": 0.7481026559570787
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "self-care practices",
+      "score": 0.6576300301359373
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "self-improvement and personal growth",
+      "score": 0.7837269540056805
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "sleep and mental wellness",
+      "score": 0.5560410393777214
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "social anxiety and relationships",
+      "score": 0.5206908071618773
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "therapy and mental health support",
+      "score": 0.5741397951190409
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "trauma awareness and healing",
+      "score": 0.5694267895476779
+    },
+    {
+      "timestamp": "2025-02-28T00:00:00+00:00",
+      "category": "work-life balance and burnout",
+      "score": 0.5531896915528681
+    }
+  ]
+}
