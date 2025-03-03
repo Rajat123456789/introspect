@@ -1,0 +1,737 @@
+[
+  {
+    "category1": "motivation and mental strength",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.7689784876298934,
+    "score2": 0.8222830382987495,
+    "frequency": 3443
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.7048566955900978,
+    "score2": 0.8419290131650632,
+    "frequency": 2923
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "motivation and mental strength",
+    "score1": 0.7108103091682059,
+    "score2": 0.7992731064907141,
+    "frequency": 2817
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.6689326404924276,
+    "score2": 0.8676628005580288,
+    "frequency": 2678
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "self-care practices",
+    "score1": 0.8132914344987595,
+    "score2": 0.6737103834159753,
+    "frequency": 2532
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "self-care practices",
+    "score1": 0.7407404850004539,
+    "score2": 0.6807634152757986,
+    "frequency": 2423
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.7029903780191377,
+    "score2": 0.8758659263197183,
+    "frequency": 2340
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "motivation and mental strength",
+    "score1": 0.7077445098547952,
+    "score2": 0.8293804227133014,
+    "frequency": 2287
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.7525367661510899,
+    "score2": 0.7134181861374153,
+    "frequency": 2236
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "self-care practices",
+    "score1": 0.7160184865650535,
+    "score2": 0.7004280902683491,
+    "frequency": 2221
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.6294144813077591,
+    "score2": 0.8795799962828849,
+    "frequency": 2209
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "mental health experiences",
+    "score1": 0.6320783850149257,
+    "score2": 0.7689857712476021,
+    "frequency": 2168
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "motivation and mental strength",
+    "score1": 0.6313575924078698,
+    "score2": 0.8344836982730811,
+    "frequency": 2156
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "self-care practices",
+    "score1": 0.6411828738696679,
+    "score2": 0.7065012008682905,
+    "frequency": 2038
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "mental health experiences",
+    "score1": 0.6009898501954218,
+    "score2": 0.7965270736751386,
+    "frequency": 2014
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.6000597859622839,
+    "score2": 0.8760808057374003,
+    "frequency": 2007
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "motivation and mental strength",
+    "score1": 0.600112973222389,
+    "score2": 0.8356550321670926,
+    "frequency": 1971
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.6437312454501668,
+    "score2": 0.7356579172653771,
+    "frequency": 1962
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "self-care practices",
+    "score1": 0.6090413378030605,
+    "score2": 0.7194470350864289,
+    "frequency": 1877
+  },
+  {
+    "category1": "self-improvement and personal growth",
+    "category2": "work-life balance and burnout",
+    "score1": 0.8763679231322096,
+    "score2": 0.5441710285524073,
+    "frequency": 1849
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "work-life balance and burnout",
+    "score1": 0.7889853248527219,
+    "score2": 0.5447964701947962,
+    "frequency": 1832
+  },
+  {
+    "category1": "mental health education",
+    "category2": "mental health experiences",
+    "score1": 0.6188124951305684,
+    "score2": 0.8106287789468831,
+    "frequency": 1826
+  },
+  {
+    "category1": "mental health education",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.61910167256315,
+    "score2": 0.8926597331639307,
+    "frequency": 1822
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "work-life balance and burnout",
+    "score1": 0.8410143564035614,
+    "score2": 0.5442890669782089,
+    "frequency": 1820
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "emotional health discussion",
+    "score1": 0.6618423546969738,
+    "score2": 0.612443471365395,
+    "frequency": 1815
+  },
+  {
+    "category1": "mental health education",
+    "category2": "motivation and mental strength",
+    "score1": 0.6203346395147404,
+    "score2": 0.850556406368789,
+    "frequency": 1796
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.609314550933928,
+    "score2": 0.7535631268368841,
+    "frequency": 1793
+  },
+  {
+    "category1": "mental health education",
+    "category2": "self-care practices",
+    "score1": 0.6232533765034375,
+    "score2": 0.7332627828480637,
+    "frequency": 1771
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "work-life balance and burnout",
+    "score1": 0.7188639168265231,
+    "score2": 0.5498396082295477,
+    "frequency": 1735
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "mental health education",
+    "score1": 0.672639155865677,
+    "score2": 0.6274810762691392,
+    "frequency": 1734
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "mental health education",
+    "score1": 0.6286952684501937,
+    "score2": 0.6306771285169562,
+    "frequency": 1721
+  },
+  {
+    "category1": "mental health education",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.6282262694258052,
+    "score2": 0.7700029018498687,
+    "frequency": 1713
+  },
+  {
+    "category1": "self-improvement and personal growth",
+    "category2": "trauma awareness and healing",
+    "score1": 0.8962608565189895,
+    "score2": 0.5691409532366118,
+    "frequency": 1682
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "work-life balance and burnout",
+    "score1": 0.6635299227011516,
+    "score2": 0.5501906516337176,
+    "frequency": 1676
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "trauma awareness and healing",
+    "score1": 0.8055036021729929,
+    "score2": 0.5695250528488913,
+    "frequency": 1676
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "trauma awareness and healing",
+    "score1": 0.860365533968854,
+    "score2": 0.5695267010697982,
+    "frequency": 1659
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "trauma awareness and healing",
+    "score1": 0.7381777574576169,
+    "score2": 0.5719731621940332,
+    "frequency": 1637
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "trauma awareness and healing",
+    "score1": 0.6865731590931572,
+    "score2": 0.5716975604904536,
+    "frequency": 1635
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "work-life balance and burnout",
+    "score1": 0.6242390749536353,
+    "score2": 0.560159729840492,
+    "frequency": 1631
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "work-life balance and burnout",
+    "score1": 0.751757064928402,
+    "score2": 0.5494765275503652,
+    "frequency": 1622
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "trauma awareness and healing",
+    "score1": 0.7787984613711979,
+    "score2": 0.5727493357202768,
+    "frequency": 1596
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "trauma awareness and healing",
+    "score1": 0.6295867585657208,
+    "score2": 0.5792666075904321,
+    "frequency": 1569
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "social anxiety and relationships",
+    "score1": 0.8075820712972822,
+    "score2": 0.5038221739184727,
+    "frequency": 1558
+  },
+  {
+    "category1": "self-improvement and personal growth",
+    "category2": "social anxiety and relationships",
+    "score1": 0.870504506769744,
+    "score2": 0.5038396274538159,
+    "frequency": 1557
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "therapy and mental health support",
+    "score1": 0.8259738877630487,
+    "score2": 0.581121216556191,
+    "frequency": 1526
+  },
+  {
+    "category1": "mental health education",
+    "category2": "trauma awareness and healing",
+    "score1": 0.6503088230933626,
+    "score2": 0.5829222145469602,
+    "frequency": 1526
+  },
+  {
+    "category1": "self-improvement and personal growth",
+    "category2": "therapy and mental health support",
+    "score1": 0.9001221413495114,
+    "score2": 0.581255449740613,
+    "frequency": 1525
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "social anxiety and relationships",
+    "score1": 0.8339852024688108,
+    "score2": 0.5020233666310537,
+    "frequency": 1525
+  },
+  {
+    "category1": "mental health education",
+    "category2": "work-life balance and burnout",
+    "score1": 0.6439363642392824,
+    "score2": 0.5620042512149331,
+    "frequency": 1524
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "therapy and mental health support",
+    "score1": 0.867354576657986,
+    "score2": 0.5822587005344735,
+    "frequency": 1509
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "therapy and mental health support",
+    "score1": 0.6902770381408472,
+    "score2": 0.5834443362966355,
+    "frequency": 1503
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "therapy and mental health support",
+    "score1": 0.7494726114163545,
+    "score2": 0.5836058384013397,
+    "frequency": 1502
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "therapy and mental health support",
+    "score1": 0.7897414779025906,
+    "score2": 0.5859814193074538,
+    "frequency": 1478
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "therapy and mental health support",
+    "score1": 0.6448762525156445,
+    "score2": 0.5885195563263859,
+    "frequency": 1472
+  },
+  {
+    "category1": "mental health education",
+    "category2": "therapy and mental health support",
+    "score1": 0.6621946185461326,
+    "score2": 0.589551695677138,
+    "frequency": 1466
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "social anxiety and relationships",
+    "score1": 0.7216058027645441,
+    "score2": 0.5021466437544428,
+    "frequency": 1447
+  },
+  {
+    "category1": "trauma awareness and healing",
+    "category2": "work-life balance and burnout",
+    "score1": 0.5832047852169993,
+    "score2": 0.5602076582208567,
+    "frequency": 1427
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "social anxiety and relationships",
+    "score1": 0.6449654205985694,
+    "score2": 0.5086409541325018,
+    "frequency": 1426
+  },
+  {
+    "category1": "self-improvement and personal growth",
+    "category2": "sleep and mental wellness",
+    "score1": 0.8971603787749555,
+    "score2": 0.5395152206497966,
+    "frequency": 1423
+  },
+  {
+    "category1": "motivation and mental strength",
+    "category2": "sleep and mental wellness",
+    "score1": 0.866917216442,
+    "score2": 0.5395524402949181,
+    "frequency": 1420
+  },
+  {
+    "category1": "mental health experiences",
+    "category2": "sleep and mental wellness",
+    "score1": 0.8098613154540527,
+    "score2": 0.5412664414935907,
+    "frequency": 1406
+  },
+  {
+    "category1": "therapy and mental health support",
+    "category2": "trauma awareness and healing",
+    "score1": 0.5965058799100729,
+    "score2": 0.5916552631094257,
+    "frequency": 1404
+  },
+  {
+    "category1": "self-care practices",
+    "category2": "sleep and mental wellness",
+    "score1": 0.7656075868256755,
+    "score2": 0.5416851974917599,
+    "frequency": 1404
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "social anxiety and relationships",
+    "score1": 0.6743169494338258,
+    "score2": 0.5000967638035672,
+    "frequency": 1388
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "sleep and mental wellness",
+    "score1": 0.8064180787504797,
+    "score2": 0.5395597637560388,
+    "frequency": 1385
+  },
+  {
+    "category1": "mindfulness and mental wellness",
+    "category2": "social anxiety and relationships",
+    "score1": 0.7603022338818438,
+    "score2": 0.4967726224397213,
+    "frequency": 1379
+  },
+  {
+    "category1": "therapy and mental health support",
+    "category2": "work-life balance and burnout",
+    "score1": 0.5949254955019116,
+    "score2": 0.5675646958323062,
+    "frequency": 1359
+  },
+  {
+    "category1": "social anxiety and relationships",
+    "category2": "work-life balance and burnout",
+    "score1": 0.49944475919407977,
+    "score2": 0.5777358469371459,
+    "frequency": 1342
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "sleep and mental wellness",
+    "score1": 0.6921626420579357,
+    "score2": 0.5362775389198857,
+    "frequency": 1311
+  },
+  {
+    "category1": "mental health education",
+    "category2": "social anxiety and relationships",
+    "score1": 0.6627047186684666,
+    "score2": 0.502269779752465,
+    "frequency": 1309
+  },
+  {
+    "category1": "emotional health discussion",
+    "category2": "sleep and mental wellness",
+    "score1": 0.6423019368679677,
+    "score2": 0.5421033549730263,
+    "frequency": 1301
+  },
+  {
+    "category1": "mental health education",
+    "category2": "sleep and mental wellness",
+    "score1": 0.6691243457174063,
+    "score2": 0.5401724930274187,
+    "frequency": 1288
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "mental health experiences",
+    "score1": 0.44868409575383256,
+    "score2": 0.8351728188702606,
+    "frequency": 1279
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.44873813953664593,
+    "score2": 0.8963101134053978,
+    "frequency": 1278
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "motivation and mental strength",
+    "score1": 0.44833624702465724,
+    "score2": 0.8632729525760363,
+    "frequency": 1264
+  },
+  {
+    "category1": "sleep and mental wellness",
+    "category2": "trauma awareness and healing",
+    "score1": 0.5390483155919052,
+    "score2": 0.601655812399701,
+    "frequency": 1234
+  },
+  {
+    "category1": "social anxiety and relationships",
+    "category2": "trauma awareness and healing",
+    "score1": 0.495564958450762,
+    "score2": 0.5980581964357834,
+    "frequency": 1233
+  },
+  {
+    "category1": "sleep and mental wellness",
+    "category2": "work-life balance and burnout",
+    "score1": 0.5404794370489467,
+    "score2": 0.5715775313460583,
+    "frequency": 1232
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "self-care practices",
+    "score1": 0.45033208394167,
+    "score2": 0.7531439054293598,
+    "frequency": 1229
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "emotional health discussion",
+    "score1": 0.4510734153767019,
+    "score2": 0.6694381472285922,
+    "frequency": 1225
+  },
+  {
+    "category1": "social anxiety and relationships",
+    "category2": "therapy and mental health support",
+    "score1": 0.5017525993013459,
+    "score2": 0.6068730288524697,
+    "frequency": 1196
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "anxiety and stress management",
+    "score1": 0.7057256588572915,
+    "score2": 0.4479927363467886,
+    "frequency": 1189
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "work-life balance and burnout",
+    "score1": 0.4492925955021939,
+    "score2": 0.5989369437412893,
+    "frequency": 1185
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.4479624341065815,
+    "score2": 0.781012674189499,
+    "frequency": 1184
+  },
+  {
+    "category1": "sleep and mental wellness",
+    "category2": "therapy and mental health support",
+    "score1": 0.5367460971098279,
+    "score2": 0.6158585808383954,
+    "frequency": 1183
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "mental health education",
+    "score1": 0.4526873682867281,
+    "score2": 0.6810222808980615,
+    "frequency": 1156
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "mental health experiences",
+    "score1": 0.48028034244844436,
+    "score2": 0.8477370759527513,
+    "frequency": 1146
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "emotional health discussion",
+    "score1": 0.4797957975492467,
+    "score2": 0.6789065379776728,
+    "frequency": 1141
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "self-improvement and personal growth",
+    "score1": 0.47931256707139597,
+    "score2": 0.9019871481004985,
+    "frequency": 1139
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "self-care practices",
+    "score1": 0.4792604475871506,
+    "score2": 0.767986982692582,
+    "frequency": 1133
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "motivation and mental strength",
+    "score1": 0.4774466427793753,
+    "score2": 0.8736995530403016,
+    "frequency": 1129
+  },
+  {
+    "category1": "addiction awareness and recovery",
+    "category2": "depression and emotional support",
+    "score1": 0.7227411229477754,
+    "score2": 0.47811505498107065,
+    "frequency": 1114
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "mindfulness and mental wellness",
+    "score1": 0.47788157860616837,
+    "score2": 0.8079865354068846,
+    "frequency": 1111
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "mental health education",
+    "score1": 0.48054988341710525,
+    "score2": 0.6931004071138741,
+    "frequency": 1107
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "trauma awareness and healing",
+    "score1": 0.449609085519193,
+    "score2": 0.6206532860681213,
+    "frequency": 1085
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "social anxiety and relationships",
+    "score1": 0.45450678671574135,
+    "score2": 0.5179655377833989,
+    "frequency": 1082
+  },
+  {
+    "category1": "sleep and mental wellness",
+    "category2": "social anxiety and relationships",
+    "score1": 0.5424762690690028,
+    "score2": 0.4848094002079606,
+    "frequency": 1072
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "trauma awareness and healing",
+    "score1": 0.48082815025494097,
+    "score2": 0.62556578002472,
+    "frequency": 1067
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "therapy and mental health support",
+    "score1": 0.48167042657102144,
+    "score2": 0.6358273169507654,
+    "frequency": 1063
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "work-life balance and burnout",
+    "score1": 0.4790488605769519,
+    "score2": 0.5947391584043187,
+    "frequency": 1041
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "therapy and mental health support",
+    "score1": 0.45271726555870373,
+    "score2": 0.6338309907970808,
+    "frequency": 1035
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "social anxiety and relationships",
+    "score1": 0.4890883933634512,
+    "score2": 0.5157430601261911,
+    "frequency": 1008
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "sleep and mental wellness",
+    "score1": 0.45058192671982455,
+    "score2": 0.5639852129552035,
+    "frequency": 983
+  },
+  {
+    "category1": "depression and emotional support",
+    "category2": "sleep and mental wellness",
+    "score1": 0.4830654939731303,
+    "score2": 0.5675648503573774,
+    "frequency": 944
+  },
+  {
+    "category1": "anxiety and stress management",
+    "category2": "depression and emotional support",
+    "score1": 0.460294538383843,
+    "score2": 0.4936304503230639,
+    "frequency": 930
+  }
+]

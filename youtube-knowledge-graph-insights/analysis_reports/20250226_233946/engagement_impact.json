@@ -1,0 +1,812 @@
+[
+  {
+    "engagement_type": "trending",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.7948579422106484,
+    "count": 3918
+  },
+  {
+    "engagement_type": "viral",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.7961519057637235,
+    "count": 3846
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.7972378514950363,
+    "count": 3767
+  },
+  {
+    "engagement_type": "informative",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.8011426454971703,
+    "count": 3654
+  },
+  {
+    "engagement_type": "trending",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7615977703170345,
+    "count": 3520
+  },
+  {
+    "engagement_type": "viral",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7636008399063077,
+    "count": 3458
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7640085233451355,
+    "count": 3386
+  },
+  {
+    "engagement_type": "informative",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7673951506994318,
+    "count": 3297
+  },
+  {
+    "engagement_type": "trending",
+    "category": "mental health experiences",
+    "avg_score": 0.7022682370548107,
+    "count": 2959
+  },
+  {
+    "engagement_type": "viral",
+    "category": "mental health experiences",
+    "avg_score": 0.7035813867717987,
+    "count": 2909
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.8121840725697723,
+    "count": 2908
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "mental health experiences",
+    "avg_score": 0.7028872803920225,
+    "count": 2822
+  },
+  {
+    "engagement_type": "informative",
+    "category": "mental health experiences",
+    "avg_score": 0.7027513571657505,
+    "count": 2726
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7757176399012227,
+    "count": 2725
+  },
+  {
+    "engagement_type": "trending",
+    "category": "self-care practices",
+    "avg_score": 0.6695187303360197,
+    "count": 2667
+  },
+  {
+    "engagement_type": "viral",
+    "category": "self-care practices",
+    "avg_score": 0.6699822687302854,
+    "count": 2623
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "self-care practices",
+    "avg_score": 0.6705612329507513,
+    "count": 2571
+  },
+  {
+    "engagement_type": "informative",
+    "category": "self-care practices",
+    "avg_score": 0.6733817151884304,
+    "count": 2494
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "mental health experiences",
+    "avg_score": 0.7217013471292476,
+    "count": 2457
+  },
+  {
+    "engagement_type": "educational",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.8335579478520375,
+    "count": 2435
+  },
+  {
+    "engagement_type": "trending",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7036274327288571,
+    "count": 2333
+  },
+  {
+    "engagement_type": "viral",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.705151148234577,
+    "count": 2295
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7053961881662894,
+    "count": 2278
+  },
+  {
+    "engagement_type": "informative",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7082227784489837,
+    "count": 2205
+  },
+  {
+    "engagement_type": "trending",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6299890271514035,
+    "count": 2202
+  },
+  {
+    "engagement_type": "educational",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7953233986093634,
+    "count": 2177
+  },
+  {
+    "engagement_type": "viral",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6308043685416673,
+    "count": 2169
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6309795236536869,
+    "count": 2118
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "self-care practices",
+    "avg_score": 0.6804911184237536,
+    "count": 2112
+  },
+  {
+    "engagement_type": "informative",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6337923935693446,
+    "count": 2089
+  },
+  {
+    "engagement_type": "trending",
+    "category": "emotional health discussion",
+    "avg_score": 0.5996565595195203,
+    "count": 2014
+  },
+  {
+    "engagement_type": "viral",
+    "category": "emotional health discussion",
+    "avg_score": 0.6000861296980948,
+    "count": 1982
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "emotional health discussion",
+    "avg_score": 0.5986311600732152,
+    "count": 1916
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6359208211959585,
+    "count": 1883
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7130577065138431,
+    "count": 1866
+  },
+  {
+    "engagement_type": "informative",
+    "category": "emotional health discussion",
+    "avg_score": 0.5988937523395697,
+    "count": 1866
+  },
+  {
+    "engagement_type": "trending",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5435871048509912,
+    "count": 1845
+  },
+  {
+    "engagement_type": "educational",
+    "category": "mental health experiences",
+    "avg_score": 0.7256872719826267,
+    "count": 1828
+  },
+  {
+    "engagement_type": "viral",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5435059997314663,
+    "count": 1816
+  },
+  {
+    "engagement_type": "trending",
+    "category": "mental health education",
+    "avg_score": 0.619071949028561,
+    "count": 1811
+  },
+  {
+    "engagement_type": "educational",
+    "category": "self-care practices",
+    "avg_score": 0.7007918059659501,
+    "count": 1791
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "emotional health discussion",
+    "avg_score": 0.6071657525572495,
+    "count": 1787
+  },
+  {
+    "engagement_type": "viral",
+    "category": "mental health education",
+    "avg_score": 0.6194142384178969,
+    "count": 1784
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5415700632920925,
+    "count": 1746
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "mental health education",
+    "avg_score": 0.6204007323414068,
+    "count": 1741
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5502572100570515,
+    "count": 1718
+  },
+  {
+    "engagement_type": "informative",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5438417933251347,
+    "count": 1715
+  },
+  {
+    "engagement_type": "informative",
+    "category": "mental health education",
+    "avg_score": 0.6254307657427427,
+    "count": 1693
+  },
+  {
+    "engagement_type": "trending",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5702618849533101,
+    "count": 1679
+  },
+  {
+    "engagement_type": "viral",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5708686544455792,
+    "count": 1655
+  },
+  {
+    "engagement_type": "mature",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.8627752662794684,
+    "count": 1641
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5709347717463964,
+    "count": 1640
+  },
+  {
+    "engagement_type": "educational",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7464044827031978,
+    "count": 1624
+  },
+  {
+    "engagement_type": "informative",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5725359635323479,
+    "count": 1610
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "mental health education",
+    "avg_score": 0.6308682012355296,
+    "count": 1588
+  },
+  {
+    "engagement_type": "trending",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.5059562547725835,
+    "count": 1585
+  },
+  {
+    "engagement_type": "mature",
+    "category": "motivation and mental strength",
+    "avg_score": 0.8397255839613853,
+    "count": 1581
+  },
+  {
+    "engagement_type": "viral",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.5046728820619262,
+    "count": 1563
+  },
+  {
+    "engagement_type": "educational",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6588473035325494,
+    "count": 1519
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.5023300075475954,
+    "count": 1516
+  },
+  {
+    "engagement_type": "trending",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5815808729370041,
+    "count": 1515
+  },
+  {
+    "engagement_type": "viral",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5818726259729132,
+    "count": 1495
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5764897427848863,
+    "count": 1480
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5835735963630874,
+    "count": 1469
+  },
+  {
+    "engagement_type": "informative",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.500968021613532,
+    "count": 1454
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.5035686064459942,
+    "count": 1444
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.8453148173146192,
+    "count": 1433
+  },
+  {
+    "engagement_type": "informative",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5877021181416684,
+    "count": 1430
+  },
+  {
+    "engagement_type": "mature",
+    "category": "mental health experiences",
+    "avg_score": 0.75854235948263,
+    "count": 1423
+  },
+  {
+    "engagement_type": "trending",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5406199128694932,
+    "count": 1420
+  },
+  {
+    "engagement_type": "viral",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5398902533741609,
+    "count": 1405
+  },
+  {
+    "engagement_type": "mature",
+    "category": "self-care practices",
+    "avg_score": 0.7306514310256544,
+    "count": 1397
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5409331370850448,
+    "count": 1389
+  },
+  {
+    "engagement_type": "mature",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7785381551707603,
+    "count": 1378
+  },
+  {
+    "engagement_type": "educational",
+    "category": "emotional health discussion",
+    "avg_score": 0.6074316353811945,
+    "count": 1359
+  },
+  {
+    "engagement_type": "informative",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5375160137827033,
+    "count": 1348
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5927530854180842,
+    "count": 1334
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "motivation and mental strength",
+    "avg_score": 0.8129584958612593,
+    "count": 1327
+  },
+  {
+    "engagement_type": "educational",
+    "category": "mental health education",
+    "avg_score": 0.6463276244852242,
+    "count": 1321
+  },
+  {
+    "engagement_type": "mature",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6723864756053584,
+    "count": 1313
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "self-care practices",
+    "avg_score": 0.7262619755446779,
+    "count": 1281
+  },
+  {
+    "engagement_type": "educational",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.585905554949067,
+    "count": 1275
+  },
+  {
+    "engagement_type": "trending",
+    "category": "anxiety and stress management",
+    "avg_score": 0.4487801558858767,
+    "count": 1270
+  },
+  {
+    "engagement_type": "viral",
+    "category": "anxiety and stress management",
+    "avg_score": 0.4477222665692817,
+    "count": 1254
+  },
+  {
+    "engagement_type": "educational",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5443967866782036,
+    "count": 1238
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "mental health experiences",
+    "avg_score": 0.7482411191784228,
+    "count": 1219
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "anxiety and stress management",
+    "avg_score": 0.44659266932844544,
+    "count": 1218
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5398376611235118,
+    "count": 1217
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.7750620731813815,
+    "count": 1193
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "anxiety and stress management",
+    "avg_score": 0.44702609138829374,
+    "count": 1190
+  },
+  {
+    "engagement_type": "mature",
+    "category": "emotional health discussion",
+    "avg_score": 0.6132179479558756,
+    "count": 1185
+  },
+  {
+    "engagement_type": "informative",
+    "category": "anxiety and stress management",
+    "avg_score": 0.44545932753468936,
+    "count": 1177
+  },
+  {
+    "engagement_type": "mature",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5919149645773598,
+    "count": 1171
+  },
+  {
+    "engagement_type": "mature",
+    "category": "mental health education",
+    "avg_score": 0.6603110856457157,
+    "count": 1156
+  },
+  {
+    "engagement_type": "trending",
+    "category": "depression and emotional support",
+    "avg_score": 0.4802342402997994,
+    "count": 1136
+  },
+  {
+    "engagement_type": "educational",
+    "category": "therapy and mental health support",
+    "avg_score": 0.6083919158421897,
+    "count": 1127
+  },
+  {
+    "engagement_type": "viral",
+    "category": "depression and emotional support",
+    "avg_score": 0.479458590809788,
+    "count": 1120
+  },
+  {
+    "engagement_type": "mature",
+    "category": "therapy and mental health support",
+    "avg_score": 0.6108077238682378,
+    "count": 1112
+  },
+  {
+    "engagement_type": "mature",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5448476991463908,
+    "count": 1107
+  },
+  {
+    "engagement_type": "entertaining",
+    "category": "depression and emotional support",
+    "avg_score": 0.47768618525658924,
+    "count": 1091
+  },
+  {
+    "engagement_type": "educational",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5407528508197881,
+    "count": 1074
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.6633679012662353,
+    "count": 1067
+  },
+  {
+    "engagement_type": "informative",
+    "category": "depression and emotional support",
+    "avg_score": 0.4797402537811948,
+    "count": 1062
+  },
+  {
+    "engagement_type": "mature",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5340061747262453,
+    "count": 1028
+  },
+  {
+    "engagement_type": "educational",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.4727421035864487,
+    "count": 1023
+  },
+  {
+    "engagement_type": "controversial",
+    "category": "depression and emotional support",
+    "avg_score": 0.4774965891793267,
+    "count": 1011
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "emotional health discussion",
+    "avg_score": 0.6108077121220701,
+    "count": 1003
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "mental health education",
+    "avg_score": 0.6527566163815924,
+    "count": 976
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5926528058325904,
+    "count": 949
+  },
+  {
+    "engagement_type": "mature",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.4622363306047542,
+    "count": 948
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.5456652682143862,
+    "count": 912
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "therapy and mental health support",
+    "avg_score": 0.6076664479088542,
+    "count": 893
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.5440482757776542,
+    "count": 891
+  },
+  {
+    "engagement_type": "educational",
+    "category": "anxiety and stress management",
+    "avg_score": 0.44099000790113657,
+    "count": 872
+  },
+  {
+    "engagement_type": "educational",
+    "category": "depression and emotional support",
+    "avg_score": 0.4758099636260204,
+    "count": 850
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.4696273401074008,
+    "count": 829
+  },
+  {
+    "engagement_type": "mature",
+    "category": "depression and emotional support",
+    "avg_score": 0.46957120717809037,
+    "count": 819
+  },
+  {
+    "engagement_type": "mature",
+    "category": "anxiety and stress management",
+    "avg_score": 0.42240033725846393,
+    "count": 778
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "depression and emotional support",
+    "avg_score": 0.47950162602997987,
+    "count": 687
+  },
+  {
+    "engagement_type": "family_friendly",
+    "category": "anxiety and stress management",
+    "avg_score": 0.42477456555581566,
+    "count": 643
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "self-improvement and personal growth",
+    "avg_score": 0.7709266950812526,
+    "count": 316
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "motivation and mental strength",
+    "avg_score": 0.7226738371208412,
+    "count": 294
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "mental health experiences",
+    "avg_score": 0.7074813659755029,
+    "count": 241
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "self-care practices",
+    "avg_score": 0.6244339114506335,
+    "count": 227
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "mindfulness and mental wellness",
+    "avg_score": 0.6248247970323098,
+    "count": 183
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "emotional health discussion",
+    "avg_score": 0.591843109189367,
+    "count": 163
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "addiction awareness and recovery",
+    "avg_score": 0.5923821533357858,
+    "count": 151
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "work-life balance and burnout",
+    "avg_score": 0.543351775805156,
+    "count": 150
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "mental health education",
+    "avg_score": 0.5684972696784718,
+    "count": 134
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "social anxiety and relationships",
+    "avg_score": 0.561890841476501,
+    "count": 126
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "anxiety and stress management",
+    "avg_score": 0.4803806300226011,
+    "count": 114
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "sleep and mental wellness",
+    "avg_score": 0.592956730061107,
+    "count": 108
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "trauma awareness and healing",
+    "avg_score": 0.5387677490711211,
+    "count": 90
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "therapy and mental health support",
+    "avg_score": 0.5301174189895391,
+    "count": 80
+  },
+  {
+    "engagement_type": "clickbait",
+    "category": "depression and emotional support",
+    "avg_score": 0.49918619628194016,
+    "count": 79
+  }
+]
