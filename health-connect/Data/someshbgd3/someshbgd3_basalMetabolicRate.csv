@@ -1,0 +1,4 @@
+﻿_id,app,data,end,id,start
+663602a7-ef4e-4a4d-b3d7-19db64a1097a,com.sec.android.app.shealth,"{'basalMetabolicRate': {'inKilocaloriesPerDay': 1875, 'inWatts': 90.7986110625}}",,663602a7-ef4e-4a4d-b3d7-19db64a1097a,2025-02-09T21:24:59.715Z
+6aaddbe6-a674-409f-ad4e-c7d54c13aa36,com.sec.android.app.shealth,"{'basalMetabolicRate': {'inKilocaloriesPerDay': 1835, 'inWatts': 88.8615740265}}",,6aaddbe6-a674-409f-ad4e-c7d54c13aa36,2025-02-20T09:32:59.835Z
+c01253bc-fda1-4491-9f62-4f40960a5e5a,com.sec.android.app.shealth,"{'basalMetabolicRate': {'inKilocaloriesPerDay': 1845.0000000000002, 'inWatts': 89.3458332855}}",,c01253bc-fda1-4491-9f62-4f40960a5e5a,2025-02-20T09:33:53.498Z
