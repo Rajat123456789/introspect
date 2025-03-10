@@ -54,10 +54,10 @@ def save_json_to_csv(username, metric, json_data):
         df = pd.DataFrame(json_data)
 
         # Ensure "Data" directory exists
-        os.makedirs(f"Data/{username}", exist_ok=True)
+        os.makedirs(f"Data/{username}/Uncleaned/", exist_ok=True)
 
         # Define the filename in the format username_metric.csv
-        filename = os.path.join(f"Data/{username}", f"{username}_{metric}.csv")
+        filename = os.path.join(f"Data/{username}/Uncleaned/", f"{metric}_{username}.csv")
 
         # Save DataFrame as CSV
         df.to_csv(filename, index=False, encoding="utf-8-sig")

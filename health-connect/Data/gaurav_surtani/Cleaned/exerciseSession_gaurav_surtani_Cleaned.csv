@@ -1,0 +1,7 @@
+app,end,start,exerciseSession_endZoneOffset_id,exerciseSession_endZoneOffset_totalSeconds,exerciseSession_exerciseType,exerciseSession_laps,exerciseSession_notes,exerciseSession_segments,exerciseSession_startZoneOffset_id,exerciseSession_startZoneOffset_totalSeconds,exerciseSession_title,exerciseSession_total_time
+com.fitbit.FitbitMobile,2025-02-13 09:11:00+00:00,2025-02-13 08:50:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,21.0
+com.fitbit.FitbitMobile,2025-02-15 05:47:00+00:00,2025-02-15 05:23:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,24.0
+com.fitbit.FitbitMobile,2025-02-15 13:33:00+00:00,2025-02-15 13:02:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,31.0
+com.fitbit.FitbitMobile,2025-02-17 07:38:00+00:00,2025-02-17 07:11:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,27.0
+com.fitbit.FitbitMobile,2025-02-17 09:17:00+00:00,2025-02-17 08:34:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,43.0
+com.fitbit.FitbitMobile,2025-02-17 11:36:00+00:00,2025-02-17 10:51:00+00:00,+05:30,19800,79,[],,[],+05:30,19800,,45.0
