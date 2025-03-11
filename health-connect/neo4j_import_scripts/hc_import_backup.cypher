@@ -2,6 +2,9 @@
 MATCH (n)
 DETACH DELETE n;
 
+// Set User
+:param username => "someshbgd3";
+
 // 1. Ensure the User node exists
 // MERGE (u:User { username: "someshbgd3" });
 MERGE (u:User { username: $username });
@@ -47,18 +50,18 @@ CREATE (u)-[:HAS_DISTANCE]->(d:Distance {
 
 
 // Elevation Gained
-LOAD CSV WITH HEADERS FROM "file:///elevationGained_" + $username + "_Cleaned.csv" AS row
-WITH row, datetime(replace(row.start, " ", "T")) AS startTime, datetime(replace(row.end, " ", "T")) AS endTime
-MATCH (u:User {username: $username})
-CREATE (u)-[:HAS_ELEVATION_GAINED]->(eg:ElevationGained {
-    metricName: "Elevation Gained",
-    start: startTime,
-    end: endTime,
-    elevationGained_elevation_inFeet_value: toFloat(row.elevationGained_elevation_inFeet),
-    elevationGained_elevation_inMeters_value: toFloat(row.elevationGained_elevation_inMeters),
-    elevationGained_total_time_value: toFloat(row.elevationGained_total_time),
-    appName: row.app
-});
+// LOAD CSV WITH HEADERS FROM "file:///elevationGained_" + $username + "_Cleaned.csv" AS row
+// WITH row, datetime(replace(row.start, " ", "T")) AS startTime, datetime(replace(row.end, " ", "T")) AS endTime
+// MATCH (u:User {username: $username})
+// CREATE (u)-[:HAS_ELEVATION_GAINED]->(eg:ElevationGained {
+//     metricName: "Elevation Gained",
+//     start: startTime,
+//     end: endTime,
+//     elevationGained_elevation_inFeet_value: toFloat(row.elevationGained_elevation_inFeet),
+//     elevationGained_elevation_inMeters_value: toFloat(row.elevationGained_elevation_inMeters),
+//     elevationGained_total_time_value: toFloat(row.elevationGained_total_time),
+//     appName: row.app
+// });
 
 
 
@@ -84,17 +87,17 @@ CREATE (u)-[:HAS_EXERCISE_SESSION]->(es:ExerciseSession {
 
 
 // Floors Climbed
-LOAD CSV WITH HEADERS FROM "file:///floorsClimbed_" + $username + "_Cleaned.csv" AS row
-WITH row, datetime(replace(row.start, " ", "T")) AS startTime, datetime(replace(row.end, " ", "T")) AS endTime
-MATCH (u:User {username: $username})
-CREATE (u)-[:HAS_FLOORS_CLIMBED]->(fc:FloorsClimbed {
-    metricName: "Floors Climbed",
-    start: startTime,
-    end: endTime,
-    floorsClimbed_floors_value: toInteger(row.floorsClimbed_floors),
-    floorsClimbed_total_time_value: toFloat(row.floorsClimbed_total_time),
-    appName: row.app
-});
+// LOAD CSV WITH HEADERS FROM "file:///floorsClimbed_" + $username + "_Cleaned.csv" AS row
+// WITH row, datetime(replace(row.start, " ", "T")) AS startTime, datetime(replace(row.end, " ", "T")) AS endTime
+// MATCH (u:User {username: $username})
+// CREATE (u)-[:HAS_FLOORS_CLIMBED]->(fc:FloorsClimbed {
+//     metricName: "Floors Climbed",
+//     start: startTime,
+//     end: endTime,
+//     floorsClimbed_floors_value: toInteger(row.floorsClimbed_floors),
+//     floorsClimbed_total_time_value: toFloat(row.floorsClimbed_total_time),
+//     appName: row.app
+// });
 
 
 
