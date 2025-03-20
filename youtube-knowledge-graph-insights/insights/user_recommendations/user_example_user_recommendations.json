@@ -1,0 +1,95 @@
+{
+  "personalized_recommendations": {
+    "content": [
+      {
+        "category": "Music",
+        "impact": "neutral",
+        "frequency": 1,
+        "recommendation": "This category shows no strong correlation with mental health indicators."
+      },
+      {
+        "category": "Education",
+        "impact": "neutral",
+        "frequency": 1,
+        "recommendation": "This category shows no strong correlation with mental health indicators."
+      },
+      {
+        "category": "Gaming",
+        "impact": "neutral",
+        "frequency": 1,
+        "recommendation": "This category shows no strong correlation with mental health indicators."
+      },
+      {
+        "category": "News",
+        "impact": "neutral",
+        "frequency": 1,
+        "recommendation": "This category shows no strong correlation with mental health indicators."
+      }
+    ],
+    "timing": [
+      {
+        "hour": 22,
+        "frequency": 1,
+        "impact": "neutral",
+        "recommendation": "No strong mental health correlation found for viewing at 22:00."
+      },
+      {
+        "hour": 8,
+        "frequency": 1,
+        "impact": "neutral",
+        "recommendation": "No strong mental health correlation found for viewing at 08:00."
+      },
+      {
+        "hour": 23,
+        "frequency": 1,
+        "impact": "neutral",
+        "recommendation": "No strong mental health correlation found for viewing at 23:00."
+      },
+      {
+        "hour": 7,
+        "frequency": 1,
+        "impact": "neutral",
+        "recommendation": "No strong mental health correlation found for viewing at 07:00."
+      }
+    ],
+    "patterns_to_follow": [],
+    "patterns_to_avoid": [],
+    "music_impact": [
+      {
+        "impact": "neutral",
+        "avg_score": 0.5,
+        "total_count": 0,
+        "recommendation": "Not enough music content to provide meaningful recommendations.",
+        "visualization": "analysis_reports\\music_genre_impact.png",
+        "report": "# Music Impact Analysis Report\n\n## Overview\nThis report analyzes how different music genres impact mental health metrics based on your viewing history.\nThe analysis identifies correlations between specific music genres and various mental health aspects.\n\n## Music Genre Impact Rankings\nThe following music genres are ranked by their positive impact on mental health metrics:\n\n| Rank | Genre | Impact Score | Primary Effect | Recommendation |\n|------|-------|--------------|----------------|----------------|\n| 1 | Classical | 1.00 | Unknown |  |\n| 2 | Indie | 1.00 | Unknown |  |\n| 3 | K-Pop | 0.99 | Unknown |  |\n| 4 | Electronic | 0.98 | Unknown |  |\n| 5 | Jazz | 0.98 | Unknown |  |\n| 6 | Ambient | 0.98 | Unknown |  |\n| 7 | J-Pop | 0.96 | Unknown |  |\n| 8 | Instrumental | 0.94 | Unknown |  |\n| 9 | Pop | 0.93 | Unknown |  |\n| 10 | Hip Hop/Rap | 0.93 | Unknown |  |\n| 11 | Entertainment | 0.92 | Unknown |  |\n| 12 | Music | 0.90 | Unknown |  |\n| 13 | Rock | 0.87 | Unknown |  |\n| 14 | Lo-Fi | 0.84 | Unknown |  |\n| 15 | Folk | 0.65 | Unknown |  |\n\n## Personalized Music Recommendations\n\n### Best Genres for Mental Wellbeing\n\n1. **Classical** (Score: 1.00)\n2. **Indie** (Score: 1.00)\n3. **K-Pop** (Score: 0.99)\n\n### Genres to Be Mindful About\n\nNo genres were found to have a negative impact.\n\n## Optimal Listening Times\n\n- **Best time to listen**: 12:00 (Score: 0.70)\n- **Time to avoid**: 3:00 (Score: 0.30)\n\n## General Music Recommendations\n\n1. **Create themed playlists** based on the top genres that positively affect your mental wellbeing\n2. **Be mindful of when you listen** - timing can significantly impact the effect of music\n3. **Pay attention to your response** - notice how different genres affect your mood and energy\n4. **Mix instrumental and vocal music** for different activities and mental states\n5. **Use upbeat music strategically** for motivation and calming music for relaxation\n\n\n\n*Report generated on 2025-03-17 03:54:40*\n"
+      }
+    ],
+    "sentiment_trajectory": [
+      {
+        "visualization": "analysis_reports\\sentiment_trajectory_scatter.png",
+        "recommendation": "This visualization shows how your mental health sentiment has changed over time across different categories. The smoothed trend lines make it easier to identify patterns and correlations."
+      }
+    ],
+    "unhealthy_trends": [
+      {
+        "visualization": "analysis_reports\\unhealthy_viewing_trends.png",
+        "report": "# Unhealthy Viewing Pattern Analysis\n\n## Overview\nThis report analyzes patterns in your YouTube viewing history that may indicate potentially unhealthy habits.\nThe analysis scans video titles and metadata for keywords associated with various concerns.\n\n## Key Findings\n\n\n## Recommendations\n\n\n\n*Report generated on 2025-03-17 03:54:41*\n",
+        "recommendation": "This analysis identifies potentially unhealthy viewing trends that may negatively impact your mental health. Pay attention to any significant increases in concerning content."
+      }
+    ]
+  },
+  "timestamp": "2025-03-17T04:03:26.026280",
+  "text_summary": "# Personalized YouTube Viewing Recommendations\n\n## Content Recommendations\n\u2796 **Music**: This category shows no strong correlation with mental health indicators.\n\u2796 **Education**: This category shows no strong correlation with mental health indicators.\n\u2796 **Gaming**: This category shows no strong correlation with mental health indicators.\n\u2796 **News**: This category shows no strong correlation with mental health indicators.\n\n## Viewing Time Recommendations\n\u2796 **22:00 hour**: No strong mental health correlation found for viewing at 22:00.\n\u2796 **08:00 hour**: No strong mental health correlation found for viewing at 08:00.\n\u2796 **23:00 hour**: No strong mental health correlation found for viewing at 23:00.\n\u2796 **07:00 hour**: No strong mental health correlation found for viewing at 07:00.\n\n## Music Content Impact\n\u2796 **Music Impact Score: 0.50**: Not enough music content to provide meaningful recommendations.\n\n## Sentiment Trajectory Insights\n\ud83d\udcca This visualization shows how your mental health sentiment has changed over time across different categories. The smoothed trend lines make it easier to identify patterns and correlations.\n*View the visualization for detailed trends across different mental health categories.*\n\n## Unhealthy Viewing Trend Analysis\n\u26a0\ufe0f This analysis identifies potentially unhealthy viewing trends that may negatively impact your mental health. Pay attention to any significant increases in concerning content.\n\n**Detected Concerns:**\n# Unhealthy Viewing Pattern Analysis\n\n## Overview\nThis report analyzes patterns in your YouTube viewing history that may indicate potentially unhealthy habits.\nThe analysis scans video titles and metadata for keywords associated with various concerns.\n\n## Key Findings\n\n\n## Recommendations\n\n\n\n*Report generated on 2025-03-17 03:54:41*\n\n\n## General Advice\nBased on our comprehensive analysis of viewing patterns and mental health correlations:\n1. **Variety is beneficial**: Mix content types rather than binging on a single category\n2. **Be mindful of viewing times**: Your viewing hour can significantly impact mental wellness\n3. **Track your reactions**: Note how you feel after watching different content types\n4. **Take breaks**: Regular breaks during viewing sessions support better mental health\n5. **Consider music impact**: Music videos can have significant effects on your mental state\n6. **Monitor unhealthy trends**: Be aware of any increasing trends in concerning content",
+  "visualizations": {
+    "sentiment_trajectory": "analysis_reports\\sentiment_trajectory_scatter.png",
+    "mental_health_components": "analysis_reports\\mental_health_components.png",
+    "content_category_impact": "analysis_reports\\content_category_impact.png",
+    "music_genre_impact": "analysis_reports\\music_genre_impact.png",
+    "viewing_patterns": "analysis_reports\\viewing_day_of_week.png",
+    "late_night_viewing": "analysis_reports\\late_night_viewing_pattern.png",
+    "unhealthy_trends": "analysis_reports\\unhealthy_viewing_trends.png",
+    "mental_health_forecast": "analysis_reports\\mental_health_forecast_simple.png",
+    "music_impact_report": "analysis_reports\\music_impact_report.md",
+    "unhealthy_patterns_report": "analysis_reports\\unhealthy_patterns_report.md"
+  }
+}

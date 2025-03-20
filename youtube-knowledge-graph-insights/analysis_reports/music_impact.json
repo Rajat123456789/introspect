@@ -1,0 +1,11 @@
+{
+  "genre_impact": "      music_genre  avg_score  count\n0         Ambient   0.975648      4\n1       Classical   0.997898      2\n2      Electronic   0.983755     11\n3   Entertainment   0.926940    864\n4            Folk   0.904945     13\n5     Hip Hop/Rap   0.958482     11\n6           Indie   0.997495      4\n7    Instrumental   0.961583     20\n8           J-Pop   0.947224     16\n9            Jazz   0.935335      6\n10          K-Pop   0.989586      1\n11          Lo-Fi   0.788128      6\n12          Music   0.903342    624\n13            Pop   0.952368     19\n14           Rock   0.891066     24",
+  "time_insights": {
+    "hourly_impact": [],
+    "best_hour": 12,
+    "worst_hour": 3,
+    "best_hour_score": 0.7,
+    "worst_hour_score": 0.3
+  },
+  "total_videos": 1625
+}
