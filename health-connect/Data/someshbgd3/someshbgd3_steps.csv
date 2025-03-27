@@ -1,0 +1,26 @@
+﻿_id,app,data,end,id,start
+265a4e87-63bd-44c7-a1fc-ae43db7f074c,com.sec.android.app.shealth,{'count': 3456},2025-02-08T07:59:59.999Z,265a4e87-63bd-44c7-a1fc-ae43db7f074c,2025-02-07T08:00:00Z
+d6f9fbbe-d40a-4c02-b33d-99dc760533f5,com.sec.android.app.shealth,{'count': 5125},2025-02-09T07:59:59.999Z,d6f9fbbe-d40a-4c02-b33d-99dc760533f5,2025-02-08T08:00:00Z
+cd603529-b6da-4529-99ca-70a999687dc0,com.sec.android.app.shealth,{'count': 3994},2025-02-10T07:59:59.999Z,cd603529-b6da-4529-99ca-70a999687dc0,2025-02-09T08:00:00Z
+74b71cdc-5e51-4d5b-9a96-25e9e58d91b2,com.sec.android.app.shealth,{'count': 5007},2025-02-11T07:59:59.999Z,74b71cdc-5e51-4d5b-9a96-25e9e58d91b2,2025-02-10T08:00:00Z
+21408e62-3bc2-4e65-8cd9-c984e3ccd6fb,com.sec.android.app.shealth,{'count': 7892},2025-02-12T07:59:59.999Z,21408e62-3bc2-4e65-8cd9-c984e3ccd6fb,2025-02-11T08:00:00Z
+8962c7c2-a0ad-4753-8cf1-ea367ba179ec,com.sec.android.app.shealth,{'count': 4714},2025-02-13T07:59:59.999Z,8962c7c2-a0ad-4753-8cf1-ea367ba179ec,2025-02-12T08:00:00Z
+20e7681f-7918-4e5d-866a-0be01ff86fd9,com.sec.android.app.shealth,{'count': 6633},2025-02-14T07:59:59.999Z,20e7681f-7918-4e5d-866a-0be01ff86fd9,2025-02-13T08:00:00Z
+32cb4ad0-0335-46c4-891a-fd4cf7945dfb,com.sec.android.app.shealth,{'count': 3979},2025-02-15T07:59:59.999Z,32cb4ad0-0335-46c4-891a-fd4cf7945dfb,2025-02-14T08:00:00Z
+9969cda9-2ace-4be0-ad13-18948f0f6768,com.sec.android.app.shealth,{'count': 11393},2025-02-16T07:59:59.999Z,9969cda9-2ace-4be0-ad13-18948f0f6768,2025-02-15T08:00:00Z
+0a07e6e9-34ca-4139-8ae1-230881b8d31c,com.sec.android.app.shealth,{'count': 6301},2025-02-17T07:59:59.999Z,0a07e6e9-34ca-4139-8ae1-230881b8d31c,2025-02-16T08:00:00Z
+7eb36d30-baaa-4b7d-b5a1-fc3c31e8cc6d,com.sec.android.app.shealth,{'count': 3562},2025-02-18T07:59:59.999Z,7eb36d30-baaa-4b7d-b5a1-fc3c31e8cc6d,2025-02-17T08:00:00Z
+a8eb5d94-05ed-44f6-a2f4-8f6c4601d239,com.sec.android.app.shealth,{'count': 7295},2025-02-19T07:59:59.999Z,a8eb5d94-05ed-44f6-a2f4-8f6c4601d239,2025-02-18T08:00:00Z
+68a90c8f-6359-4405-a5e1-51cdf0f8ebe0,com.sec.android.app.shealth,{'count': 3370},2025-02-20T07:59:59.999Z,68a90c8f-6359-4405-a5e1-51cdf0f8ebe0,2025-02-19T08:00:00Z
+fbc0058c-38e6-423c-8fda-feb86e2bcf58,com.sec.android.app.shealth,{'count': 9588},2025-02-21T07:59:59.999Z,fbc0058c-38e6-423c-8fda-feb86e2bcf58,2025-02-20T08:00:00Z
+6ded4206-9380-4af3-8943-8937aaf34f5a,com.sec.android.app.shealth,{'count': 4816},2025-02-22T07:59:59.999Z,6ded4206-9380-4af3-8943-8937aaf34f5a,2025-02-21T08:00:00Z
+1d7a2edc-67ee-4b0c-bbb2-1c26c5193ded,com.sec.android.app.shealth,{'count': 4642},2025-02-23T07:59:59.999Z,1d7a2edc-67ee-4b0c-bbb2-1c26c5193ded,2025-02-22T08:00:00Z
+de445fd8-7176-4dd7-a02f-4a6e674f84fa,com.sec.android.app.shealth,{'count': 4047},2025-02-24T07:59:59.999Z,de445fd8-7176-4dd7-a02f-4a6e674f84fa,2025-02-23T08:00:00Z
+b0c0f60e-7fd4-4741-946b-6fdb31c9a761,com.sec.android.app.shealth,{'count': 6356},2025-02-25T07:59:59.999Z,b0c0f60e-7fd4-4741-946b-6fdb31c9a761,2025-02-24T08:00:00Z
+24cc097d-d201-474c-ae0c-a41e75f3147c,com.sec.android.app.shealth,{'count': 2216},2025-02-26T07:59:59.999Z,24cc097d-d201-474c-ae0c-a41e75f3147c,2025-02-25T08:00:00Z
+d4902793-75ff-4de1-8110-5e7ff6c0f0cc,com.sec.android.app.shealth,{'count': 678},2025-02-27T07:59:59.999Z,d4902793-75ff-4de1-8110-5e7ff6c0f0cc,2025-02-26T08:00:00Z
+a5ad871c-0560-45d3-85eb-8cb9f5357481,com.sec.android.app.shealth,{'count': 3825},2025-02-28T07:59:59.999Z,a5ad871c-0560-45d3-85eb-8cb9f5357481,2025-02-27T08:00:00Z
+3362eba3-99ce-464f-9948-84f267389c65,com.sec.android.app.shealth,{'count': 1118},2025-03-01T07:59:59.999Z,3362eba3-99ce-464f-9948-84f267389c65,2025-02-28T08:00:00Z
+78d8dc5c-caea-4a3e-9744-c3025ad24fcc,com.sec.android.app.shealth,{'count': 3616},2025-03-02T07:59:59.999Z,78d8dc5c-caea-4a3e-9744-c3025ad24fcc,2025-03-01T08:00:00Z
+15d1b253-dab7-4101-ae09-48b1807aa824,com.sec.android.app.shealth,{'count': 9369},2025-03-03T07:59:59.999Z,15d1b253-dab7-4101-ae09-48b1807aa824,2025-03-02T08:00:00Z
+5361acb7-7726-479e-8ce8-d96a1ce5055b,com.sec.android.app.shealth,{'count': 662},2025-03-04T07:59:59.999Z,5361acb7-7726-479e-8ce8-d96a1ce5055b,2025-03-03T08:00:00Z

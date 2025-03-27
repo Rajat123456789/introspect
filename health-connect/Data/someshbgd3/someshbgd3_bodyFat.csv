@@ -1,0 +1,6 @@
+﻿_id,app,data,end,id,start
+9401c39d-5dd8-4e55-9b35-dc061252ac0b,com.sec.android.app.shealth,{'percentage': 33.184364318847656},,9401c39d-5dd8-4e55-9b35-dc061252ac0b,2025-02-09T21:24:59.715Z
+4e2a7be7-33e3-41e8-8cd7-44e146ddc6c0,com.sec.android.app.shealth,{'percentage': 33.9892578125},,4e2a7be7-33e3-41e8-8cd7-44e146ddc6c0,2025-02-20T09:32:59.835Z
+b2148ff7-d46f-419d-99b3-05ba92b509e7,com.sec.android.app.shealth,{'percentage': 33.53375244140625},,b2148ff7-d46f-419d-99b3-05ba92b509e7,2025-02-20T09:33:53.498Z
+d3069fe1-d5a4-4618-8840-3fc1137881be,com.vt.vitafit,{'percentage': 26.06},,d3069fe1-d5a4-4618-8840-3fc1137881be,2025-03-01T21:50:57Z
+778d1211-6f3a-44c4-ba7b-3a1dd84e2350,com.vt.vitafit,{'percentage': 26.24},,778d1211-6f3a-44c4-ba7b-3a1dd84e2350,2025-03-03T18:18:32Z

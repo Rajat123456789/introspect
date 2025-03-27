@@ -1,0 +1,7 @@
+,pattern_addiction,pattern_doom_scrolling,pattern_escapism,pattern_negative_mood,pattern_unhealthy_comparison,pattern_rabbit_holes
+pattern_addiction,1.0,0.20236872356781352,-0.029185609196830106,,,0.09529062410306803
+pattern_doom_scrolling,0.20236872356781352,1.0,0.052356432230271054,,,0.21925995162833462
+pattern_escapism,-0.029185609196830106,0.052356432230271054,1.0,,,-0.02495553058749223
+pattern_negative_mood,,,,,,
+pattern_unhealthy_comparison,,,,,,
+pattern_rabbit_holes,0.09529062410306803,0.21925995162833462,-0.02495553058749223,,,1.0
