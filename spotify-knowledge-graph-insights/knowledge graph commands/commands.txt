@@ -1,0 +1,47 @@
+MATCH (n:Genre) RETURN n LIMIT 25
+
+MATCH (n:Track) RETURN n LIMIT 25
+
+MATCH (n:User) RETURN n LIMIT 25
+
+MATCH (n) RETURN n LIMIT 25
+
+MATCH p=()-->() RETURN p LIMIT 50
+
+MATCH p=()-[r:CONTAINS]->() RETURN p LIMIT 50
+
+MATCH p=()-[r:LISTENED_TO]->() RETURN p LIMIT 25
+
+MATCH p=()-[r:HAS_GENRE]->() RETURN p LIMIT 25
+
+MATCH p=()-[r:PERFORMED]->() RETURN p LIMIT 25
+
+MATCH p=()-[r:RELEASED]->() RETURN p LIMIT 25
+
+
+MATCH (a:Artist)-[:PERFORMED]->(t:Track)<-[lt:LISTENED_TO]-(:User)
+WITH a, SUM(lt.ms_played) AS TotalListeningTime
+ORDER BY TotalListeningTime DESC
+LIMIT 5
+
+MATCH (a)-[:PERFORMED]->(t:Track)
+RETURN a, t;
+
+
+MATCH (a:Artist)-[:PERFORMED]->(t:Track)-[:HAS_GENRE]->(g:Genre)
+RETURN a, t, g;
+
+
+MATCH (a:Artist)-[:PERFORMED]->(t:Track)
+WITH a, t
+MERGE (d:Danceability {value: t.danceability})
+MERGE (e:Energy {value: t.energy})
+MERGE (p:Popularity {value: t.popularity})
+MERGE (t)-[:HAS_PROPERTY]->(d)
+MERGE (t)-[:HAS_PROPERTY]->(e)
+MERGE (t)-[:HAS_PROPERTY]->(p)
+RETURN a, t, d, e, p;
+
+
+MATCH (u:User)-[lt:LISTENED_TO]->(t:Track)<-[:PERFORMED]-(a:Artist)
+RETURN u, lt, t, a;
