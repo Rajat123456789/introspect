@@ -148,10 +148,10 @@ def main():
     try:
         # Extract data from HTML file
         logger.info("Beginning data extraction...")
-        df = extract_youtube_history('Gaurav-YouTube-v2.html')
+        df = extract_youtube_history('../../raw-history-html-files/Somesh-YouTube-v1.html')
         
         # Save to CSV
-        output_file = 'youtube-gaurav.csv'
+        output_file = 'youtube-somesh.csv'
         logger.info(f"Saving data to {output_file}")
         df.to_csv(output_file, index=False)
         logger.info(f"Successfully saved {len(df)} entries to CSV")

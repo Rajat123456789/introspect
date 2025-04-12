@@ -1,5 +1,5 @@
 {
-  "genre_impact": "      music_genre  avg_score  count\n0         Ambient   0.975648      4\n1       Classical   0.997898      2\n2      Electronic   0.983755     11\n3   Entertainment   0.926940    864\n4            Folk   0.904945     13\n5     Hip Hop/Rap   0.958482     11\n6           Indie   0.997495      4\n7    Instrumental   0.961583     20\n8           J-Pop   0.947224     16\n9            Jazz   0.935335      6\n10          K-Pop   0.989586      1\n11          Lo-Fi   0.788128      6\n12          Music   0.903342    624\n13            Pop   0.952368     19\n14           Rock   0.891066     24",
+  "genre_impact": "      music_genre  avg_score  count\n0         Ambient   0.925678     77\n1       Classical   0.959343     12\n2         Country   0.902032      9\n3      Electronic   0.951163    172\n4   Entertainment   0.928718   6201\n5            Folk   0.916419     67\n6     Hip Hop/Rap   0.932516    157\n7           Indie   0.951195     35\n8    Instrumental   0.933806    183\n9           J-Pop   0.948999    101\n10           Jazz   0.962891     13\n11          K-Pop   0.804727      2\n12          Lo-Fi   0.931574     96\n13          Music   0.914034   7042\n14            Pop   0.903999    211\n15           Rock   0.923639    286",
   "time_insights": {
     "hourly_impact": [],
     "best_hour": 12,
@@ -7,5 +7,5 @@
     "best_hour_score": 0.7,
     "worst_hour_score": 0.3
   },
-  "total_videos": 1625
+  "total_videos": 14664
 }

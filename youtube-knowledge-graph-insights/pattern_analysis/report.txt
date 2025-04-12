@@ -1,0 +1,89 @@
+================================================================================
+YOUTUBE VIEWING PATTERN ANALYSIS REPORT
+================================================================================
+
+Analysis Period: Unknown to Unknown
+
+IMPORTANT ANALYSIS WARNINGS
+----------------------------------------
+Addiction pattern detected in 60.0% of videos, which is unusually high.
+These high detection rates suggest the pattern detection parameters may need adjustment.
+Addiction pattern detected in 59.999720042833445% of videos. This seems unrealistically high and may indicate detection parameters need adjustment.
+
+These warnings suggest the pattern detection parameters may need adjustment.
+Consider the following options:
+1. Increase the threshold for pattern detection
+2. Analyze a smaller date range with more typical usage
+3. Customize the parameters in the detection functions to match your usage patterns
+
+SUMMARY STATISTICS
+----------------------------------------
+Total Videos Analyzed: 142879
+
+PATTERN DETECTION RESULTS
+----------------------------------------
+Doom Scrolling: 22647 videos (15.9%)
+  Doom scrolling detected on 338 different days
+  Top doom scrolling days:
+    1. 2025-02-08: 477 videos (39.8% of daily videos)
+    2. 2024-09-09: 436 videos (31.2% of daily videos)
+    3. 2025-01-09: 373 videos (60.4% of daily videos)
+    4. 2024-11-04: 347 videos (38.4% of daily videos)
+    5. 2025-02-09: 336 videos (26.8% of daily videos)
+  Doom scrolling frequency: 95.2% of days show doom scrolling behavior
+  Average videos per doom scrolling day: 67.0
+  Most common day for doom scrolling: Monday (51 occurrences)
+  Example videos:
+  1. Kamariya (From "Stree") (Entertainment)
+  2. Wo Noor (Comedy)
+  3. King x Nick Jonas - Maan Meri Jaan (Afterlife) [Official Lyric Video] (Music)
+
+Rabbit Holes: 57151 videos (40.0%)
+  Identified 11599 distinct rabbit hole sequences
+  Example videos:
+  1. Porter Robinson - Sad Machine (Nurture Version) (Podcast)
+  2. Zedd - Clarity (feat. Foxes) (Porter Robinson Remix) (Live) (Music)
+  3. Obsessed - Riar Saab, @AbhijaySharma | Official Music Video (Music)
+
+Negative Mood: 0 videos (0.0%)
+
+Addiction: 85727 videos (60.0%)
+  NOTE: The detection rate for addiction is very high.
+  This might indicate that the threshold parameters need adjustment.
+  Consider increasing daily_threshold or daily_consecutive_days in detect_addiction_pattern.
+  Typical values: daily_threshold=45-60, daily_consecutive_days=3-5
+  Example videos:
+  1. Maiyya Mainu - Lyrical | Jersey | Shahid Kapoor, Mrunal Thakur| Sachet-Parampara| Shellee | Gowtam T (Comedy)
+  2. Stand By Me x Suniyan Suniyan | Shybu Mashup (Entertainment)
+  3. Tu Jaana Na Piya | Official Music Video | New Life | KING (Music)
+
+Escapism: 39935 videos (28.0%)
+  Example videos:
+  1. What I've Done (Official Music Video) [4K Upgrade] - Linkin Park (Music)
+  2. BURN IT DOWN (Official Music Video) [4K Upgrade] - Linkin Park (Music)
+  3. Papercut [Official HD Music Video] - Linkin Park (Music)
+
+Unhealthy Comparison: 9185 videos (6.4%)
+  Example videos:
+  1. LULA vs TCK de OP! KKKKKKKKKK (Sports)
+  2. one in a million valorant trickshot... (Technology)
+  3. Truck vs. Flash Flood (Entertainment)
+
+VISUALIZATIONS
+----------------------------------------
+The following visualizations were generated:
+- pattern_analysis/daily_pattern_counts.png
+- pattern_analysis/daily_pattern_percentages.png
+- pattern_analysis/monthly_pattern_counts.png
+- pattern_analysis/monthly_pattern_percentages.png
+- pattern_analysis/pattern_time_series.png
+- pattern_analysis/pattern_summary.png
+- pattern_analysis/day_of_week_patterns.png
+- pattern_analysis/hour_of_day_patterns.png
+- pattern_analysis/pattern_correlation.png
+- pattern_analysis/daily_doom_scrolling.png
+- pattern_analysis/daily_doom_scrolling_percent.png
+
+--------------------------------------------------------------------------------
+Analysis by YouTube Viewing Pattern Analyzer
+For additional insights, check the JSON report and visualizations.
