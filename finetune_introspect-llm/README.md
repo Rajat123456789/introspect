@@ -58,7 +58,7 @@ Activate the environment:
 
 <br>
 
-If our work is helpful to you, please kindly cite our paper as:
+Code and research inspired from
 
 ```
 @misc{kim2024healthllm,
