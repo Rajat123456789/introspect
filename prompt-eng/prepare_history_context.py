@@ -73,7 +73,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract key insights from markdown analysis")
     parser.add_argument("--markdown_file", help="Path to the markdown file containing the analysis")
     parser.add_argument("--api_key", help="OpenAI API key", default=os.environ.get("OPENAI_API_KEY"))
-    parser.add_argument("--output", default="insights_summary.md", help="Path to save the extracted insights")
+    parser.add_argument("--output", default="data/insights_summary.md", help="Path to save the extracted insights")
     
     args = parser.parse_args()
     
