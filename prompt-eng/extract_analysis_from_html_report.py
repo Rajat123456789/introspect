@@ -37,7 +37,7 @@ def extract_and_convert(html_path, md_path):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Extract and convert HTML to Markdown")
     parser.add_argument("--html", default="combined_pattern_analysis.html", help="Path to input HTML file")
-    parser.add_argument("--md", default="data/complete_analysis.md", help="Path to output Markdown file")
+    parser.add_argument("--md", default="extracted_analysis/complete_analysis.md", help="Path to output Markdown file")
     args = parser.parse_args()
 
     result_path = extract_and_convert(args.html, args.md)
