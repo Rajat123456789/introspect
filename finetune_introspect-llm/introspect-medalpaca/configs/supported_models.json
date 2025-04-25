@@ -1,0 +1,54 @@
+{
+    "introspect-medalpaca-7b": {
+        "peft": "False",
+        "torch_dtype": "float16",
+        "base_model": "introspect-medalpaca/llama-3.3-7b-instruct",
+        "load_in_8bit": "False"
+    },
+    "introspect-medalpaca-lora-7b-8bit": {
+        "peft": "True",
+        "torch_dtype": "float16",
+        "base_model": "introspect-medalpaca/llama-3.3-7b-instruct",
+        "load_in_8bit": "True",
+        "lora_model_id": "introspect-medalpaca/llama-3.3-7b-instruct-lora-7b-8bit"
+    },
+    "introspect-medalpaca-13": {
+        "peft": "False",
+        "torch_dtype": "float16",
+        "base_model": "introspect-medalpaca/llama-3.3-13b-instruct",
+        "load_in_8bit": "False"
+    },
+    "introspect-medalpaca-13b-lora-13b-8bit": {
+        "peft": "True",
+        "torch_dtype": "float16",
+        "base_model": "introspect-medalpaca/llama-3.3-13b-instruct",
+        "load_in_8bit": "True",
+        "lora_model_id": "introspect-medalpaca/llama-3.3-13b-instruct-lora-13b-8bit"
+    },
+    "healthllm-7b": {
+        "peft": "False",
+        "torch_dtype": "float16",
+        "base_model": "GerMedBERT/medalpaca-7b",
+        "load_in_8bit": "False",
+    },
+    "healthllm-7b-lora-7b-8bit": {
+        "peft": "True",
+        "torch_dtype": "float16",
+        "base_model": "GerMedBERT/medalpaca-lora-7b-8bit",
+        "load_in_8bit": "True",
+        "lora_model_id": "GerMedBERT/medalpaca-lora-7b-8bit"
+    },
+    "healthllm-13b": {
+        "peft": "False",
+        "torch_dtype": "float16",
+        "base_model": "GerMedBERT/medalpaca-13b",
+        "load_in_8bit": "False"
+    },
+    "healthllm-13b-lora-13b-8bit": {
+        "peft": "True",
+        "torch_dtype": "float16",
+        "base_model": "GerMedBERT/medalpaca-lora-13b-8bit",
+        "load_in_8bit": "True",
+        "lora_model_id": "GerMedBERT/medalpaca-lora-13b-8bit"
+    }
+}

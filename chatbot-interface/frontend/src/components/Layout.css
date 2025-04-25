@@ -1,0 +1,122 @@
+.layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--background-color);
+  transition: background-color 0.3s ease;
+}
+
+.app-header {
+  background-color: var(--header-bg);
+  color: var(--text-color);
+  padding: 1rem 2rem;
+  text-align: center;
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  position: relative;
+}
+
+.app-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: var(--primary-color);
+}
+
+.app-header p {
+  margin: 0.5rem 0 0;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+.chatbot-section {
+  width: 500px;
+  border-right: 1px solid var(--border-color);
+  display: flex;
+  flex-direction: column;
+  transition: width 0.3s ease;
+}
+
+.workspace-section {
+  flex: 1;
+  overflow: auto;
+  transition: all 0.3s ease;
+}
+
+.workspace-section.chat-active {
+  background-color: var(--workspace-bg);
+  padding: 0;
+}
+
+.workspace-section.chat-active h2 {
+  display: none;
+}
+
+.chatbot-section h2,
+.workspace-section h2 {
+  padding: 1rem;
+  margin: 0;
+  font-size: 1.2rem;
+  color: var(--text-color);
+  border-bottom: 1px solid var(--border-color);
+  background-color: var(--section-header-bg);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.header-controls {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 1rem;
+  right: 2rem;
+  gap: 15px;
+}
+
+.profile-toggle .MuiIconButton-root {
+  border: 1px solid var(--header-text-color);
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.3s, transform 0.2s;
+  color: var(--header-text-color);
+}
+
+.profile-toggle .MuiIconButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.profile-toggle .profile-icon {
+  font-size: 1.2rem;
+}
+
+body[data-theme='dark'] .profile-toggle .MuiIconButton-root:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .chatbot-section {
+    width: 100%;
+    height: 50vh;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .workspace-section {
+    height: 50vh;
+  }
+} 

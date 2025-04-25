@@ -4,6 +4,7 @@ os.environ['TRANSFORMERS_VERBOSITY'] = 'error'
 import pandas as pd
 import numpy as np
 from transformers import pipeline, CLIPProcessor, CLIPModel
+import torch  # Make sure torch is imported
 from textblob import TextBlob
 import spacy
 import logging
@@ -21,6 +22,20 @@ import gc
 # Create output directory if it doesn't exist
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), '..', 'output')
 os.makedirs(OUTPUT_DIR, exist_ok=True)
+
+# Check for CUDA availability and print GPU info
+def check_cuda_availability():
+    if torch.cuda.is_available():
+        device_count = torch.cuda.device_count()
+        device_name = torch.cuda.get_device_name(0) if device_count > 0 else "Unknown"
+        print(f"\n[CUDA] CUDA is available! Found {device_count} device(s)")
+        print(f"[CUDA] Using device: {device_name}")
+        print(f"[CUDA] Memory allocated: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+        print(f"[CUDA] Memory reserved: {torch.cuda.memory_reserved(0) / 1024**2:.2f} MB")
+        return True
+    else:
+        print("\n[WARNING] CUDA is not available. Using CPU instead.")
+        return False
 
 # Set up logging to both file and terminal with timestamps
 class TeeLogger:
@@ -68,23 +83,27 @@ class YouTubeContentAnalyzer:
     def __init__(self):
         print("\nInitializing YouTube Content Analyzer...")
         
+        # Check CUDA availability
+        self.use_gpu = check_cuda_availability()
+        device = 0 if self.use_gpu else -1
+        
         try:
-            # Use a real music classification model
+            # Use models with GPU if available
             self.music_classifier = pipeline(
                 "zero-shot-classification",
-                model="facebook/bart-large-mnli",  # Using the same model for music classification
+                model="facebook/bart-large-mnli",
                 framework="pt",
-                device=-1
+                device=device
             )
-            print("[OK] Music classifier loaded")
+            print(f"[OK] Music classifier loaded on {'GPU' if self.use_gpu else 'CPU'}")
             
             self.sentiment_analyzer = pipeline(
                 "sentiment-analysis",
                 model="distilbert-base-uncased-finetuned-sst-2-english",
                 framework="pt",
-                device=-1
+                device=device
             )
-            print("[OK] Sentiment analyzer loaded")
+            print(f"[OK] Sentiment analyzer loaded on {'GPU' if self.use_gpu else 'CPU'}")
             
             self.nlp = spacy.load("en_core_web_sm")
             print("[OK] SpaCy model loaded\n")
@@ -109,11 +128,22 @@ class YouTubeContentAnalyzer:
                 ]
             }
             
-            # Add CLIP model for advanced tagging
+            # Load CLIP model with GPU support
             print("Loading CLIP model for advanced tagging...")
-            self.clip_model = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
-            print("[OK] CLIP model loaded")
+            self.clip_processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
+            self.clip_model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
             
+            # Move CLIP model to GPU if available
+            if self.use_gpu:
+                self.clip_model = self.clip_model.to('cuda')
+                print("[OK] CLIP model loaded on GPU")
+            else:
+                print("[OK] CLIP model loaded on CPU")
+            
+            # Add GPU memory monitoring
+            if self.use_gpu:
+                print(f"[CUDA] Initial GPU memory usage: {torch.cuda.memory_allocated(0) / 1024**2:.2f} MB")
+                
         except Exception as e:
             print(f"[ERROR] Error loading models: {str(e)}")
             raise
@@ -1091,6 +1121,37 @@ class YouTubeContentAnalyzer:
             f.write("=" * 80 + "\n")
             print(f"\nSummary log written to: {log_file}")
 
+    def _manage_gpu_memory(self):
+        """Monitor and manage GPU memory usage"""
+        if self.use_gpu:
+            # Clear CUDA cache if memory usage is high
+            allocated = torch.cuda.memory_allocated(0) / 1024**3  # GB
+            if allocated > 3.0:  # If using more than 3GB of 4GB VRAM
+                print(f"[CUDA] High memory usage detected: {allocated:.2f}GB. Clearing cache...")
+                torch.cuda.empty_cache()
+                gc.collect()
+                print(f"[CUDA] Memory after clearing: {torch.cuda.memory_allocated(0) / 1024**3:.2f}GB")
+
+def check_already_running():
+    lock_file = os.path.join(os.path.dirname(__file__), 'youtube_analyzer.lock')
+    
+    if os.path.exists(lock_file):
+        print("ERROR: Analysis process already running! If this is incorrect, delete the lock file:")
+        print(f"       {lock_file}")
+        sys.exit(1)
+    
+    # Create lock file
+    with open(lock_file, 'w') as f:
+        f.write(f"Process started at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # Add a function to remove the lock file when done
+    import atexit
+    def remove_lock_file():
+        if os.path.exists(lock_file):
+            os.remove(lock_file)
+    
+    atexit.register(remove_lock_file)
+
 def main():
     parser = argparse.ArgumentParser(description='Analyze YouTube watch history')
     parser.add_argument('--file', type=str, required=True, help='Input CSV file')
@@ -1101,6 +1162,7 @@ def main():
     args = parser.parse_args()
     
     try:
+        check_already_running()
         analyzer = YouTubeContentAnalyzer()
         analyses = analyzer.analyze_youtube_history(
             args.file,

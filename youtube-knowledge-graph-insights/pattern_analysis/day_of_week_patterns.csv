@@ -1,0 +1,8 @@
+day_of_week,total_videos,addiction,addiction_pct,doom_scrolling,doom_scrolling_pct,escapism,escapism_pct,unhealthy_comparison,unhealthy_comparison_pct,rabbit_holes,rabbit_holes_pct
+Monday,22155,13891,62.7,3699,16.7,10296,46.5,1395,6.3,8961,40.4
+Tuesday,20683,10996,53.2,2615,12.6,7097,34.3,1249,6.0,8347,40.4
+Wednesday,20325,12373,60.9,3119,15.3,10807,53.2,1308,6.4,8239,40.5
+Thursday,19719,10806,54.8,3039,15.4,5258,26.7,1296,6.6,7707,39.1
+Friday,21127,13474,63.8,3670,17.4,5519,26.1,1367,6.5,8355,39.5
+Saturday,18769,12518,66.7,3190,17.0,887,4.7,1212,6.5,7592,40.4
+Sunday,20101,11669,58.1,3315,16.5,71,0.4,1358,6.8,7950,39.6

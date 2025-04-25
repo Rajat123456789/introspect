@@ -1,5 +1,12 @@
-pandas
+pandas>=1.3.0
 numpy
 neo4j
-matplotlib
-seaborn 
+matplotlib>=3.4.0
+seaborn>=0.11.0
+jinja2>=3.0.0
+pillow>=8.0.0
+transformers>=4.20.0
+torch>=1.10.0
+requests>=2.25.0
+accelerate>=0.20.0
+bitsandbytes>=0.41.0 
