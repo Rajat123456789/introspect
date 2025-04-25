@@ -1,0 +1,50 @@
+.theme-toggle {
+  /* Remove absolute positioning to work with flex layout */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+}
+
+.theme-toggle-button {
+  background: transparent;
+  border: 1px solid var(--header-text-color);
+  font-size: 1.5rem;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  transition: background-color 0.3s, transform 0.2s;
+  color: var(--header-text-color);
+}
+
+.theme-toggle-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.theme-toggle-button:active {
+  transform: scale(0.95);
+}
+
+body[data-theme='light'] .theme-toggle-button {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+body[data-theme='dark'] .theme-toggle-button {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* In dark mode */
+body[data-theme='dark'] .theme-toggle-button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* SVG styles */
+.theme-toggle-button svg {
+  color: inherit;
+} 
