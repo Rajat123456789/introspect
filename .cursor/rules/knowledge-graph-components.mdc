@@ -1,0 +1,32 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Knowledge Graph Components
+
+The project contains two main knowledge graph analysis components:
+
+## Spotify Knowledge Graph
+Located in `spotify-knowledge-graph-insights/`, this component:
+- Defines domain models in `domains/spotify/`
+- Implements graph algorithms in `knowledge_graph/`
+- Provides visualization utilities in `src/visualization/`
+- Contains song parameter analysis in `songs-parameters/`
+
+Key visualization components:
+- Data processors: `src/visualization/data_processors/`
+- Plotting utilities: `src/visualization/plotters/`
+- Visualization helpers: `src/visualization/utils/`
+
+## YouTube Knowledge Graph
+Located in `youtube-knowledge-graph-insights/`, this component:
+- Contains analysis implementation in `analyzer/`
+- Stores analysis outputs in timestamped directories under `analysis_reports/`
+- Includes raw analysis files in `Youtube-Analysis-Files/`
+
+## Integration Points
+The knowledge graphs can be analyzed together through:
+- Common data structures in the visualization components
+- Shared analysis patterns between YouTube and Spotify data
+- Combined insights in the analysis reports

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Connect Analysis Dashboard</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            padding: 15px;
+            transition: transform 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .card h3 {
+            color: #444;
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .card p {
+            color: #666;
+            font-size: 0.9em;
+            line-height: 1.4;
+            margin: 0;
+        }
+        @media (max-width: 600px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            overflow: auto;
+        }
+        .modal-content {
+            margin: auto;
+            display: block;
+            max-width: 90%;
+            max-height: 90vh;
+            margin-top: 2%;
+        }
+        .close {
+            position: fixed;
+            top: 15px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .modal-caption {
+            margin: auto;
+            display: block;
+            width: 80%;
+            text-align: center;
+            color: white;
+            padding: 10px 0;
+            height: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Health Connect Analysis Dashboard</h1>
+        <div class="grid">
+            <div class="card">
+                <img src="analysis_output/combined_dashboard.png" alt="Combined Dashboard">
+                <h3>Combined Dashboard Overview</h3>
+                <p>A comprehensive overview dashboard combining key health metrics including activity levels, heart rate trends, sleep patterns, and nutritional data in a single view.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/correlation_matrix.png" alt="Correlation Matrix">
+                <h3>Health Metrics Correlation Matrix</h3>
+                <p>Visualization of relationships between different health metrics, showing how various health indicators influence each other through correlation analysis.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/advanced_insights.png" alt="Advanced Insights">
+                <h3>Advanced Health Insights</h3>
+                <p>Deep dive analysis revealing complex patterns and trends in health data, including predictive indicators and anomaly detection.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/activity_insights.png" alt="Activity Insights">
+                <h3>Activity Insights</h3>
+                <p>Overview of daily physical activity patterns, including step counts, active minutes, and exercise intensity distributions.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/activity_analysis.png" alt="Activity Analysis">
+                <h3>Detailed Activity Analysis</h3>
+                <p>In-depth analysis of activity patterns, showing trends over time, peak performance periods, and activity type distributions.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/heart_rate_insights.png" alt="Heart Rate Insights">
+                <h3>Heart Rate Insights</h3>
+                <p>Analysis of heart rate patterns including resting heart rate trends, heart rate zones during activities, and recovery metrics.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/cardiovascular_analysis.png" alt="Cardiovascular Analysis">
+                <h3>Cardiovascular Analysis</h3>
+                <p>Detailed cardiovascular health metrics including heart rate variability, recovery scores, and cardiovascular fitness trends.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/nutrition_insights.png" alt="Nutrition Insights">
+                <h3>Nutrition Insights</h3>
+                <p>Overview of dietary patterns including macronutrient distribution, caloric intake, and meal timing analysis.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/nutrition_analysis.png" alt="Nutrition Analysis">
+                <h3>Detailed Nutrition Analysis</h3>
+                <p>Comprehensive analysis of nutritional data showing trends in diet quality, nutrient intake patterns, and dietary adherence.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/weight_and_body_composition_insights.png" alt="Weight and Body Composition">
+                <h3>Weight and Body Composition Insights</h3>
+                <p>Tracking of weight changes and body composition metrics including body fat percentage, muscle mass, and hydration levels.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/body_composition_analysis.png" alt="Body Composition Analysis">
+                <h3>Detailed Body Composition Analysis</h3>
+                <p>In-depth analysis of body composition changes over time, including segmental analysis and trend identification.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/fitness_progress.png" alt="Fitness Progress">
+                <h3>Fitness Progress</h3>
+                <p>Visualization of overall fitness improvements including strength gains, endurance metrics, and performance indicators.</p>
+            </div>
+            <div class="card">
+                <img src="analysis_output/sleep_analysis.png" alt="Sleep Analysis">
+                <h3>Sleep Analysis</h3>
+                <p>Detailed analysis of sleep patterns including sleep stages, sleep quality scores, and sleep duration trends.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modalImage">
+        <div id="caption" class="modal-caption"></div>
+    </div>
+
+    <script>
+        // Get the modal
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const captionText = document.getElementById("caption");
+        const closeBtn = document.getElementsByClassName("close")[0];
+
+        // Get all images in cards
+        const images = document.querySelectorAll('.card img');
+
+        // Add click event to all images
+        images.forEach(img => {
+            img.onclick = function() {
+                modal.style.display = "block";
+                modalImg.src = this.src;
+                captionText.innerHTML = this.nextElementSibling.textContent;
+            }
+        });
+
+        // Close modal when clicking X
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // Close modal when clicking outside
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+        // Close modal with Escape key
+        document.addEventListener('keydown', function(event) {
+            if (event.key === "Escape" && modal.style.display === "block") {
+                modal.style.display = "none";
+            }
+        });
+    </script>
+</body>
+</html> 

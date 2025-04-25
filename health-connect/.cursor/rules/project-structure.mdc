@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Health Connect Data Analysis Project Structure
+
+This project analyzes health data from various sources and generates visualizations.
+
+## Core Files
+- [run_visualization.py](mdc:run_visualization.py) - Main entry point that generates health data visualizations
+- [data_processor.py](mdc:data_processor.py) - Processes raw health data
+- [GetHCData.py](mdc:GetHCData.py) - Retrieves health data from sources
+- [visualize_health_insights.py](mdc:visualize_health_insights.py) - Additional visualization utilities
+- [analyze_health_data.py](mdc:analyze_health_data.py) - Core analysis functions
+
+## Directory Structure
+- `Data/` - Contains cleaned and uncleaned health data
+  - `someshbgd3/Cleaned/` - Primary cleaned data directory with CSV files
+  - `gaurav_surtani/` - Additional user data
+- `analysis_reports/` - Output directory for generated visualizations
+- `analysis_output/` - Additional analysis outputs
+- `neo4j_import_scripts/` - Scripts for database operations
+
+## Data Files
+Key data files in `Data/someshbgd3/Cleaned/`:
+- `exerciseSession_someshbgd3_Cleaned.csv` - Exercise tracking data
+- `sleepSession_someshbgd3_Cleaned.csv` - Sleep tracking data
+- `heartRate_someshbgd3_Cleaned.csv` - Heart rate measurements
+- `nutrition_someshbgd3_Cleaned.csv` - Nutrition and calorie data
+- `weight_someshbgd3_Cleaned.csv` - Weight tracking data
+

@@ -1,0 +1,50 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Health Connect Component Guide
+
+## Overview
+The `health-connect` component is responsible for collecting, processing, and analyzing health data from various sources. It provides data cleaning, analysis, and visualization capabilities.
+
+## Key Files
+
+### Data Collection and Processing
+- [GetHCData.py](mdc:health-connect/GetHCData.py): Main script for retrieving health data
+- [combine_health_data.py](mdc:health-connect/combine_health_data.py): Combines health data from multiple sources
+- [clean_data_notebook.ipynb](mdc:health-connect/clean_data_notebook.ipynb): Interactive notebook for data cleaning processes
+
+### Analysis
+- [analyze_health_data.py](mdc:health-connect/analyze_health_data.py): Core health data analysis implementation
+- [visualize_health_insights.py](mdc:health-connect/visualize_health_insights.py): Generates visual insights from health data
+
+## Generated Visualizations
+The component produces several visualization outputs:
+- `weight_trends.png`: Weight tracking over time
+- `daily_steps.png`: Daily step count analysis
+- `sleep_patterns.png`: Sleep duration and quality patterns
+- `heart_rate_patterns.png`: Heart rate analysis and trends
+
+## Directory Structure
+1. `Data/`: Contains raw and cleaned health data
+   - Organized by user (e.g., `gaurav_surtani/`, `someshbgd3/`)
+   - Each user has `Cleaned/` and `Uncleaned/` subdirectories
+
+2. `analysis_output/`: Stores analysis results and generated insights
+
+3. `neo4j_import_scripts/`: Scripts for importing health data into Neo4j graph database
+
+## Data Flow
+1. Raw data collection via `GetHCData.py`
+2. Data cleaning using `clean_data_notebook.ipynb`
+3. Data combination through `combine_health_data.py`
+4. Analysis using `analyze_health_data.py`
+5. Visualization generation via `visualize_health_insights.py`
+6. Optional: Neo4j database import for graph-based analysis
+
+## Best Practices
+- Always clean data before analysis using the provided notebooks
+- Store raw data in appropriate user directories under `Data/`
+- Use the visualization script for consistent output formatting
+- Follow the established directory structure for new data additions

@@ -1,0 +1,37 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Data Integration Components
+
+This project integrates data from multiple sources through several key components:
+
+## Health Connect
+Located in `health-connect/`, this component:
+- Manages raw and cleaned health data in `Data/`
+- Contains user-specific data folders (e.g., `gaurav_surtani/`, `someshbgd3/`)
+- Provides Neo4j import scripts in `neo4j_import_scripts/`
+- Outputs analysis results in `analysis_output/`
+
+## Apple-Spotify Integration
+Located in `combining-apple-spotify/`, this component:
+- Contains the final merged dataset in `final-dataset-apple-spotify/`
+- Includes Spotify song analysis in `spotify-song-analysis/`
+
+## Health and Music Integration
+Located in `combining-health-and-music/`, this component:
+- Contains various implementation scripts in `implementations/`
+- Processes raw health data in `raw-health-data/`
+- Includes YouTube API integration:
+  - Raw API results in `raw-youtube-api-result/`
+  - API interaction scripts in `Scripts/pull-from-youtube-api/`
+  - Data enhancement scripts in `Scripts/youtube-data-enhancer/`
+- Provides Google data export utilities in `Scripts/google-export-data-script/`
+
+## Data Flow
+1. Raw data is collected from various sources (Apple Health, Spotify, YouTube)
+2. Data is cleaned and normalized in respective directories
+3. Integration scripts combine the data
+4. Analysis is performed on the combined datasets
+5. Results are stored in corresponding output directories

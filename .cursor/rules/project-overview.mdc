@@ -1,0 +1,38 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Project Overview
+
+This repository contains a comprehensive data analysis project that combines and analyzes data from multiple sources:
+- Apple Health data
+- Spotify listening history
+- YouTube viewing history
+
+## Project Structure
+
+The project is organized into several main components:
+
+1. Data Collection & Normalization:
+   - `apple-health/`: Contains normalized health data
+   - `spotify-analysis/`: Contains cleaned Spotify data
+   - `youtube-analysis/`: Contains YouTube data analysis including LLaMA integration
+
+2. Data Integration:
+   - `combining-apple-spotify/`: Merges Apple Health and Spotify data
+   - `combining-health-and-music/`: Combines health metrics with music listening patterns
+   - `health-connect/`: Manages health data connections and cleaning
+
+3. Knowledge Graph Analysis:
+   - `spotify-knowledge-graph-insights/`: Knowledge graph analysis for Spotify data
+   - `youtube-knowledge-graph-insights/`: Knowledge graph analysis for YouTube data
+
+4. Analysis Reports:
+   - `analysis_reports/`: Contains timestamped analysis outputs
+   - Various subdirectories contain specific analysis outputs for different components
+
+## Key Entry Points
+- [run_visualization.py](mdc:run_visualization.py): Main script for running visualizations
+- [requirements.txt](mdc:requirements.txt): Project dependencies
+

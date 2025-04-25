@@ -1,0 +1,43 @@
+CSV Headers in Cleaned Directory
+============================
+
+1. weight_someshbgd3_Cleaned.csv:
+app, start, weight_weight_inGrams, weight_weight_inKilograms, weight_weight_inMicrograms, weight_weight_inMilligrams, weight_weight_inOunces, weight_weight_inPounds
+
+2. totalCaloriesBurned_someshbgd3_Cleaned.csv:
+app, start, end, totalCaloriesBurned_energy_inCalories, totalCaloriesBurned_energy_inJoules, totalCaloriesBurned_energy_inKilocalories, totalCaloriesBurned_energy_inKilojoules
+
+3. steps_someshbgd3_Cleaned.csv:
+app, start, end, steps_count
+
+4. speed_someshbgd3_Cleaned.csv:
+app, start, end, speed_inMetersPerSecond
+
+5. sleepSession_someshbgd3_Cleaned.csv:
+app, start, end, sleep_stage_1, sleep_stage_2, sleep_stage_3, sleep_stage_4, sleep_stage_5, sleep_stage_6, sleep_stage_7, sleep_stage_8
+
+6. oxygenSaturation_someshbgd3_Cleaned.csv:
+app, start, oxygenSaturation_percentage
+
+7. nutrition_someshbgd3_Cleaned.csv:
+app, start, nutrition_biotin_inMilligrams, nutrition_caffeine_inMilligrams, nutrition_calcium_inMilligrams, nutrition_chloride_inMilligrams, nutrition_cholesterol_inMilligrams, nutrition_chromium_inMilligrams, nutrition_copper_inMilligrams, nutrition_dietaryFiber_inMilligrams, nutrition_energy_inCalories, nutrition_energy_inJoules, nutrition_energy_inKilocalories, nutrition_energy_inKilojoules, nutrition_folate_inMilligrams, nutrition_iodine_inMilligrams, nutrition_iron_inMilligrams, nutrition_magnesium_inMilligrams, nutrition_manganese_inMilligrams, nutrition_molybdenum_inMilligrams, nutrition_monounsaturatedFat_inGrams, nutrition_niacin_inMilligrams, nutrition_pantothenicAcid_inMilligrams, nutrition_phosphorus_inMilligrams, nutrition_polyunsaturatedFat_inGrams, nutrition_potassium_inMilligrams, nutrition_protein_inGrams, nutrition_riboflavin_inMilligrams, nutrition_saturatedFat_inGrams, nutrition_selenium_inMilligrams, nutrition_sodium_inMilligrams, nutrition_sugar_inGrams, nutrition_thiamin_inMilligrams, nutrition_totalCarbohydrate_inGrams, nutrition_totalFat_inGrams, nutrition_transFat_inGrams, nutrition_unsaturatedFat_inGrams, nutrition_vitaminA_inMilligrams, nutrition_vitaminB12_inMilligrams, nutrition_vitaminB6_inMilligrams, nutrition_vitaminC_inMilligrams, nutrition_vitaminD_inMilligrams, nutrition_vitaminE_inMilligrams, nutrition_vitaminK_inMilligrams, nutrition_zinc_inMilligrams
+
+8. height_someshbgd3_Cleaned.csv:
+app, start, height_height_inCentimeters, height_height_inInches, height_height_inMeters
+
+9. heartRate_someshbgd3_Cleaned.csv:
+app, start, beatsPerMinute
+
+10. exerciseSession_someshbgd3_Cleaned.csv:
+app, start, end, exerciseSession_exerciseType, exerciseSession_total_time
+
+11. distance_someshbgd3_Cleaned.csv:
+app, start, end, distance_distance_inMeters
+
+12. bodyFat_someshbgd3_Cleaned.csv:
+app, start, bodyFat_percentage
+
+13. basalMetabolicRate_someshbgd3_Cleaned.csv:
+app, start, basalMetabolicRate_inKilocaloriesPerDay
+
+Note: All files contain common columns 'app' and 'start', with some also including 'end' timestamps. The data is organized by different health metrics with various units of measurement. 

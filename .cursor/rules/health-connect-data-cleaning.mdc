@@ -1,0 +1,52 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Health Connect Data Cleaning Guide
+
+## Data Cleaning Process
+
+### Input Data Location
+Raw health data should be placed in:
+- `Data/{username}/Uncleaned/` directory
+- Replace {username} with the specific user's directory (e.g., `gaurav_surtani`, `someshbgd3`)
+
+### Cleaning Steps
+1. Initial Processing:
+   - Use [clean_data_notebook.ipynb](mdc:health-connect/clean_data_notebook.ipynb) for interactive data cleaning
+   - Follow the notebook's sections in order
+   - Document any custom cleaning steps added
+
+2. Data Combination:
+   - Use [combine_health_data.py](mdc:health-connect/combine_health_data.py) to merge cleaned datasets
+   - Ensure all source files are properly cleaned before combination
+
+### Output Structure
+Cleaned data should be stored in:
+- `Data/{username}/Cleaned/` directory
+- Maintain consistent file naming conventions
+- Include cleaning date in file metadata
+
+## Data Quality Requirements
+
+### Required Fields
+- Timestamp information must be in consistent format
+- Numerical values must be properly scaled
+- Missing values must be handled according to type:
+  - Continuous data: interpolation where appropriate
+  - Categorical data: marked as unknown
+  - Time series: gaps clearly indicated
+
+### Validation Steps
+1. Check for data completeness
+2. Verify timestamp consistency
+3. Validate numerical ranges
+4. Ensure categorical values are standardized
+
+## Best Practices
+- Always create backups before cleaning
+- Document any assumptions made during cleaning
+- Validate outputs before proceeding to analysis
+- Use the provided cleaning tools for consistency
+- Report any systematic data issues found
