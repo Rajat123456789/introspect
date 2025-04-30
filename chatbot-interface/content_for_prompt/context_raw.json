@@ -1,0 +1,51 @@
+{
+  "youtube": {
+    "watch_time": {
+      "weekday_avg": 2.3,
+      "weekend_avg": 3.7,
+      "late_night_pct": 28
+    },
+    "topics": [
+      "technology",
+      "health",
+      "entertainment",
+      "education"
+    ],
+    "engagement_metrics": {
+      "likes_ratio": 0.62,
+      "comments_ratio": 0.15,
+      "saves_ratio": 0.23
+    }
+  },
+  "spotify": {
+    "listening_time": {
+      "weekday_avg": 1.8,
+      "weekend_avg": 2.5,
+      "commute_pct": 40
+    },
+    "genres": [
+      "pop",
+      "rock",
+      "ambient",
+      "classical"
+    ],
+    "mood_metrics": {
+      "upbeat_pct": 45,
+      "mellow_pct": 30,
+      "energetic_pct": 25
+    }
+  },
+  "health": {
+    "sleep": {
+      "avg_duration": 6.7,
+      "weekday_avg": 6.3,
+      "weekend_avg": 7.8,
+      "quality_score": 68
+    },
+    "activity": {
+      "avg_steps": 7200,
+      "exercise_minutes": 25,
+      "sedentary_hours": 9.2
+    }
+  }
+}

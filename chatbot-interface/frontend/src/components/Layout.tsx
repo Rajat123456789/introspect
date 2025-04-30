@@ -1,45 +1,35 @@
 import React from 'react';
 import ThemeToggle from './ThemeToggle';
 import './Layout.css';
-import { IconButton } from '@mui/material';
 
 interface LayoutProps {
-  children?: React.ReactNode;
-  isChatStarted: boolean;
-  chatBox: React.ReactNode;
-  onOpenProfile?: () => void;
+  chatBox1: React.ReactNode;
+  chatBox2: React.ReactNode;
+  chatBox3: React.ReactNode;
 }
 
-const Layout: React.FC<LayoutProps> = ({ children, isChatStarted, chatBox, onOpenProfile }) => {
+const Layout: React.FC<LayoutProps> = ({ chatBox1, chatBox2, chatBox3 }) => {
   return (
     <div className="layout">
       <header className="app-header">
-        <h1>Helix: The Outreach Assistant</h1>
-        <p>Helping recruiters craft personalized, effective messages to candidates</p>
+        <h1>Introspect.AI: The Introspective Assistant</h1>
+        <p>Helping you gain deeper insights into your behavior patterns across digital platforms and health activities</p>
         <div className="header-controls">
-          {onOpenProfile && (
-            <div className="profile-toggle">
-              <IconButton 
-                onClick={onOpenProfile} 
-                color="inherit" 
-                size="small"
-                aria-label="Update profile"
-              >
-                <span className="profile-icon">👤</span>
-              </IconButton>
-            </div>
-          )}
           <ThemeToggle />
         </div>
       </header>
-      <div className="main-content">
+      <div className="main-content three-chatbot-layout">
         <div className="chatbot-section">
-          <h2>Helix Assistant</h2>
-          {chatBox}
+          <h2>Base Model</h2>
+          {chatBox1}
         </div>
-        <div className={`workspace-section ${isChatStarted ? 'chat-active' : ''}`}>
-          <h2>Workspace</h2>
-          {children}
+        <div className="chatbot-section">
+          <h2>HealthLLM</h2>
+          {chatBox2}
+        </div>
+        <div className="chatbot-section">
+          <h2>Introspective Assistant</h2>
+          {chatBox3}
         </div>
       </div>
     </div>

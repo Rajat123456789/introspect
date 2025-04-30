@@ -1,9 +1,11 @@
-import React, { useState, useEffect, useRef, KeyboardEvent } from 'react';
+import React, { useState, useEffect, useRef, KeyboardEvent, forwardRef, useImperativeHandle } from 'react';
 import { FiRefreshCw, FiSend } from 'react-icons/fi';
+import { IoSend } from 'react-icons/io5';
+import { HiOutlineDatabase } from 'react-icons/hi';
 import API_ENDPOINTS from '../config';
 import ReactMarkdown from 'react-markdown';
 import './ChatBox.css';
-import { IoSend } from 'react-icons/io5';
+import IntrospectDataPanel from './IntrospectDataPanel';
 
 interface Message {
   id: number;
@@ -13,27 +15,41 @@ interface Message {
   paragraphs?: string[];
 }
 
+// Define API provider type
+type ApiProvider = 'openai' | 'gemini';
+
 interface ChatBoxProps {
   backendUrl: string;
   onChatStart?: () => void;
   onReset?: () => void;
   onParagraphsUpdate?: (paragraphs: string[]) => void;
-  recruiterId?: number;
   passLoadingState?: (isLoading: boolean) => void;
+  initialMessage?: string;
+  useRaw?: boolean;
+  modelType?: 'base' | 'health' | 'introspect';
+  apiProvider?: ApiProvider;
 }
 
-const ChatBox: React.FC<ChatBoxProps> = ({ 
+// Define the interface for the ref
+export interface ChatBoxRef {
+  sendMessage: (text: string) => void;
+}
+
+const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({ 
   backendUrl, 
   onChatStart, 
   onReset, 
   onParagraphsUpdate, 
-  recruiterId,
-  passLoadingState
-}) => {
+  passLoadingState,
+  initialMessage,
+  useRaw = false,
+  modelType = 'base',
+  apiProvider = 'openai'
+}, ref) => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: 1,
-      text: "Hello! I'm Helix, your AI outreach assistant for recruiters. I can help you create personalized cold outreach messages, craft follow-up emails, design outreach campaigns, and improve your existing messages. What type of recruiting message can I help you with today?",
+      text: getInitialMessage(modelType),
       sender: 'bot',
       timestamp: new Date(),
     }
@@ -44,9 +60,43 @@ const ChatBox: React.FC<ChatBoxProps> = ({
   const [isBackendConnected, setIsBackendConnected] = useState(true);
   const [enterToSend, setEnterToSend] = useState(true);
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const [recruiterContext, setRecruiterContext] = useState<any>(null);
+  const [introspectData, setIntrospectData] = useState<any>(null);
+  const [introspectInsights, setIntrospectInsights] = useState<any>(null);
+  const [isDataPanelOpen, setIsDataPanelOpen] = useState(false);
 
-  
+  // Function to get appropriate initial message based on model type
+  function getInitialMessage(modelType: string): string {
+    if (initialMessage) return initialMessage;
+    
+    switch(modelType) {
+      case 'base':
+        return "Hello! I'm a helpful assistant designed to provide accurate and concise information. How can I assist you today?";
+      case 'health':
+        return "Hello! I'm Health LLM, your AI medical assistant. I can help you understand health conditions, explain medical concepts, and guide you to better health literacy. Remember, I don't provide medical diagnosis or treatment advice - please consult healthcare professionals for specific medical concerns. How can I assist with your health-related questions today?";
+      case 'introspect':
+        return "Hello! I'm your Introspective Assistant, designed to help you reflect on your digital and health activities. I can analyze patterns in your data to provide personalized insights and encourage meaningful self-reflection. What would you like to explore about your behaviors and habits today?";
+      default:
+        return "Hello! How can I assist you today?";
+    }
+  }
+
+  // Expose the sendMessage method to parent components via ref
+  useImperativeHandle(ref, () => ({
+    sendMessage: (text: string) => {
+      // Create a synthetic event object
+      const syntheticEvent = {
+        preventDefault: () => {}
+      } as React.FormEvent;
+      
+      // Set the input message and then send it
+      setInputMessage(text);
+      
+      // We need to use setTimeout to ensure state is updated before calling handleSendMessage
+      setTimeout(() => {
+        handleSendMessageWithText(syntheticEvent, text);
+      }, 0);
+    }
+  }));
 
   const scrollToBottom = () => {
     if (messagesEndRef.current) {
@@ -59,55 +109,33 @@ const ChatBox: React.FC<ChatBoxProps> = ({
     scrollToBottom();
   }, [messages]);
 
-  // Fetch recruiter context if ID is available
-  useEffect(() => {
-    if (recruiterId && isBackendConnected) {
-      const fetchRecruiterContext = async () => {
-        try {
-          console.log(`Fetching recruiter details for ID: ${recruiterId}`);
-          const response = await fetch(`${API_ENDPOINTS.RECRUITER_PROFILE}/${recruiterId}`, {
-            method: 'GET',
-            headers: {
-              'Content-Type': 'application/json',
-            },
-            credentials: 'include'
-          });
-          
-          if (response.ok) {
-            const data = await response.json();
-            if (data.data) {
-              console.log('Recruiter context fetched:', data.data);
-              setRecruiterContext(data.data);
-            }
-          } else {
-            console.error('Failed to fetch recruiter context');
-          }
-        } catch (error) {
-          console.error('Error fetching recruiter context:', error);
-        }
-      };
-      
-      fetchRecruiterContext();
-    }
-  }, [recruiterId, isBackendConnected]);
-
   // Check backend connection on component mount
   useEffect(() => {
     const checkBackendConnection = async () => {
       try {
+        console.log('Checking backend connection...');
         const response = await fetch(API_ENDPOINTS.HEALTH, {
           method: 'GET',
           headers: {
             'Content-Type': 'application/json',
           },
-          credentials: 'include'
+          // Add more resilient fetch options
+          mode: 'cors',
+          cache: 'no-cache',
+          credentials: 'same-origin',
+          // Set a timeout to avoid long waits
+          signal: AbortSignal.timeout(5000) // 5 second timeout
         });
+        
         const data = await response.json();
+        console.log('Backend health check response:', data);
         
         if (response.ok) {
           if (data.status === 'healthy') {
+            console.log('Backend connection successful');
             setIsBackendConnected(true);
           } else if (data.status === 'degraded') {
+            console.warn('Backend is in degraded state:', data.message);
             setIsBackendConnected(false);
             setMessages(prev => [...prev, {
               id: Date.now(),
@@ -141,6 +169,128 @@ const ChatBox: React.FC<ChatBoxProps> = ({
     checkBackendConnection();
   }, []);
 
+  // Fetch introspection data if model type is 'introspect'
+  useEffect(() => {
+    if (modelType === 'introspect' && isBackendConnected) {
+      const fetchIntrospectionData = async () => {
+        try {
+          console.log('Fetching introspection data...');
+          let dataFetchFailed = false;
+          let insightsFetchFailed = false;
+          
+          // Fetch raw data with improved error handling
+          try {
+            console.log('Attempting to fetch from endpoint:', API_ENDPOINTS.INTROSPECT_DATA);
+            const rawDataResponse = await fetch(API_ENDPOINTS.INTROSPECT_DATA, {
+              method: 'GET',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              mode: 'cors',
+              cache: 'no-cache',
+              credentials: 'same-origin',
+              // Set timeout to prevent hanging requests
+              signal: AbortSignal.timeout(10000) // 10 second timeout
+            });
+            
+            console.log('Raw data response status:', rawDataResponse.status);
+            
+            if (rawDataResponse.ok) {
+              const rawData = await rawDataResponse.json();
+              console.log('Introspection raw data fetched successfully');
+              setIntrospectData(rawData);
+            } else {
+              // Log more information about the error
+              console.error(`Failed to fetch raw data: ${rawDataResponse.status} ${rawDataResponse.statusText}`);
+              dataFetchFailed = true;
+              
+              try {
+                // Try to get error message from response if possible
+                const errorData = await rawDataResponse.text();
+                console.error('Error response:', errorData);
+              } catch (textError) {
+                console.error('Could not parse error response text');
+              }
+            }
+          } catch (error) {
+            console.error('Error fetching introspection raw data:', error);
+            dataFetchFailed = true;
+          }
+          
+          // Fetch insights with improved error handling
+          try {
+            console.log('Attempting to fetch from endpoint:', API_ENDPOINTS.INTROSPECT_INSIGHTS);
+            const insightsResponse = await fetch(API_ENDPOINTS.INTROSPECT_INSIGHTS, {
+              method: 'GET',
+              headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+              },
+              mode: 'cors',
+              cache: 'no-cache',
+              credentials: 'same-origin',
+              // Set timeout to prevent hanging requests
+              signal: AbortSignal.timeout(10000) // 10 second timeout
+            });
+            
+            console.log('Insights response status:', insightsResponse.status);
+            
+            if (insightsResponse.ok) {
+              const insights = await insightsResponse.json();
+              console.log('Introspection insights fetched successfully');
+              setIntrospectInsights(insights);
+            } else {
+              // Log more information about the error
+              console.error(`Failed to fetch insights: ${insightsResponse.status} ${insightsResponse.statusText}`);
+              insightsFetchFailed = true;
+              
+              try {
+                // Try to get error message from response if possible
+                const errorData = await insightsResponse.text();
+                console.error('Error response:', errorData);
+              } catch (textError) {
+                console.error('Could not parse error response text');
+              }
+            }
+          } catch (error) {
+            console.error('Error fetching introspection insights:', error);
+            insightsFetchFailed = true;
+          }
+          
+          // Notify user if both fetches failed
+          if (dataFetchFailed && insightsFetchFailed) {
+            setMessages(prev => [...prev, {
+              id: Date.now(),
+              text: "I couldn't find your personal context data. I'll continue without personalized insights. Please ensure your context files exist in the backend/content_for_prompt directory.",
+              sender: 'bot',
+              timestamp: new Date(),
+            }]);
+          }
+          // Notify if only one failed
+          else if (dataFetchFailed || insightsFetchFailed) {
+            setMessages(prev => [...prev, {
+              id: Date.now(),
+              text: "I found some of your personal data but not all of it. Some personalized insights may be limited.",
+              sender: 'bot',
+              timestamp: new Date(),
+            }]);
+          }
+        } catch (error) {
+          console.error('Error in fetchIntrospectionData:', error);
+          setMessages(prev => [...prev, {
+            id: Date.now(),
+            text: "I encountered an error while loading your introspection data. Some personalized features may not work properly.",
+            sender: 'bot',
+            timestamp: new Date(),
+          }]);
+        }
+      };
+      
+      fetchIntrospectionData();
+    }
+  }, [modelType, isBackendConnected, backendUrl]);
+
   const resetConversation = async () => {
     setIsResetting(true);
     
@@ -164,10 +314,8 @@ const ChatBox: React.FC<ChatBoxProps> = ({
         headers: {
           'Content-Type': 'application/json',
         },
-        credentials: 'include',
         body: JSON.stringify({ 
-          session_id: 'default',
-          recruiter_id: recruiterId
+          session_id: 'default'
         })
       });
 
@@ -177,7 +325,11 @@ const ChatBox: React.FC<ChatBoxProps> = ({
         setMessages([
           {
             id: Date.now(),
-            text: "I've reset our conversation. How can I help you with recruiting outreach messages today?",
+            text: modelType === 'base' 
+              ? "I've reset our conversation. How can I help you today?"
+              : modelType === 'health'
+                ? "I've reset our conversation. How can I help you with your health-related questions today?"
+                : "I've reset our conversation. How can I help you reflect on your digital and health activities today?",
             sender: 'bot',
             timestamp: new Date(),
           }
@@ -205,17 +357,22 @@ const ChatBox: React.FC<ChatBoxProps> = ({
     }
   };
 
-  const handleSendMessage = async (e: React.FormEvent) => {
+  // This is a helper function for sending a message with explicit text
+  const handleSendMessageWithText = async (e: React.FormEvent, text: string) => {
     e.preventDefault();
-    if (inputMessage.trim()) {
+    if (text.trim()) {
       // Trigger chat start on first user message
       if (messages.length === 1 && onChatStart) {
         onChatStart();
       }
 
+      // Check if this is a raw data request
+      const isRawRequest = text.startsWith('[RAW_DATA]');
+      const cleanText = isRawRequest ? text.replace('[RAW_DATA]', '').trim() : text;
+
       const newUserMessage: Message = {
         id: Date.now(),
-        text: inputMessage,
+        text: cleanText, // Display clean text to user without the raw flag
         sender: 'user',
         timestamp: new Date(),
       };
@@ -240,28 +397,24 @@ const ChatBox: React.FC<ChatBoxProps> = ({
       try {
         // Basic payload with message and session
         const payload: any = {
-          message: inputMessage,
-          session_id: 'default'
+          message: cleanText,
+          session_id: 'default',
+          use_raw_data: useRaw || isRawRequest, // Set use_raw_data flag based on component prop or message flag
+          model_type: modelType,
+          api_provider: apiProvider // Add the API provider to the payload
         };
 
-        // Add recruiter_id if available
-        if (recruiterId) {
-          payload.recruiter_id = recruiterId;
-          console.log(`Including recruiter ID ${recruiterId} in chat request`);
-        } else {
-          console.log('No recruiter ID available for chat request');
-        }
-
-        // Add any available recruiter context
-        if (recruiterContext) {
-          payload.recruiter_context = {
-            name: recruiterContext.name,
-            company: recruiterContext.company,
-            role: recruiterContext.role,
-            company_description: recruiterContext.company_description,
-            industry: recruiterContext.industry
-          };
-          console.log('Including recruiter context in chat request:', payload.recruiter_context);
+        // Add model-specific context data
+        if (modelType === 'introspect') {
+          // Add introspection data if available
+          if (introspectData) {
+            payload.introspect_data = introspectData;
+          }
+          
+          // Add introspection insights if available
+          if (introspectInsights) {
+            payload.introspect_insights = introspectInsights;
+          }
         }
 
         console.log('Sending chat request with payload:', payload);
@@ -269,8 +422,11 @@ const ChatBox: React.FC<ChatBoxProps> = ({
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
+            'Accept': 'application/json',
           },
-          credentials: 'include',
+          mode: 'cors',
+          cache: 'no-cache',
+          credentials: 'same-origin',
           body: JSON.stringify(payload)
         });
 
@@ -316,6 +472,10 @@ const ChatBox: React.FC<ChatBoxProps> = ({
     }
   };
 
+  const handleSendMessage = async (e: React.FormEvent) => {
+    handleSendMessageWithText(e, inputMessage);
+  };
+
   const handleKeyDown = (e: KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter') {
       if (enterToSend && !e.shiftKey) {
@@ -339,6 +499,17 @@ const ChatBox: React.FC<ChatBoxProps> = ({
             />
             Enter to send
           </label>
+          {/* View Data button hidden for now 
+          {modelType === 'introspect' && (
+            <button 
+              className="view-data-button" 
+              onClick={() => setIsDataPanelOpen(true)}
+              title="View your data"
+            >
+              <HiOutlineDatabase /> View Data
+            </button>
+          )}
+          */}
         </div>
         <button 
           className="reset-button" 
@@ -388,7 +559,13 @@ const ChatBox: React.FC<ChatBoxProps> = ({
           value={inputMessage}
           onChange={(e) => setInputMessage(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder={`Ask me to help with cold outreach, follow-ups, or improving messages... ${enterToSend ? '(Press Enter to send, Shift+Enter for new line)' : ''}`}
+          placeholder={
+            modelType === 'base' 
+              ? `Ask me anything... ${enterToSend ? '(Press Enter to send, Shift+Enter for new line)' : ''}`
+              : modelType === 'health'
+                ? `Ask me about health conditions, treatments, or wellness... ${enterToSend ? '(Press Enter to send, Shift+Enter for new line)' : ''}`
+                : `Ask me to help reflect on your digital and health activities... ${enterToSend ? '(Press Enter to send, Shift+Enter for new line)' : ''}`
+          }
           className="message-input"
           disabled={isLoading || isResetting}
           rows={3}
@@ -412,8 +589,13 @@ const ChatBox: React.FC<ChatBoxProps> = ({
           )}
         </button>
       </form>
+      
+      <IntrospectDataPanel 
+        isOpen={isDataPanelOpen} 
+        onClose={() => setIsDataPanelOpen(false)} 
+      />
     </div>
   );
-};
+});
 
 export default ChatBox; 

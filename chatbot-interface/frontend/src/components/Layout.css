@@ -5,6 +5,8 @@
   width: 100%;
   background-color: var(--background-color);
   transition: background-color 0.3s ease;
+  padding-bottom: 80px; /* Make space for the common input */
+  overflow-y: hidden; /* Prevent vertical scrollbar on the main layout */
 }
 
 .app-header {
@@ -33,33 +35,52 @@
   display: flex;
   flex: 1;
   overflow: hidden;
+  height: calc(100vh - 150px); /* Adjusted height to account for header and common input */
 }
 
-.chatbot-section {
-  width: 500px;
+.three-chatbot-layout {
+  justify-content: space-between;
+  width: 100%; /* Ensure full width */
+}
+
+.three-chatbot-layout .chatbot-section {
+  flex: 1;
+  width: 33.33%;
   border-right: 1px solid var(--border-color);
   display: flex;
   flex-direction: column;
+  overflow: hidden;
+  height: 100%; /* Use full height */
+}
+
+.three-chatbot-layout .chatbot-section:last-child {
+  border-right: none;
+}
+
+/* Distinctive styles for each chatbot section */
+.three-chatbot-layout .chatbot-section:nth-child(1) h2 {
+  background-color: #4a6fa5;
+  color: white;
+}
+
+.three-chatbot-layout .chatbot-section:nth-child(2) h2 {
+  background-color: #6a8d73;
+  color: white;
+}
+
+.three-chatbot-layout .chatbot-section:nth-child(3) h2 {
+  background-color: #9e5a63;
+  color: white;
+}
+
+.chatbot-section {
+  display: flex;
+  flex-direction: column;
   transition: width 0.3s ease;
+  overflow: hidden;
 }
 
-.workspace-section {
-  flex: 1;
-  overflow: auto;
-  transition: all 0.3s ease;
-}
-
-.workspace-section.chat-active {
-  background-color: var(--workspace-bg);
-  padding: 0;
-}
-
-.workspace-section.chat-active h2 {
-  display: none;
-}
-
-.chatbot-section h2,
-.workspace-section h2 {
+.chatbot-section h2 {
   padding: 1rem;
   margin: 0;
   font-size: 1.2rem;
@@ -104,19 +125,23 @@ body[data-theme='dark'] .profile-toggle .MuiIconButton-root:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-@media (max-width: 768px) {
-  .main-content {
+@media (max-width: 1200px) {
+  .three-chatbot-layout {
     flex-direction: column;
   }
 
-  .chatbot-section {
+  .three-chatbot-layout .chatbot-section {
     width: 100%;
-    height: 50vh;
+    height: 33.33%;
     border-right: none;
     border-bottom: 1px solid var(--border-color);
   }
 
-  .workspace-section {
-    height: 50vh;
+  .three-chatbot-layout .chatbot-section:last-child {
+    border-bottom: none;
+  }
+  
+  .main-content {
+    height: calc(100vh - 140px);
   }
 } 

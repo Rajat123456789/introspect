@@ -1,0 +1,33 @@
+{
+  "youtube": {
+    "escapism_index": 72,
+    "educational_value": 58,
+    "content_diversity": 63,
+    "viewing_patterns": {
+      "late_night_viewing": "Moderate",
+      "binge_watching": "Occasional",
+      "topic_consistency": "Medium"
+    }
+  },
+  "spotify": {
+    "mood_regulation": 75,
+    "genre_exploration": 62,
+    "listening_patterns": {
+      "background_listening": "Frequent",
+      "active_listening": "Moderate",
+      "commute_listening": "High"
+    }
+  },
+  "health_correlations": {
+    "digital_to_sleep": {
+      "correlation": "Moderate negative",
+      "confidence": 68,
+      "insights": "Late night screen time appears to affect sleep quality"
+    },
+    "music_to_mood": {
+      "correlation": "Strong positive",
+      "confidence": 82,
+      "insights": "Music choices show clear patterns of mood management"
+    }
+  }
+}

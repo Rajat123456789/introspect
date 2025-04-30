@@ -1,0 +1,13 @@
+@echo off
+echo Starting Introspect development environment...
+
+echo Starting backend server...
+start cmd /k "cd chatbot-interface\backend && python app.py"
+
+echo Waiting for backend to start...
+timeout /t 5 /nobreak
+
+echo Starting frontend development server...
+start cmd /k "cd chatbot-interface\frontend && npm run dev -- --host 127.0.0.1"
+
+echo Servers are starting up. You can access the application at http://127.0.0.1:5173 

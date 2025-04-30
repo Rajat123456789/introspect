@@ -1,11 +1,12 @@
 // API Configuration
-export const API_BASE_URL = 'http://localhost:5000';
-
+// Use relative URLs which will be proxied in development
+// and served directly in production
 export const API_ENDPOINTS = {
-  CHAT: `${API_BASE_URL}/api/chat`,
-  CLEAR_HISTORY: `${API_BASE_URL}/api/clear_history`,
-  HEALTH: `${API_BASE_URL}/api/health`,
-  RECRUITER_PROFILE: `${API_BASE_URL}/api/recruiter/profile`
+  CHAT: '/api/chat',
+  CLEAR_HISTORY: '/api/clear_history',
+  HEALTH: '/api/health',
+  INTROSPECT_DATA: '/api/introspect/data',
+  INTROSPECT_INSIGHTS: '/api/introspect/insights'
 };
 
 export default API_ENDPOINTS; 

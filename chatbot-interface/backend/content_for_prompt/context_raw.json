@@ -1,0 +1,136 @@
+{
+  "youtube": {
+    "history_stats": {
+      "total_videos_watched": 1247,
+      "total_watch_time_minutes": 23840,
+      "average_daily_watch_time_minutes": 78.4,
+      "most_watched_categories": ["Entertainment", "Education", "Technology", "Self Improvement", "Music"],
+      "watch_time_distribution": {
+        "morning": 0.15,
+        "afternoon": 0.25,
+        "evening": 0.35,
+        "night": 0.25
+      },
+      "peak_watch_days": ["Monday", "Wednesday", "Saturday"]
+    },
+    "content_analysis": {
+      "addiction_metrics": {
+        "score": 68,
+        "high_risk_periods": ["Mon 10PM-12AM", "Wed 9PM-11PM", "Sat 1PM-4PM"],
+        "trigger_categories": ["Entertainment", "Gaming", "Trending"]
+      },
+      "viewing_patterns": {
+        "escapism_index": 72,
+        "doom_scrolling_frequency": 0.18,
+        "late_night_viewing_trend": "increasing",
+        "binge_watching_instances": 28
+      },
+      "sentiment_analysis": {
+        "overall_sentiment": 0.62,
+        "highest_positive_categories": ["Self Improvement", "Motivation"],
+        "lowest_sentiment_categories": ["News", "Politics", "Stress Management"],
+        "temporal_sentiment": {
+          "morning": 0.48,
+          "afternoon": 0.65,
+          "evening": 0.75,
+          "night": 0.58
+        }
+      }
+    }
+  },
+  "spotify": {
+    "listening_stats": {
+      "total_tracks_played": 3648,
+      "total_listening_time_minutes": 18920,
+      "average_daily_listening_minutes": 62.3,
+      "top_genres": ["Indie Rock", "Alternative", "Lo-fi Beats", "Classic Rock", "Acoustic"],
+      "time_distribution": {
+        "morning": 0.22,
+        "afternoon": 0.28,
+        "evening": 0.35,
+        "night": 0.15
+      },
+      "most_active_days": ["Monday", "Thursday", "Friday"]
+    },
+    "content_analysis": {
+      "mood_metrics": {
+        "avg_valence": 0.58,
+        "avg_energy": 0.65,
+        "avg_tempo": 118,
+        "mood_distribution": {
+          "upbeat": 0.32,
+          "melancholic": 0.28,
+          "relaxed": 0.25,
+          "energetic": 0.15
+        }
+      },
+      "listening_patterns": {
+        "repeat_percentage": 0.24,
+        "new_music_exploration_rate": 0.15,
+        "focus_playlists_frequency": 0.35,
+        "mood_regulation_playlists": 0.42
+      },
+      "temporal_analysis": {
+        "morning_preferences": ["Upbeat", "Podcast", "Focus"],
+        "evening_preferences": ["Indie", "Acoustic", "Ambient"],
+        "workout_coincident": ["Electronic", "Hip-Hop", "High Energy"],
+        "bedtime_coincident": ["Lo-fi", "Ambient", "Piano"]
+      }
+    }
+  },
+  "health": {
+    "activity_metrics": {
+      "avg_daily_steps": 8450,
+      "avg_weekly_workout_minutes": 185,
+      "workout_distribution": {
+        "cardio": 0.45,
+        "strength": 0.35,
+        "flexibility": 0.15,
+        "other": 0.05
+      },
+      "activity_by_day": {
+        "Monday": 9200,
+        "Tuesday": 8800,
+        "Wednesday": 7900,
+        "Thursday": 9100,
+        "Friday": 8600,
+        "Saturday": 6200,
+        "Sunday": 4600
+      }
+    },
+    "sleep_metrics": {
+      "avg_sleep_duration_hours": 6.7,
+      "sleep_quality_score": 68,
+      "sleep_consistency": 0.76,
+      "rem_percentage": 0.21,
+      "deep_sleep_percentage": 0.18,
+      "sleep_by_day": {
+        "Monday": 6.5,
+        "Tuesday": 6.4,
+        "Wednesday": 6.2,
+        "Thursday": 6.6,
+        "Friday": 6.8,
+        "Saturday": 7.9,
+        "Sunday": 7.7
+      }
+    },
+    "vitals": {
+      "avg_resting_hr": 68,
+      "hrv_trend": "decreasing",
+      "recovery_scores": {
+        "weekly_average": 65,
+        "trend": "stable",
+        "correlation_factors": ["Screen time", "Sleep duration", "Work stress"]
+      },
+      "stress_metrics": {
+        "avg_score": 72,
+        "high_stress_periods": ["Tuesday meetings", "Thursday deadlines", "Sunday evenings"],
+        "stress_reduction_activities": {
+          "meditation_minutes_weekly": 85,
+          "deep_breathing_sessions": 12,
+          "outdoor_time_minutes": 110
+        }
+      }
+    }
+  }
+}

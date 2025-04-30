@@ -1,8 +1,17 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden; /* Prevent scrollbars on html/body */
+}
+
 #root {
   width: 100%;
+  height: 100%;
   margin: 0;
   padding: 0;
   text-align: left;
+  overflow: hidden; /* Prevent scrolling on the root element */
 }
 
 .logo {
@@ -260,6 +269,7 @@
   
   /* Primary color variations */
   --primary-color-dark: #00796b;
+  --primary-color-rgb: 0, 121, 107;
 }
 
 /* Dark theme overrides */
@@ -284,6 +294,7 @@
   
   /* Primary color variations - Dark Theme */
   --primary-color-dark: #00a896;
+  --primary-color-rgb: 0, 168, 150;
 }
 
 .workspace-header {
@@ -358,4 +369,203 @@
   10% { opacity: 1; transform: translateY(0); }
   90% { opacity: 1; transform: translateY(0); }
   100% { opacity: 0; transform: translateY(-20px); }
+}
+
+.common-input-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+  border-top: 1px solid var(--border-color);
+  padding: 15px;
+  z-index: 1000;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.common-input-header {
+  text-align: center;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.common-input-header h3 {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.settings-toggles {
+  display: flex;
+  align-items: center;
+}
+
+.raw-toggle {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--secondary-text-color);
+  cursor: pointer;
+  user-select: none;
+  background-color: var(--input-bg);
+  padding: 5px 10px;
+  border-radius: 4px;
+  border: 1px solid var(--border-color);
+  transition: all 0.2s ease;
+}
+
+.raw-toggle:has(input:checked),
+.raw-toggle.active {
+  background-color: rgba(var(--primary-color-rgb, 0, 121, 107), 0.1);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.raw-toggle:hover {
+  border-color: var(--primary-color);
+}
+
+.raw-toggle input[type="checkbox"] {
+  margin: 0;
+  cursor: pointer;
+}
+
+.raw-toggle span {
+  margin-right: 4px;
+}
+
+.settings-icon {
+  color: var(--primary-color);
+  font-size: 1rem;
+}
+
+.common-input-container form {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.common-input-container input {
+  flex: 1;
+  padding: 15px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: var(--input-bg);
+  color: var(--text-color);
+  transition: border-color 0.3s;
+}
+
+.common-input-container input:focus {
+  outline: none;
+  border-color: var(--primary-color);
+}
+
+.common-send-button {
+  margin-left: 10px;
+  padding: 0 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  transition: background-color 0.3s;
+}
+
+.common-send-button:hover:not(:disabled) {
+  background-color: var(--primary-hover);
+}
+
+.common-send-button:disabled {
+  background-color: var(--disabled-color);
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+/* Adjust padding to prevent the fixed input from covering content */
+.layout {
+  padding-bottom: 80px;
+}
+
+/* Adjust chatbox message container to leave room for the common input box */
+.chatbox .messages-container {
+  flex: 1;
+  overflow-y: auto; /* Allow vertical scrolling within messages */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Adjust chatbox input container to ensure it's still visible but doesn't conflict with common input */
+.chatbox .input-container {
+  margin-bottom: 15px;
+  overflow: visible;
+}
+
+/* Prevent body scrollbar when common input is present */
+body {
+  overflow-y: hidden;
+}
+
+@media (max-width: 768px) {
+  .common-input-container {
+    padding: 10px;
+  }
+  
+  .common-input-container input {
+    padding: 12px;
+  }
+  
+  .layout {
+    padding-bottom: 70px;
+  }
+  
+  .chatbox .messages-container {
+    max-height: none; /* Override any max-height settings */
+  }
+}
+
+/* Add these styles for the API provider selector */
+.api-provider-selector {
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.api-provider-selector select {
+  background-color: var(--secondary-bg);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.api-provider-selector select:hover {
+  border-color: var(--primary-color);
+}
+
+.api-provider-selector select:focus {
+  outline: none;
+  border-color: var(--primary-color);
+  box-shadow: 0 0 0 2px rgba(var(--primary-color-rgb), 0.2);
+}
+
+.api-provider-selector select option {
+  background-color: var(--dropdown-bg);
+  color: var(--text-color);
+}
+
+.api-provider-selector select option:disabled {
+  color: var(--disabled-text);
+  font-style: italic;
 }
