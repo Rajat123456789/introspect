@@ -1,6 +1,6 @@
 import os
 import json
-from flask import Blueprint, jsonify, request, make_response
+from flask import Blueprint, jsonify, request, make_response, current_app
 from pathlib import Path
 
 introspect_bp = Blueprint('introspect', __name__)
@@ -69,41 +69,202 @@ def debug_routes():
         ]
     })
 
+def ensure_dirs():
+    """Ensure all necessary directories exist"""
+    os.makedirs(PROMPT_ENG_DIR, exist_ok=True)
+    os.makedirs(os.path.join(PROMPT_ENG_DIR, 'youtube_data'), exist_ok=True)
+
 @introspect_bp.route('/data', methods=['GET'])
 def get_introspection_data():
-    """API endpoint to get raw introspection data"""
+    """Get the raw introspection data for the user"""
+    ensure_dirs()
+    
     try:
-        file_path = get_file_path('context_raw.json')
-        print(f"Attempting to read data from: {file_path}")
+        # Path to the context raw file
+        context_raw_file = os.path.join(PROMPT_ENG_DIR, 'context_raw.json')
         
-        if not os.path.exists(file_path):
-            return error_response(f"No context data file found at {file_path}", 404)
+        # If the file doesn't exist, check if we have YouTube data
+        if not os.path.exists(context_raw_file):
+            youtube_data_file = os.path.join(PROMPT_ENG_DIR, 'youtube_data', 'youtube_history.json')
             
-        with open(file_path, 'r') as f:
-            data = json.load(f)
+            if os.path.exists(youtube_data_file):
+                try:
+                    with open(youtube_data_file, 'r') as f:
+                        youtube_data = json.load(f)
+                    
+                    # Create a basic context_raw.json with YouTube data
+                    context_data = {
+                        'youtube': {
+                            'last_updated': youtube_data[0]['timestamp'] if youtube_data else "",
+                            'recent_videos': youtube_data[0]['videos'] if youtube_data else []
+                        }
+                    }
+                    
+                    # Save this data for future use
+                    with open(context_raw_file, 'w') as f:
+                        json.dump(context_data, f, indent=2)
+                    
+                    return jsonify(context_data)
+                except Exception as e:
+                    print(f"Error creating context from YouTube data: {str(e)}")
             
-        return jsonify(data)
+            # If no data found, return an empty object
+            return jsonify({})
+        
+        # If the file exists, read it
+        with open(context_raw_file, 'r') as f:
+            context_data = json.load(f)
+        
+        # Check if there's YouTube data to include
+        youtube_data_file = os.path.join(PROMPT_ENG_DIR, 'youtube_data', 'youtube_history.json')
+        if os.path.exists(youtube_data_file) and (not context_data.get('youtube') or not context_data['youtube'].get('recent_videos')):
+            try:
+                with open(youtube_data_file, 'r') as f:
+                    youtube_data = json.load(f)
+                
+                if youtube_data:
+                    context_data['youtube'] = {
+                        'last_updated': youtube_data[0]['timestamp'] if youtube_data else "",
+                        'recent_videos': youtube_data[0]['videos'] if youtube_data else []
+                    }
+                    
+                    # Save the updated data
+                    with open(context_raw_file, 'w') as f:
+                        json.dump(context_data, f, indent=2)
+            except Exception as e:
+                print(f"Error updating context with YouTube data: {str(e)}")
+        
+        return jsonify(context_data)
     except Exception as e:
-        print(f"Error reading context data: {str(e)}")
-        return error_response(f"Error reading context data: {str(e)}")
+        print(f"Error retrieving introspection data: {str(e)}")
+        return jsonify({
+            "status": "error",
+            "message": f"Error retrieving introspection data: {str(e)}"
+        }), 500
 
 @introspect_bp.route('/insights', methods=['GET'])
 def get_introspection_insights():
-    """API endpoint to get processed introspection insights"""
+    """Get the analyzed introspection insights for the user"""
+    ensure_dirs()
+    
     try:
-        file_path = get_file_path('context_insights.json')
-        print(f"Attempting to read insights from: {file_path}")
+        # Path to the context insights file
+        context_insights_file = os.path.join(PROMPT_ENG_DIR, 'context_insights.json')
         
-        if not os.path.exists(file_path):
-            return error_response(f"No insights file found at {file_path}", 404)
+        # If the file doesn't exist, check if we can generate basic insights from YouTube data
+        if not os.path.exists(context_insights_file):
+            youtube_data_file = os.path.join(PROMPT_ENG_DIR, 'youtube_data', 'youtube_history.json')
             
-        with open(file_path, 'r') as f:
-            insights = json.load(f)
+            if os.path.exists(youtube_data_file):
+                try:
+                    with open(youtube_data_file, 'r') as f:
+                        youtube_data = json.load(f)
+                    
+                    if youtube_data and youtube_data[0].get('videos'):
+                        videos = youtube_data[0]['videos']
+                        
+                        # Generate basic YouTube insights
+                        youtube_insights = {
+                            'summary': f"You have watched {len(videos)} YouTube videos recently.",
+                            'patterns': generate_youtube_insights(videos)
+                        }
+                        
+                        insights_data = {
+                            'youtube': youtube_insights
+                        }
+                        
+                        # Save these insights for future use
+                        with open(context_insights_file, 'w') as f:
+                            json.dump(insights_data, f, indent=2)
+                        
+                        return jsonify(insights_data)
+                except Exception as e:
+                    print(f"Error generating insights from YouTube data: {str(e)}")
             
-        return jsonify(insights)
+            # If no data found, return an empty object
+            return jsonify({})
+        
+        # If the file exists, read it
+        with open(context_insights_file, 'r') as f:
+            insights_data = json.load(f)
+        
+        # Check if there's YouTube data to update insights from
+        youtube_data_file = os.path.join(PROMPT_ENG_DIR, 'youtube_data', 'youtube_history.json')
+        if os.path.exists(youtube_data_file) and not insights_data.get('youtube'):
+            try:
+                with open(youtube_data_file, 'r') as f:
+                    youtube_data = json.load(f)
+                
+                if youtube_data and youtube_data[0].get('videos'):
+                    videos = youtube_data[0]['videos']
+                    
+                    # Generate basic YouTube insights
+                    youtube_insights = {
+                        'summary': f"You have watched {len(videos)} YouTube videos recently.",
+                        'patterns': generate_youtube_insights(videos)
+                    }
+                    
+                    insights_data['youtube'] = youtube_insights
+                    
+                    # Save the updated insights
+                    with open(context_insights_file, 'w') as f:
+                        json.dump(insights_data, f, indent=2)
+            except Exception as e:
+                print(f"Error updating insights with YouTube data: {str(e)}")
+        
+        return jsonify(insights_data)
     except Exception as e:
-        print(f"Error reading insights data: {str(e)}")
-        return error_response(f"Error reading insights data: {str(e)}")
+        print(f"Error retrieving introspection insights: {str(e)}")
+        return jsonify({
+            "status": "error",
+            "message": f"Error retrieving introspection insights: {str(e)}"
+        }), 500
+
+def generate_youtube_insights(videos):
+    """Generate basic insights from YouTube video data"""
+    if not videos:
+        return []
+    
+    # Extract channel and title information
+    channels = {}
+    categories = set()
+    watch_times = []
+    
+    for video in videos:
+        channel = video.get('channel', 'Unknown')
+        title = video.get('title', 'Unknown video')
+        
+        # Count channel appearances
+        if channel in channels:
+            channels[channel] += 1
+        else:
+            channels[channel] = 1
+        
+        # Extract possible categories from title
+        words = title.split()
+        for word in words:
+            if len(word) > 3:  # Only consider somewhat meaningful words
+                categories.add(word.lower())
+    
+    # Get top channels
+    top_channels = sorted(channels.items(), key=lambda x: x[1], reverse=True)[:3]
+    
+    insights = []
+    
+    # Add channel preference insight
+    if top_channels:
+        channels_text = ", ".join([f"{channel} ({count} videos)" for channel, count in top_channels])
+        insights.append(f"Your most watched channels are {channels_text}.")
+    
+    # Add variety insight
+    if len(channels) > 5:
+        insights.append(f"You watch a diverse range of content across {len(channels)} different channels.")
+    elif len(channels) > 1:
+        insights.append(f"You tend to focus on a few specific channels ({len(channels)} in total).")
+    else:
+        insights.append("You've been watching videos from a single channel recently.")
+    
+    return insights
 
 # Routes for writing data
 @introspect_bp.route('/data', methods=['POST'])

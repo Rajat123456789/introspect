@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef, KeyboardEvent, forwardRef, useImperativeHandle } from 'react';
 import { FiRefreshCw, FiSend } from 'react-icons/fi';
 import { IoSend } from 'react-icons/io5';
-import { HiOutlineDatabase } from 'react-icons/hi';
+import { HiOutlineDatabase, HiOutlineAdjustments, HiChevronDown } from 'react-icons/hi';
 import API_ENDPOINTS from '../config';
 import ReactMarkdown from 'react-markdown';
 import './ChatBox.css';
@@ -59,25 +59,37 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
   const [isResetting, setIsResetting] = useState(false);
   const [isBackendConnected, setIsBackendConnected] = useState(true);
   const [enterToSend, setEnterToSend] = useState(true);
+  const [useYouTubeData, setUseYouTubeData] = useState(false);
+  const [youtubeDataAvailable, setYoutubeDataAvailable] = useState(false);
+  const [lastCheckedInsightsTime, setLastCheckedInsightsTime] = useState<number>(0);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const [introspectData, setIntrospectData] = useState<any>(null);
   const [introspectInsights, setIntrospectInsights] = useState<any>(null);
   const [isDataPanelOpen, setIsDataPanelOpen] = useState(false);
+  const [isYoutubeDropdownOpen, setIsYoutubeDropdownOpen] = useState(false);
+  const youtubeDropdownRef = useRef<HTMLDivElement>(null);
 
   // Function to get appropriate initial message based on model type
   function getInitialMessage(modelType: string): string {
     if (initialMessage) return initialMessage;
     
+    // Base message for each model type
+    let message = "";
     switch(modelType) {
       case 'base':
-        return "Hello! I'm a helpful assistant designed to provide accurate and concise information. How can I assist you today?";
+        message = "Hello! I'm a helpful assistant designed to provide accurate and concise information. How can I assist you today?";
+        break;
       case 'health':
-        return "Hello! I'm Health LLM, your AI medical assistant. I can help you understand health conditions, explain medical concepts, and guide you to better health literacy. Remember, I don't provide medical diagnosis or treatment advice - please consult healthcare professionals for specific medical concerns. How can I assist with your health-related questions today?";
+        message = "Hello! I'm Health LLM, your AI medical assistant. I can help you understand health conditions, explain medical concepts, and guide you to better health literacy. Remember, I don't provide medical diagnosis or treatment advice - please consult healthcare professionals for specific medical concerns. How can I assist with your health-related questions today?";
+        break;
       case 'introspect':
-        return "Hello! I'm your Introspective Assistant, designed to help you reflect on your digital and health activities. I can analyze patterns in your data to provide personalized insights and encourage meaningful self-reflection. What would you like to explore about your behaviors and habits today?";
+        message = "Hello! I'm your Introspective Assistant, designed to help you reflect on your digital and health activities. I can analyze patterns in your data to provide personalized insights and encourage meaningful self-reflection. What would you like to explore about your behaviors and habits today?";
+        break;
       default:
-        return "Hello! How can I assist you today?";
+        message = "Hello! How can I assist you today?";
     }
+    
+    return message;
   }
 
   // Expose the sendMessage method to parent components via ref
@@ -171,12 +183,13 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
 
   // Fetch introspection data if model type is 'introspect'
   useEffect(() => {
-    if (modelType === 'introspect' && isBackendConnected) {
+    if (isBackendConnected) {
       const fetchIntrospectionData = async () => {
         try {
           console.log('Fetching introspection data...');
           let dataFetchFailed = false;
           let insightsFetchFailed = false;
+          let youtubeDataFound = false;
           
           // Fetch raw data with improved error handling
           try {
@@ -200,6 +213,14 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
               const rawData = await rawDataResponse.json();
               console.log('Introspection raw data fetched successfully');
               setIntrospectData(rawData);
+              
+              // Check if there's YouTube data
+              if (rawData && rawData.youtube && rawData.youtube.recent_videos && rawData.youtube.recent_videos.length > 0) {
+                youtubeDataFound = true;
+                setYoutubeDataAvailable(true);
+                setUseYouTubeData(true); // Automatically enable YouTube data when available
+                console.log('YouTube data found:', rawData.youtube.recent_videos.length, 'videos');
+              }
             } else {
               // Log more information about the error
               console.error(`Failed to fetch raw data: ${rawDataResponse.status} ${rawDataResponse.statusText}`);
@@ -240,6 +261,29 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
               const insights = await insightsResponse.json();
               console.log('Introspection insights fetched successfully');
               setIntrospectInsights(insights);
+              
+              // Automatically provide insights about YouTube viewing if available
+              if (youtubeDataFound && insights && insights.youtube) {
+                // Check if we have YouTube data
+                if (introspectData?.youtube?.recent_videos && introspectData.youtube.recent_videos.length > 0) {
+                  // Only show this once when first loading
+                  if (messages.length === 1) {
+                    const recentVideo = introspectData.youtube.recent_videos[0];
+                    const videoTitle = recentVideo.title || "a video";
+                    const videoChannel = recentVideo.channel || "a channel";
+                    
+                    // Create a simple notification instead of detailed insights
+                    const youtubeNotification = `I noticed you recently watched "${videoTitle}" from ${videoChannel}. I can provide insights about your YouTube viewing habits if you're interested.`;
+                    
+                    setMessages(prev => [...prev, {
+                      id: Date.now(),
+                      text: youtubeNotification,
+                      sender: 'bot',
+                      timestamp: new Date(),
+                    }]);
+                  }
+                }
+              }
             } else {
               // Log more information about the error
               console.error(`Failed to fetch insights: ${insightsResponse.status} ${insightsResponse.statusText}`);
@@ -258,8 +302,8 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
             insightsFetchFailed = true;
           }
           
-          // Notify user if both fetches failed
-          if (dataFetchFailed && insightsFetchFailed) {
+          // Notify user if both fetches failed and we're in introspect mode
+          if (modelType === 'introspect' && dataFetchFailed && insightsFetchFailed) {
             setMessages(prev => [...prev, {
               id: Date.now(),
               text: "I couldn't find your personal context data. I'll continue without personalized insights. Please ensure your context files exist in the backend/content_for_prompt directory.",
@@ -267,8 +311,8 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
               timestamp: new Date(),
             }]);
           }
-          // Notify if only one failed
-          else if (dataFetchFailed || insightsFetchFailed) {
+          // Notify if only one failed and we're in introspect mode
+          else if (modelType === 'introspect' && (dataFetchFailed || insightsFetchFailed)) {
             setMessages(prev => [...prev, {
               id: Date.now(),
               text: "I found some of your personal data but not all of it. Some personalized insights may be limited.",
@@ -278,18 +322,83 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
           }
         } catch (error) {
           console.error('Error in fetchIntrospectionData:', error);
-          setMessages(prev => [...prev, {
-            id: Date.now(),
-            text: "I encountered an error while loading your introspection data. Some personalized features may not work properly.",
-            sender: 'bot',
-            timestamp: new Date(),
-          }]);
+          if (modelType === 'introspect') {
+            setMessages(prev => [...prev, {
+              id: Date.now(),
+              text: "I encountered an error while loading your introspection data. Some personalized features may not work properly.",
+              sender: 'bot',
+              timestamp: new Date(),
+            }]);
+          }
         }
       };
       
       fetchIntrospectionData();
     }
-  }, [modelType, isBackendConnected, backendUrl]);
+  }, [isBackendConnected, backendUrl, messages, modelType]);
+
+  // Check for new YouTube model insights periodically
+  useEffect(() => {
+    if (isBackendConnected) {
+      const checkYouTubeModelInsights = async () => {
+        // Skip this check if we just checked recently (within the last 10 seconds)
+        const currentTime = Date.now();
+        if (currentTime - lastCheckedInsightsTime < 10000) {
+          return;
+        }
+        
+        setLastCheckedInsightsTime(currentTime);
+        
+        try {
+          // Fetch model insights specific to this model type
+          const response = await fetch(`${API_ENDPOINTS.YOUTUBE_MODEL_INSIGHTS}?model_type=${modelType}`, {
+            method: 'GET',
+            headers: {
+              'Content-Type': 'application/json',
+              'Accept': 'application/json'
+            },
+            mode: 'cors',
+            cache: 'no-cache',
+            credentials: 'same-origin',
+            signal: AbortSignal.timeout(5000) // 5 second timeout
+          });
+          
+          if (response.ok) {
+            const data = await response.json();
+            
+            if (data.status === 'success' && data.insight) {
+              // Check if this insight is new (not already in the chat)
+              const insightExists = messages.some(
+                msg => msg.sender === 'bot' && msg.text === data.insight
+              );
+              
+              if (!insightExists) {
+                // Add the insight to the chat
+                setMessages(prev => [...prev, {
+                  id: Date.now(),
+                  text: data.insight,
+                  sender: 'bot',
+                  timestamp: new Date(),
+                }]);
+              }
+            }
+          }
+        } catch (error) {
+          console.log('No new YouTube model insights available');
+        }
+      };
+      
+      // Check immediately on mount
+      checkYouTubeModelInsights();
+      
+      // Set up interval to check every 30 seconds
+      const intervalId = setInterval(checkYouTubeModelInsights, 30000);
+      
+      return () => {
+        clearInterval(intervalId);
+      };
+    }
+  }, [isBackendConnected, modelType, messages, lastCheckedInsightsTime]);
 
   const resetConversation = async () => {
     setIsResetting(true);
@@ -399,7 +508,7 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
         const payload: any = {
           message: cleanText,
           session_id: 'default',
-          use_raw_data: useRaw || isRawRequest, // Set use_raw_data flag based on component prop or message flag
+          use_raw_data: useRaw || isRawRequest || useYouTubeData, // Add useYouTubeData to trigger raw data usage
           model_type: modelType,
           api_provider: apiProvider // Add the API provider to the payload
         };
@@ -487,6 +596,22 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
     }
   };
 
+  // Add effect to handle outside clicks for the dropdown
+  useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (youtubeDropdownRef.current && !youtubeDropdownRef.current.contains(event.target as Node)) {
+        setIsYoutubeDropdownOpen(false);
+      }
+    }
+    
+    // Add event listener
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      // Remove event listener on cleanup
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [youtubeDropdownRef]);
+
   return (
     <div className="chatbox">
       <div className="chatbox-controls">
@@ -499,17 +624,99 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
             />
             Enter to send
           </label>
-          {/* View Data button hidden for now 
-          {modelType === 'introspect' && (
-            <button 
-              className="view-data-button" 
-              onClick={() => setIsDataPanelOpen(true)}
-              title="View your data"
-            >
-              <HiOutlineDatabase /> View Data
-            </button>
+          
+          {youtubeDataAvailable && (
+            <div className="youtube-controls" ref={youtubeDropdownRef}>
+              <div 
+                className="youtube-button"
+                onClick={() => {
+                  // Toggle dropdown when button is clicked
+                  setIsYoutubeDropdownOpen(!isYoutubeDropdownOpen);
+                }}
+              >
+                <HiOutlineDatabase className="youtube-icon" />
+                <span>YouTube Data</span>
+                {useYouTubeData && <span className="status-indicator active">ON</span>}
+                {!useYouTubeData && <span className="status-indicator">OFF</span>}
+                <HiChevronDown className={`dropdown-icon ${isYoutubeDropdownOpen ? 'open' : ''}`} />
+              </div>
+              
+              {modelType === 'introspect' && (
+                <div className={`youtube-dropdown ${isYoutubeDropdownOpen ? 'show' : ''}`}>
+                  <div 
+                    className="dropdown-item toggle-item"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      setUseYouTubeData(!useYouTubeData);
+                    }}
+                  >
+                    <input
+                      type="checkbox"
+                      checked={useYouTubeData}
+                      onChange={() => {}}
+                      onClick={(e) => e.stopPropagation()}
+                    />
+                    <span>Use data in chat</span>
+                  </div>
+                  
+                  <div 
+                    className="dropdown-item"
+                    onClick={async (e) => {
+                      e.stopPropagation();
+                      setIsYoutubeDropdownOpen(false); // Close dropdown after clicking
+                      try {
+                        setIsLoading(true);
+                        const response = await fetch(API_ENDPOINTS.YOUTUBE_ANALYZE, {
+                          method: 'POST',
+                          headers: {
+                            'Content-Type': 'application/json',
+                          }
+                        });
+                        
+                        if (response.ok) {
+                          const data = await response.json();
+                          if (data.model_insights && data.model_insights.introspect) {
+                            setMessages(prev => [...prev, {
+                              id: Date.now(),
+                              text: "I've analyzed your YouTube viewing patterns. " + data.model_insights.introspect,
+                              sender: 'bot',
+                              timestamp: new Date(),
+                            }]);
+                          } else {
+                            setMessages(prev => [...prev, {
+                              id: Date.now(),
+                              text: "I've analyzed your YouTube viewing patterns and found some interesting insights. Let's discuss what your viewing habits might reveal about your current interests.",
+                              sender: 'bot',
+                              timestamp: new Date(),
+                            }]);
+                          }
+                        } else {
+                          console.error('Failed to analyze YouTube data');
+                        }
+                      } catch (error) {
+                        console.error('Error analyzing YouTube data:', error);
+                      } finally {
+                        setIsLoading(false);
+                      }
+                    }}
+                  >
+                    <HiOutlineAdjustments className="dropdown-icon-item" />
+                    <span>Analyze viewing patterns</span>
+                  </div>
+                </div>
+              )}
+            </div>
           )}
-          */}
+          
+          {!youtubeDataAvailable && (
+            <div className="youtube-button disabled">
+              <HiOutlineDatabase className="youtube-icon" />
+              <span>No YouTube Data</span>
+            </div>
+          )}
+          
+          {/* Remove the previous YouTube toggle and analyze button */}
+          {/* View Data button hidden for now */}
         </div>
         <button 
           className="reset-button" 

@@ -1,13 +1,14 @@
 {
   "youtube": {
-    "escapism_index": 72,
-    "educational_value": 58,
-    "content_diversity": 63,
-    "viewing_patterns": {
-      "late_night_viewing": "Moderate",
-      "binge_watching": "Occasional",
-      "topic_consistency": "Medium"
-    }
+    "summary": "You have watched 25 YouTube videos recently.",
+    "patterns": [
+      "You recently watched: \"Kygo - Freeze (Official Video)\", \"Madison Beer - Make You Mine (Official Music Video)\", \"yung kai - blue (official music video)\".",
+      "Your most watched channels are Dika Prasetyo 97 (3 videos), Sabrina Carpenter (2 videos), Maroon 5 (2 videos).",
+      "You watch a diverse range of content across 19 different channels.",
+      "I see you've been watching a lot of music videos from various artists, particularly in the pop and EDM genres. This might suggest that you're looking for an uplifting or energetic vibe in your daily life. How does music play a role in your mood or motivation right now?",
+      "It seems like you have a preference for catchy melodies and vibrant visuals, especially from emerging artists like yung kai and popular names like Kygo and Sabrina Carpenter. This could indicate that you are currently drawn to fresh sounds and creative expressions. What do you think it is about these artists that resonates with you most?",
+      "I notice the presence of mashup videos in your viewing history, showcasing a blend of different songs and styles. This might reveal your appreciation for musical creativity and the way different elements can come together to create something new. How does this concept of blending or mixing different influences relate to your own life experiences or interests?"
+    ]
   },
   "spotify": {
     "mood_regulation": 75,

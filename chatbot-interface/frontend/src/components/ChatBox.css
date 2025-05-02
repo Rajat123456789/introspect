@@ -255,16 +255,48 @@
 .enter-toggle {
   display: flex;
   align-items: center;
-  gap: 6px;
-  font-size: 0.8rem;
-  color: var(--secondary-text-color);
+  font-size: 0.85rem;
+  margin-right: 12px;
+  padding: 4px 8px;
+  background-color: var(--button-bg-color);
+  border-radius: 15px;
   cursor: pointer;
-  user-select: none;
+  color: var(--secondary-text-color);
 }
 
-.enter-toggle input[type="checkbox"] {
-  margin: 0;
+.youtube-toggle {
+  display: flex;
+  align-items: center;
+  font-size: 0.85rem;
+  margin-right: 12px;
+  padding: 4px 8px;
+  background-color: var(--button-bg-color);
+  border-radius: 15px;
   cursor: pointer;
+  color: var(--secondary-text-color);
+  opacity: 0.6;
+  transition: all 0.3s ease;
+}
+
+.youtube-toggle.data-available {
+  opacity: 1;
+  background-color: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.2);
+  color: var(--text-color);
+}
+
+.youtube-toggle.data-available:hover {
+  background-color: rgba(255, 0, 0, 0.15);
+}
+
+.youtube-toggle input[type="checkbox"]:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.enter-toggle input[type="checkbox"],
+.youtube-toggle input[type="checkbox"] {
+  margin-right: 5px;
 }
 
 .reset-button {
@@ -400,4 +432,195 @@
     color: #fff;
   }
 }
+
+.analyze-button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 8px;
+  font-size: 0.8rem;
+  background-color: #f0f8ff;
+  color: #336699;
+  border: 1px solid #cce0ff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.analyze-button:hover {
+  background-color: #e0f0ff;
+  border-color: #99c2ff;
+}
+
+.analyze-button:active {
+  background-color: #d0e8ff;
+}
+
+.analyze-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* This ensures the button doesn't break the layout on smaller screens */
+@media (max-width: 768px) {
+  .controls-left {
+    flex-wrap: wrap;
+    gap: 5px;
+  }
+  
+  .analyze-button {
+    font-size: 0.7rem;
+    padding: 3px 6px;
+  }
+}
+
+/* Add new YouTube controls styles, replacing the old ones */
+
+/* YouTube controls container */
+.youtube-controls {
+  position: relative;
+  display: inline-block;
+}
+
+/* YouTube button style */
+.youtube-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  background-color: var(--primary-color-transparent, rgba(10, 133, 255, 0.1));
+  color: var(--primary-color, #0a85ff);
+  border: 1px solid var(--primary-color-light, rgba(10, 133, 255, 0.3));
+  border-radius: 20px;
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+}
+
+/* Style for when no YouTube data is available */
+.youtube-button.disabled {
+  background-color: var(--button-bg-color);
+  color: var(--secondary-text-color);
+  border-color: var(--border-color);
+  opacity: 0.7;
+  cursor: default;
+}
+
+/* Hover effect for YouTube button */
+.youtube-button:not(.disabled):hover {
+  background-color: var(--primary-color-light, rgba(10, 133, 255, 0.2));
+  border-color: var(--primary-color, #0a85ff);
+}
+
+/* YouTube icon */
+.youtube-icon {
+  font-size: 1rem;
+}
+
+/* Dropdown icon */
+.dropdown-icon {
+  font-size: 0.85rem;
+  margin-left: 2px;
+  transition: transform 0.2s ease;
+}
+
+.dropdown-icon.open {
+  transform: rotate(180deg);
+}
+
+/* Status indicator styling */
+.status-indicator {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding: 1px 4px;
+  border-radius: 10px;
+  background-color: var(--button-bg-color);
+  color: var(--secondary-text-color);
+}
+
+.status-indicator.active {
+  background-color: var(--primary-color, #0a85ff);
+  color: white;
+}
+
+/* YouTube dropdown menu */
+.youtube-dropdown {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  width: 200px;
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 100;
+  display: none;
+  overflow: hidden;
+}
+
+.youtube-dropdown.show {
+  display: block;
+}
+
+/* Dropdown items */
+.dropdown-item {
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: var(--text-color);
+}
+
+.dropdown-item:hover {
+  background-color: var(--button-bg-color);
+}
+
+/* Style for toggle item in dropdown */
+.dropdown-item.toggle-item {
+  border-bottom: 1px solid var(--border-color);
+}
+
+/* Icons inside dropdown items */
+.dropdown-icon-item {
+  font-size: 1rem;
+  color: var(--primary-color, #0a85ff);
+}
+
+/* Dark mode specific adjustments */
+[data-theme="dark"] .youtube-button {
+  background-color: rgba(10, 133, 255, 0.15);
+  border-color: rgba(10, 133, 255, 0.4);
+}
+
+[data-theme="dark"] .youtube-button:not(.disabled):hover {
+  background-color: rgba(10, 133, 255, 0.25);
+}
+
+[data-theme="dark"] .youtube-dropdown {
+  background-color: #2a2a2a;
+  border-color: #444;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional mobile responsiveness */
+@media (max-width: 768px) {
+  .youtube-button {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+  
+  .youtube-dropdown {
+    width: 180px;
+  }
+  
+  .dropdown-item {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Remove the old YouTube toggle and analyze button styles that are no longer needed */
 

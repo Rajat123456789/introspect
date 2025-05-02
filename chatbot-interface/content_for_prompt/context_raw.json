@@ -1,21 +1,208 @@
 {
   "youtube": {
-    "watch_time": {
-      "weekday_avg": 2.3,
-      "weekend_avg": 3.7,
-      "late_night_pct": 28
-    },
-    "topics": [
-      "technology",
-      "health",
-      "entertainment",
-      "education"
-    ],
-    "engagement_metrics": {
-      "likes_ratio": 0.62,
-      "comments_ratio": 0.15,
-      "saves_ratio": 0.23
-    }
+    "last_updated": "2025-05-02T10:32:27.781Z",
+    "recent_videos": [
+      {
+        "title": "Kygo - Freeze (Official Video)",
+        "url": "https://www.youtube.com/watch?v=H0NFTIhxOpc",
+        "channel": "Kygo",
+        "channel_url": "https://www.youtube.com/channel/UCCFJeI-2sT_cWgz-QJRgbCw",
+        "description": "Kygo // \u201cFreeze\u201d // Out Now! https://Kygo.lnk.to/Freeze\n\nListen to Kygo\u2019s Complete Collection: https://smarturl.it/KygoComplete \n\nDirector: Rafatoon\nProducers: Evan Brown, Dave Gelb\nProductio...",
+        "scraped_at": "2025-05-02T10:32:27.759Z"
+      },
+      {
+        "title": "Madison Beer - Make You Mine (Official Music Video)",
+        "url": "https://www.youtube.com/watch?v=XFR7v5ix5hU&pp=0gcJCYQJAYcqIYzv",
+        "channel": "Madison Beer",
+        "channel_url": "https://www.youtube.com/channel/UC7zjjW_bvcVsPcBiqUPJf1w",
+        "description": "Madison Beer - Make You Mine (Official Music Video)\n\n\"Make You Mine\" available at: https://madisonbeer.lnk.to/makeyoumine\n\nFollow Madison:\nInstagram: https://www.instagram.com/madisonbeer\nTwitter:...",
+        "scraped_at": "2025-05-02T10:32:27.759Z"
+      },
+      {
+        "title": "yung kai - blue (official music video)",
+        "url": "https://www.youtube.com/watch?v=IpFX2vq8HKw",
+        "channel": "yung kai",
+        "channel_url": "https://www.youtube.com/channel/UCy1FLad-XXw7QZGNuNIuMow",
+        "description": "Stream my track and follow me on socials: https://linktr.ee/yungkaiboy\n\nCast:\nyung kai\nhttps://www.instagram.com/ykaizzk\nJulia Ma\nhttps://www.instagram.com/juliama/\n\nDirector: Kenji K Chong...",
+        "scraped_at": "2025-05-02T10:32:27.759Z"
+      },
+      {
+        "title": "Sabrina Carpenter - Espresso (Official Video)",
+        "url": "https://www.youtube.com/watch?v=eVli-tstM5E",
+        "channel": "Sabrina Carpenter",
+        "channel_url": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w",
+        "description": "Stream \u201cEspresso\u201d here:\u00a0https://SabrinaCarpenter.lnk.to/Espresso\nListen to Short n\u2019 Sweet, out now: https://SabrinaCarpenter.lnk.to/shortnsweet\nWatch all Short n\u2019 Sweet videos here:...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Sabrina Carpenter - Please Please Please (Official Video)",
+        "url": "https://www.youtube.com/watch?v=cF1Na4AIecM",
+        "channel": "Sabrina Carpenter",
+        "channel_url": "https://www.youtube.com/channel/UCPKWE1H6xhxwPlqUlKgHb_w",
+        "description": "Stream \u201cPlease Please Please\u201d here: https://SabrinaCarpenter.lnk.to/PleasePleasePlease\nListen to Short n\u2019 Sweet, out now: https://SabrinaCarpenter.lnk.to/shortnsweet\nWatch all Short n\u2019...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Easy On Me X Without You X Ferrari X Pizza X Save The World By Adele (Dika Prasetyo Mashup) Lyrics",
+        "url": "https://www.youtube.com/watch?v=7UsSYVppdRs",
+        "channel": "Dika Prasetyo 97",
+        "channel_url": "https://www.youtube.com/@dikaprasetyo97",
+        "description": "TRACKLIST :\n00:00 Adele - Easy On Me X Pizza Martin Garrix\n01:48 Snow Patrol - Chasing Cars X Something New\n03:25 Avicii - Without You X Stay Untill The Sunrise\n04:56 James Hype - Ferrari X...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Ghost X Something Just Like This X  Someone You Loved X This Is What You Came For X Without You EDM",
+        "url": "https://www.youtube.com/watch?v=xxtMz6SliTU",
+        "channel": "Dika Prasetyo 97",
+        "channel_url": "https://www.youtube.com/@dikaprasetyo97",
+        "description": "TRACKLIST : \n00:00 Calvin Harris Ft Rihanna - This Is what You Came For X Alesso Sweet Escape\n01:53 Coldplay - Something Just Like This X Nicky Rokero - Chapters\n03:55 Lewis capaldi - Someone...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "A Sky full Of Stars X Don't Let Me Down X Heaven Takes You Home  ( Dika Prasetyo Mashup) EDM Lyrics",
+        "url": "https://www.youtube.com/watch?v=5THB8wNz-bQ",
+        "channel": "Dika Prasetyo 97",
+        "channel_url": "https://www.youtube.com/@dikaprasetyo97",
+        "description": "TRACKLIST :\n00:00 Coldplay - A Sky Full Of Stars Vs Axwell - Belong\n02:24 The Chainsmokers - Don't Let Me Down X Fall Apart \n04:13 Alesso - Sweet Escape X Stay With You By Afrojack\n06:05 Swedish...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Maroon 5 - Payphone ft. Wiz Khalifa (Explicit) (Official Music Video)",
+        "url": "https://www.youtube.com/watch?v=KRaWnd3LJfs",
+        "channel": "Maroon 5",
+        "channel_url": "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw",
+        "description": "Music video by Maroon 5 performing Payphone (Explicit) feat. Wiz Khalifa. \u00a9 2012 A&M/Octone Records\nBuy now! http://smarturl.it/M5Payphone\n\nUK FANS\nStandard album\nAmazon - http://smarturl.it/maroo...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Maroon 5 - Sugar (Official Music Video)",
+        "url": "https://www.youtube.com/watch?v=09R8_2nJtjg",
+        "channel": "Maroon 5",
+        "channel_url": "https://www.youtube.com/channel/UCBVjMGOIkavEAhyqpxJ73Dw",
+        "description": "Buy Sugar on iTunes: http://smarturl.it/M5V\n\nSign up for updates: http://smarturl.it/Maroon5.News\n\nCatch Maroon 5 on tour all year long  at www.maroon5.com\n\nMusic video by Maroon 5 performing...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Sander van Doorn, Martin Garrix, DVBBS - Gold Skies (ft. Aleesia) [Official Music Video] OUT NOW",
+        "url": "https://www.youtube.com/watch?v=UwsY_foobEw",
+        "channel": "Spinnin' Records",
+        "channel_url": "https://www.youtube.com/@spinninrecords",
+        "description": "Spinnin' Records, Sander van Doorn, Martin Garrix, DVBBS proudly present Gold Skies (ft. Aleesia) [Official Music Video]. Download your copy NOW : http://spinnin.lnk.to/goldskies\n\nGrab it on...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Daft Punk - One More Time (Official Video)",
+        "url": "https://www.youtube.com/watch?v=FGBhQbmPwH8",
+        "channel": "Daft Punk",
+        "channel_url": "https://www.youtube.com/channel/UC_kRDKYrUlrbtrSiyu5Tflg",
+        "description": "Listen, order & watch now: https://bio.to/daftpunk\nOfficial Music Video for \u201cOne More Time\u201d, taken from \u201cDiscovery\u201d available on all platforms: https://daftpunk.lnk.to/Discovery\nSubscribe...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Calvin Harris - Sweet Nothing feat. Florence Welch (Lyrics)",
+        "url": "https://www.youtube.com/watch?v=RUA0s01-9zM",
+        "channel": "We Are Hypnotized",
+        "channel_url": "https://www.youtube.com/@wearehypnotized",
+        "description": "\ud83c\udfb5Song name:\nCalvin Harris - Sweet Nothing feat. Florence Welch (Lyrics)\n\n\ud83d\udcfbStream/Buy:\nhttps://open.spotify.com/track/24LS4lQShWyixJ0ZrJXfJ5\n\nBackground image:\nhttps://www.freepik.com/premium-...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Ritviz - Udd Gaye [Official Audio]",
+        "url": "https://www.youtube.com/watch?v=v2-9rIL_f4w",
+        "channel": "RITVIZ",
+        "channel_url": "https://www.youtube.com/channel/UCLx-YFOk_NgXNG7uCXq8m5w",
+        "description": "STREAM ON\nSaavn - http://bit.ly/2Aics8v \niTunes -  http://apple.co/2jy7D0e\n\nFREE DOWNLOAD\nBandcamp - https://ritviz.bandcamp.com/track/udd-gaye\nSoundcloud - https://soundcloud.com/ritviz/ritviz-udd...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Flo Rida - Club Can't Handle Me ft. David Guetta [Official Music Video] - Step Up 3D",
+        "url": "https://www.youtube.com/watch?v=SgM3r8xKfGE",
+        "channel": "Flo Rida",
+        "channel_url": "https://www.youtube.com/channel/UCBRFlde39a2U4nAkmGqJwAQ",
+        "description": "Off the new album ONLY ONE FLO (PART 1) - available everywhere NOW! Download the album on iTunes at http://atlr.ec/ftImIE and at Flo's Online Store at http://atlr.ec/dPJ4wj\n\nVisit http://www.offici...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "The Chainsmokers - iPad (Official Video)",
+        "url": "https://www.youtube.com/watch?v=FYxUJFD9Ye4",
+        "channel": "The Chainsmokers",
+        "channel_url": "https://www.youtube.com/channel/UCq3Ci-h945sbEYXpVlw7rJg",
+        "description": "Music video by The Chainsmokers performing iPad (Official Video).(C) 2022 Disruptor Records/Columbia Records",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Nadia Ali, Starkillers & Alex Kenji - Pressure (Alesso Remix)",
+        "url": "https://www.youtube.com/watch?v=SU88c0f5-h0",
+        "channel": "Spinnin' Records",
+        "channel_url": "https://www.youtube.com/@spinninrecords",
+        "description": "Subscribe to Spinnin' TV : http://bit.ly/Subscribe2YT\nSpotify: http://bit.ly/SpinninSpotify\nG+ : https://www.google.com/+spinninrecords\nFacebook: http://facebook.com/SpinninRecords\nTwitter:...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Dirty South, Alesso - City Of Dreams ft. Ruben Haze",
+        "url": "https://www.youtube.com/watch?v=3C2KSaqm3so",
+        "channel": "Dirty South",
+        "channel_url": "https://www.youtube.com/channel/UCUo2tLW5XOTIHtTv_xE4ntw",
+        "description": "Download Showtek remix on iTunes: http://smarturl.it/CityofDreamsShowtek?IQid=youtube.description\n \nFollow Alesso\nhttps://www.facebook.com/AlessoOfficial\nhttps://twitter.com/Alesso\nhttp://alessomus...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Phoebe Ryan - Mine (Official Video)",
+        "url": "https://www.youtube.com/watch?v=2fsdNJAzLuU",
+        "channel": "Phoebe Ryan",
+        "channel_url": "https://www.youtube.com/channel/UCRiy7IsqFucvH3Ilj7qf5Rg",
+        "description": "Buy on iTunes here !! https://smarturl.it/MineEP\n\nDirector - Jon Hoeg\nhttp://www.facebook.com/PhoebeRyanMusic\nhttp://www.soundcloud.com/phoeberyan\nhttp://www.twitter.com/phoeberyan\nhttp://instagram...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Sean Kingston, Justin Bieber - Eenie Meenie (Official Video)",
+        "url": "https://www.youtube.com/watch?v=prmmCg5bKxA",
+        "channel": "seankingston",
+        "channel_url": "https://www.youtube.com/channel/UCiAej2SO1sEdjj5S2RnbIhg",
+        "description": "\"Eenie Meenie\" by Sean Kingston and Justin Beiber\nListen to Sean Kingston: https://SeanKingston.lnk.to/listenYD\n\nSubscribe to the official Sean Kingston YouTube channel: https://SeanKingston.lnk.to...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Love Inc / In My Mind / Every Teardrop Is A Waterfall / Tokyo By Night / Greyhound",
+        "url": "https://www.youtube.com/watch?v=8zaXdM_4UAc",
+        "channel": "Rencontre Nocturne",
+        "channel_url": "https://www.youtube.com/@RencontreNocturne",
+        "description": "Download\n\u00bb https://tinyurl.com/2p8fbw49\n\nFrom\n\u00bb Axwell \u039b Ingrosso\n\n\nCREDIT\nBooka Shade - Love Inc\nIvan Gough & Feenixpawl feat. Georgi Kay \u2013 In My Mind (Axwell Mix)\nColdplay - Every Teardrop...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Artemas - i like the way you kiss me (official music video)",
+        "url": "https://www.youtube.com/watch?v=evJ6gX1lp2o",
+        "channel": "Artemas",
+        "channel_url": "https://www.youtube.com/channel/UCfVhGOZnBvWqdKZAOVo2qVQ",
+        "description": "Tickets for The Americas Tour 2025 are on sale now. Get tickets: https://www.artem.as/live\n\nFollow Artemas:\nhttps://www.tiktok.com/@artemasaltalt\nhttps://www.instagram.com/artemas___/\nhttps://twitt...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Los Angeles",
+        "url": "https://www.youtube.com/watch?v=qa6SiSGGwcw",
+        "channel": "The Midnight",
+        "channel_url": "https://www.youtube.com/channel/UC-sM_PLqzgktdUcW2LEKKkQ",
+        "description": "Provided to YouTube by Symphonic Distribution\n\nLos Angeles \u00b7 The Midnight\n\nDays of Thunder\n\n\u2117 2014 The Midnight Music, LLC\n\nReleased on: 2014-03-19\n\nWriter: Tim McEwan\nWriter: Tyler Lyle...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Paris",
+        "url": "https://www.youtube.com/watch?v=Dfiw7EmRTC4",
+        "channel": "The Chainsmokers",
+        "channel_url": "https://www.youtube.com/channel/UCq3Ci-h945sbEYXpVlw7rJg",
+        "description": "Provided to YouTube by Disruptor Records/Columbia\n\nParis \u00b7 The Chainsmokers\n\nMemories... Do Not Open\n\n\u2117 2017 Disruptor Records/Columbia Records\n\nReleased on: 2017-04-07\n\nDrums, Keyboards,...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      },
+      {
+        "title": "Porter Robinson - Something Comforting (Official Music Video)",
+        "url": "https://www.youtube.com/watch?v=-C-2AqRD8io",
+        "channel": "Porter Robinson",
+        "channel_url": "https://www.youtube.com/channel/UCKKKYE55BVswHgKihx5YXew",
+        "description": "Porter Robinson - Something Comforting (Official Music Video)\n\nStream SMILE! :D - https://porterrobinson.co/SMILE\n\nANNOUNCING THE \"SMILE! :D WORLD TOUR\" \u2014 MY FIRST EVER WORLD TOUR !! presale...",
+        "scraped_at": "2025-05-02T10:32:27.760Z"
+      }
+    ]
   },
   "spotify": {
     "listening_time": {
