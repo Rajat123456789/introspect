@@ -432,6 +432,7 @@ def analyze_youtube_data():
             
         # Generate AI-powered insights
         ai_video_insights = analyze_youtube_patterns(videos)
+        print(f"AI video insights: {ai_video_insights}")
         
         # Get the most recent video for individual analysis
         recent_video = videos[0]
@@ -610,15 +611,22 @@ Your task:
 2. Create a thoughtful, non-judgmental reflection that helps the user better understand their viewing choices
 3. End with an open-ended question that encourages deeper self-reflection
 4. Keep your response conversational and friendly, like a trusted friend noticing patterns
-5. Response should be 2-3 sentences maximum, followed by a thoughtful question
+5. You need to keep track of patterns in Addiction, Rabbit Holes, Escaping if the user is watching a lot of these videos, offer help to get out of it
+6. You need to keep track of patterns in Learning, Teaching, Exploring if the user is watching a lot of these videos, offer help to get more out of it
+
+Example insight format: "
+<Theme Identification>: `[Theme] like Addiction, Rabbit Holes, Escaping, Learning, Teaching, Exploring`
+<IntroSpect Model thoughts>: `I notice you've been watching several videos about [topic]. This might suggest [potential meaning]. How does [reflective question]?"
+<Reflection>: This is a reflection of the user's viewing choices, 2-3 sentences maximum, followed by a thoughtful question"
 
 Important: Focus on genuine insight rather than generic observations. Avoid being prescriptive or judgmental.
 """
+        # print(f"<generate_introspect_model_insight>Prompt: {prompt}")
         
         # Use the appropriate LLM provider to generate the reflection
         # We'll use OpenAI by default for consistency, but this could be configured
         reflection = LLMProviders.get_openai_response(prompt, SYSTEM_PROMPTS.get("introspect", {}).get("openai", ""))
-        
+        print(f"<generate_introspect_model_insight>Reflection: {reflection}")
         # If we couldn't get a reflection from the AI, fall back to a simple template
         if not reflection:
             import random
@@ -636,7 +644,7 @@ Important: Focus on genuine insight rather than generic observations. Avoid bein
         # Fall back to a simple reflection if the AI approach fails
         return f"I notice you watched '{title}'. What drew you to this content, and what does it reveal about your current interests?"
 
-def analyze_youtube_patterns(videos, max_videos=10):
+def analyze_youtube_patterns(videos, max_videos=25):
     """Use AI to analyze patterns across multiple YouTube videos for deeper insights"""
     if not videos or len(videos) == 0:
         return []
@@ -657,28 +665,31 @@ def analyze_youtube_patterns(videos, max_videos=10):
         
         # Create a prompt for the AI to analyze patterns
         prompt = f"""
-As an introspection guide, analyze this collection of {len(videos_to_analyze)} recently watched YouTube videos. 
-Identify meaningful patterns, themes, or trends that might reveal the user's current interests, emotional state, or learning goals.
+        As an introspection guide, analyze this collection of {len(videos_to_analyze)} recently watched YouTube videos. 
+        Identify meaningful patterns, themes, or trends that might reveal the user's current interests, emotional state, or learning goals.
 
-Videos (most recent first):
-{json.dumps(video_data, indent=2)}
+        Videos (most recent first):
+        {json.dumps(video_data, indent=2)}
 
-Your task:
-1. Identify 2-3 meaningful patterns or themes across these videos
-2. For each pattern, suggest what it might reveal about the user's current interests, needs, or state of mind
-3. Format your response as a JSON array of insights, where each insight is a string that describes a pattern and its potential meaning
-4. Each insight should be conversational and end with a thoughtful question that encourages self-reflection
-5. Keep each insight to 2-3 sentences, followed by a question
+        Your task:
+        1. Identify 2-3 meaningful patterns or themes across these videos and the theme of the video
+        2. For each pattern, suggest what it might reveal about the user's current interests, needs, or state of mind
+        3. Format your response as a JSON array of insights, where each insight is a string that describes a pattern and its potential meaning
+        4. Each insight should be conversational and end with a thoughtful question that encourages self-reflection
+        5. Keep each insight to 2-3 sentences, followed by a question
+        6. You need to keep track of patterns in Addiction, Rabbit Holes, Escaping if the user is watching a lot of these videos, offer help to get out of it
+        7. You need to keep track of patterns in Learning, Teaching, Exploring if the user is watching a lot of these videos, offer help to get more out of it
 
-Example insight format: "I notice you've been watching several videos about [topic]. This might suggest [potential meaning]. How does [reflective question]?"
+        Example insight format: "I notice you've been watching several videos about [topic]. This might suggest [potential meaning]. How does [reflective question]?
+        Theme Identification: [Theme] like Addiction, Rabbit Holes, Escaping, Learning, Teaching, Exploring"
 
-Important: Focus on genuine insights rather than superficial observations. Be thoughtful, non-judgmental, and curious.
+        Important: Focus on genuine insights rather than superficial observations. Be thoughtful, non-judgmental, and curious.
 """
         
         # Use the LLM to generate the insights
         # We'll use the introspect model which is designed for this type of reflection
         response = LLMProviders.get_openai_response(prompt, SYSTEM_PROMPTS.get("introspect", {}).get("openai", ""))
-        
+        # print(f"<analyze_youtube_patterns>LLM response: {response}")
         # Parse the JSON response
         try:
             # The response might have markdown formatting or extra text, so try to extract just the JSON part

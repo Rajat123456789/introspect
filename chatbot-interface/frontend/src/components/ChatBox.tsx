@@ -389,7 +389,7 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
       };
       
       // Check immediately on mount
-      checkYouTubeModelInsights();
+      //checkYouTubeModelInsights();
       
       // Set up interval to check every 30 seconds
       const intervalId = setInterval(checkYouTubeModelInsights, 30000);
@@ -678,7 +678,7 @@ const ChatBox = forwardRef<ChatBoxRef, ChatBoxProps>(({
                           if (data.model_insights && data.model_insights.introspect) {
                             setMessages(prev => [...prev, {
                               id: Date.now(),
-                              text: "I've analyzed your YouTube viewing patterns. " + data.model_insights.introspect,
+                              text: data.model_insights.introspect,
                               sender: 'bot',
                               timestamp: new Date(),
                             }]);
