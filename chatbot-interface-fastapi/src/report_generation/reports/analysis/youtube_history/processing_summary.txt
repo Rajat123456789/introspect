@@ -1,0 +1,13 @@
+# Image Analysis Processing Summary
+
+Date: 2025-05-07 16:04:05
+Directory: C:\Users\somes\Documents\GitHub\introspect\chatbot-interface-fastapi\src\report_generation\data\Youtube_history
+Analysis type: youtube
+Total images: 66
+Images processed: 0
+Images skipped (existing analysis): 66
+Successful: 66
+Failed: 0
+
+## Processed Files
+

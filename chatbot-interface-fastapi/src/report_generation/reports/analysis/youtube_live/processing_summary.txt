@@ -1,0 +1,32 @@
+# YouTube Video Analysis Processing Summary
+
+Date: 2025-05-07 16:31:02
+JSON File: C:\Users\somes\Documents\GitHub\introspect\chatbot-interface-fastapi\src\report_generation\data\Youtube_live\Youtube_live.json
+Total videos in file: 99
+Max videos to process: 20
+Videos processed: 20
+Successful: 20
+Failed: 0
+
+## Processed Videos
+
+1. dhaba style simple & easy paneer ki sabji recipe | quick paneer curry, no cream, no besan, no cashew - ✓ Success
+2. Life is Short (How to Spend It Wisely) - ✓ Success
+3. Martin Garrix & Troye Sivan - There For You (Official Video) - ✓ Success
+4. synthwave radio 🌌 beats to chill/game to - ✓ Success
+5. BEST AK MODS TIERLIST! NOOB TO PRO #28 - Last Day on Earth: Survival - ✓ Success
+6. Sami Zayn - Worlds Apart (Entrance Theme) - ✓ Success
+7. The Ones That Make You Laugh | Friends - ✓ Success
+8. Zedd - Find You ft. Matthew Koma, Miriam Bryant (Official Music Video) - ✓ Success
+9. Avicii - Waiting For Love - ✓ Success
+10. Sami Zayn - Worlds Apart (Entrance Theme) - ✓ Success
+11. synthwave radio 🌌 beats to chill/game to - ✓ Success
+12. Avicii - Waiting For Love - ✓ Success
+13. dhaba style simple & easy paneer ki sabji recipe | quick paneer curry, no cream, no besan, no cashew - ✓ Success
+14. The Ones That Make You Laugh | Friends - ✓ Success
+15. Life is Short (How to Spend It Wisely) - ✓ Success
+16. BEST AK MODS TIERLIST! NOOB TO PRO #28 - Last Day on Earth: Survival - ✓ Success
+17. Martin Garrix & Troye Sivan - There For You (Official Video) - ✓ Success
+18. The Ones That Make You Laugh | Friends - ✓ Success
+19. The Ones That Make You Laugh | Friends - ✓ Success
+20. Zedd - Find You ft. Matthew Koma, Miriam Bryant (Official Music Video) - ✓ Success

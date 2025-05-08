@@ -1,0 +1,37 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Chatbot Interface Component
+
+This component provides a user interface for interacting with the AI analysis:
+
+## Structure and Main Components
+Located in `chatbot-interface/`, this component is divided into:
+- Frontend: UI for user interactions in `frontend/`
+- Backend: API services and data processing in `backend/`
+- Content: Prompt templates and context data in `content_for_prompt/`
+
+## Frontend
+The frontend is built using modern web technologies and includes:
+- React components in `frontend/src/components/`
+- Public assets and resources in `frontend/public/`
+
+## Backend
+The backend provides API services and includes:
+- API endpoints in `backend/api/`
+- Prompt content management in `backend/content_for_prompt/`
+
+## Data Flow
+1. User interacts with the frontend interface
+2. Frontend sends requests to backend API endpoints
+3. Backend processes requests, retrieving necessary data
+4. Backend generates responses using prompt templates and AI models
+5. Responses are returned to the frontend for display
+
+## Integration Points
+- Consumes generated prompts from the prompt engineering component
+- Interacts with knowledge graph data for personalized insights
+- Provides an interface to the fine-tuned introspect LLM
+

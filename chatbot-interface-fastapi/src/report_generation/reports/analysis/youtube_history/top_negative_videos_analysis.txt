@@ -1,0 +1,39 @@
+# Analysis of top_negative_videos.png
+
+Analysis timestamp: 2025-05-07 14:48:43
+Processing time: 12.95 seconds
+
+## Analysis of YouTube Data Visualization
+
+### 1. Type of Visualization
+- **Chart Type:** Horizontal bar chart
+- **Graph Format:** Bars represent average mental health impact scores.
+
+### 2. Data Being Presented
+- **Metrics:** Average mental health score
+- **Categories:** Top 10 videos with a negative mental health impact
+- **Time Periods:** Not specified in the chart
+
+### 3. Specific Numerical Values and Statistics
+- **Average Mental Health Scores:**
+  - The bars indicate values just under 0.30 for the highest score, decreasing incrementally to around 0.10 for the lowest.
+  - Exact numerical values are not specified, but rankings suggest a gradual decrease from the first to the tenth video.
+
+### 4. Key Consumption Patterns
+- The chart does not explicitly provide data on consumption patterns by time of day, day of week, or seasons.
+
+### 5. Notable Trends in Viewing Habits
+- **Negative Impact:** All listed videos have a negative impact on mental health.
+- **Score Range:** Videos vary in their score impact from approximately 0.10 to just under 0.30.
+
+### 6. Content Categories or Types
+- **Categories:**
+  - Some videos include elements like "experiment," "science," "memes," and "music."
+  - Content includes a mix of different themes such as scientific experiments, digital nomad lifestyles, music, and educational topics.
+
+### 7. Correlations with Mental Health Indicators
+- The chart specifically lists videos with a negative mental health impact, with scores indicating varying degrees of impact.
+- There is no direct correlation data provided between these videos and broader mental health indicators beyond the scope of impact scores.
+
+### Conclusion
+The visualization highlights the top 10 YouTube videos associated with negative mental health impacts, ranked by impact score. Specific content types range from entertainment to instructional, with varying degrees of negative effects noted. The chart lacks explicit data on consumption timing or correlation with mental health metrics beyond the scores.

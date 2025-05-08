@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health History Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .visualization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .visualization-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .visualization-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        .visualization-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .visualization-title {
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            font-weight: 500;
+        }
+        .header {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .back-button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: var(--border-radius-sm);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .back-button:hover {
+            background-color: var(--primary-dark);
+            text-decoration: none;
+        }
+        [data-theme="dark"] {
+            background-color: #212529;
+        }
+        [data-theme="dark"] .visualization-card {
+            background-color: #343a40;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Health History Visualizations</h1>
+        <a href="/" class="back-button"><i class="fas fa-arrow-left"></i> Back to Chat</a>
+    </div>
+    
+    <div class="visualization-grid">
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/comprehensive_dashboard.png" alt="Comprehensive Health Dashboard" class="visualization-image">
+            <div class="visualization-title">Comprehensive Health Dashboard</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/health_dashboard.png" alt="Health Dashboard" class="visualization-image">
+            <div class="visualization-title">Health Dashboard</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/calories_insights.png" alt="Calories Insights" class="visualization-image">
+            <div class="visualization-title">Calories Insights</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/heart_points_insights.png" alt="Heart Points Insights" class="visualization-image">
+            <div class="visualization-title">Heart Points Insights</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/steps_insights.png" alt="Steps Insights" class="visualization-image">
+            <div class="visualization-title">Steps Insights</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/exercise_insights.png" alt="Exercise Insights" class="visualization-image">
+            <div class="visualization-title">Exercise Insights</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/activity_insights.png" alt="Activity Insights" class="visualization-image">
+            <div class="visualization-title">Activity Insights</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/heart_points_analysis.png" alt="Heart Points Analysis" class="visualization-image">
+            <div class="visualization-title">Heart Points Analysis</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/step_patterns_analysis.png" alt="Step Patterns Analysis" class="visualization-image">
+            <div class="visualization-title">Step Patterns Analysis</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/walking_metrics_analysis.png" alt="Walking Metrics Analysis" class="visualization-image">
+            <div class="visualization-title">Walking Metrics Analysis</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/exercise_sessions_analysis.png" alt="Exercise Sessions Analysis" class="visualization-image">
+            <div class="visualization-title">Exercise Sessions Analysis</div>
+        </div>
+        
+        <div class="visualization-card">
+            <img src="/static/data/Health_history/activity_metrics_analysis.png" alt="Activity Metrics Analysis" class="visualization-image">
+            <div class="visualization-title">Activity Metrics Analysis</div>
+        </div>
+    </div>
+    
+    <script>
+        // Check for saved theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</body>
+</html> 

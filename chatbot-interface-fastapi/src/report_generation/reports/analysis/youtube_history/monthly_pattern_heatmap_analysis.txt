@@ -1,0 +1,54 @@
+# Analysis of monthly_pattern_heatmap.png
+
+Analysis timestamp: 2025-05-07 14:46:21
+Processing time: 24.62 seconds
+
+## Analysis of YouTube Data Visualization
+
+### 1. Type of Visualization
+- **Chart Type:** Heatmap
+- **Graph Format:** Grid format with colored cells indicating percentage values, ranging from dark purple (low) to bright yellow (high).
+
+### 2. Data Being Presented
+- **Metrics:** Monthly pattern percentages for various content consumption categories.
+- **Time Periods:** February 2024 to February 2025.
+- **Categories:**
+  - Addiction
+  - Doom scrolling
+  - Escapism
+  - Negative mood
+  - Unhealthy comparison
+  - Rabbit holes
+
+### 3. Specific Numerical Values and Statistics
+- **Addiction:** Ranges from 17.8% (June 2024) to 99.7% (December 2024).
+- **Doom Scrolling:** Ranges from 10.9% (January 2025) to 24.2% (March 2024).
+- **Escapism:** Ranges from 0.0% (February 2024) to 53.5% (February 2025).
+- **Negative Mood:** Consistently at 0.0% every month.
+- **Unhealthy Comparison:** Ranges from 3.7% (August 2024) to 10.1% (December 2024).
+- **Rabbit Holes:** Ranges from 3.8% (June 2024) to 43.9% (February 2025).
+
+### 4. Key Consumption Patterns
+- **Addiction:** Significantly increases towards the end of 2024, peaking in the last months.
+- **Escapism:** Notably increases in January and February 2025, with a high percentage of 53.5% in February 2025.
+- **Rabbit Holes:** Consistently high from August 2024 onwards, maintaining percentages above 38%.
+
+### 5. Notable Trends in Viewing Habits
+- **Increases:**
+  - Escapism shows a strong increase from 12.5% in July 2024 to 53.5% in February 2025.
+  - Addiction sharp rise starts in August 2024 (49.9%) reaching 99.7% in December 2024.
+- **Decreases:**
+  - Doom Scrolling shows a decrease from 23.6% in December 2024 to 10.9% in January 2025.
+
+### 6. Content Categories or Types that Appear Most Frequently
+- **High Peak Months:**
+  - Addiction is predominant in December 2024 at 99.7%.
+  - Escapism in February 2025 at 53.5%.
+  - Rabbit holes stay relatively high throughout late 2024 and into early 2025.
+
+### 7. Correlations Between Consumption Patterns and Mental Health Indicators
+- **Addiction:** There is a significant increase towards late 2024, potentially highlighting a correlation with holiday seasons or end-of-year stress.
+- **Escapism:** The rapid increase in early 2025 may indicate a search for relief or distraction during this period.
+- **Negative Mood:** Consistently at 0.0%, possibly indicating a lack of directly labeled content in this category or mislabeling.
+
+This heatmap visualization provides a clear view of how YouTube content consumption patterns change over month-to-month, indicating behavioral trends potentially linked to mental health indicators.

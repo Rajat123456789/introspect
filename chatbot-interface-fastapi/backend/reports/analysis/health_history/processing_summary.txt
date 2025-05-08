@@ -1,0 +1,23 @@
+# Image Analysis Processing Summary
+
+Date: 2025-05-07 14:20:37
+Directory: C:\Users\somes\Documents\GitHub\introspect\chatbot-interface-fastapi\src\report_generation\data\Health_history
+Analysis type: health
+Total images processed: 12
+Successful: 12
+Failed: 0
+
+## Processed Files
+
+1. activity_insights.png - ✓ Success
+2. activity_metrics_analysis.png - ✓ Success
+3. calories_insights.png - ✓ Success
+4. comprehensive_dashboard.png - ✓ Success
+5. exercise_insights.png - ✓ Success
+6. exercise_sessions_analysis.png - ✓ Success
+7. health_dashboard.png - ✓ Success
+8. heart_points_analysis.png - ✓ Success
+9. heart_points_insights.png - ✓ Success
+10. steps_insights.png - ✓ Success
+11. step_patterns_analysis.png - ✓ Success
+12. walking_metrics_analysis.png - ✓ Success

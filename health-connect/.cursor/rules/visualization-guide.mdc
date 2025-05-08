@@ -3,3 +3,31 @@ description:
 globs:
 alwaysApply: false
 ---
+# Health Data Visualization Guide
+
+The [run_visualization.py](mdc:run_visualization.py) script generates comprehensive visualizations of health data using the `DataVisualizer` class.
+
+## Key Visualizations
+1. Exercise Patterns
+   - Exercise duration by type with intensity
+   - Weekly exercise pattern heatmap
+   - Exercise duration vs heart rate correlation
+
+2. Sleep and Nutrition
+   - Sleep quality vs calorie intake
+   - Macronutrient distribution
+
+3. Cross-Domain Analysis
+   - 24-hour activity distribution
+   - Correlation between different health metrics
+
+## Usage
+1. Ensure data files are present in `Data/someshbgd3/Cleaned/`
+2. Run `python run_visualization.py`
+3. Visualizations will be saved in `analysis_reports/YYYYMMDD_HHMMSS/`
+
+## Dependencies
+- pandas - Data manipulation
+- matplotlib - Core plotting
+- seaborn - Statistical visualizations
+- scipy - Statistical analysis

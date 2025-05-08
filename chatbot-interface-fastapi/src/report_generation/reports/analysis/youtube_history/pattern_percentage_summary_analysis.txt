@@ -1,0 +1,54 @@
+# Analysis of pattern_percentage_summary.png
+
+Analysis timestamp: 2025-05-07 14:48:00
+Processing time: 20.00 seconds
+
+# Analysis of YouTube Data Visualization
+
+## 1. Type of Visualization
+
+- **Chart Type**: Bar Chart
+- **Graph Format**: Vertical bars representing different patterns with percentages on the y-axis.
+
+## 2. Data Presented
+
+- **Metrics**: Percentage of videos associated with specific patterns
+- **Categories**: 
+  - Addiction
+  - Doom Scrolling
+  - Escapism
+  - Negative Mood
+  - Unhealthy Comparison
+  - Rabbit Holes
+
+## 3. Specific Numerical Values
+
+- **Addiction**: 60.0%
+- **Doom Scrolling**: 15.85%
+- **Escapism**: 27.95%
+- **Negative Mood**: 0.0%
+- **Unhealthy Comparison**: 6.43%
+- **Rabbit Holes**: 40.0%
+
+## 4. Key Consumption Patterns
+
+- The pattern labeled "addiction" has the highest percentage at 60.0%.
+- There is a significant presence of the "rabbit holes" pattern with 40.0% of the videos.
+
+## 5. Notable Trends in Viewing Habits
+
+- **Increase**: The "addiction" and "rabbit holes" categories have the highest percentages, indicating a notable trend in these areas.
+- **Decrease/Absence**: The "negative mood" category shows 0.0%, indicating no videos are associated with this pattern.
+
+## 6. Content Categories or Types
+
+- **Most Frequent**:
+  - "Addiction" is the most frequent pattern at 60.0%.
+  - "Rabbit Holes" is also notably high at 40.0%.
+  
+## 7. Correlations with Mental Health Indicators
+
+- **Escapism**: Accounts for 27.95% of videos, indicating that a significant portion of videos may be used as a form of escapism, potentially correlating with stress relief behavior.
+- **Negative Mood**: The absence of videos under this category suggests no reported correlation in the data between negative mood and viewing habits.
+
+This analysis focuses on the data trends observed from the provided visualization without implying causation or making any recommendations.

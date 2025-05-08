@@ -1,0 +1,33 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Data Handling
+
+The application processes various types of data sources for analysis.
+
+## Data Directories
+
+Data is organized in specific directories:
+
+- [src/report_generation/data/](mdc:src/report_generation/data/): Main data directory
+  - [src/report_generation/data/Health_history/](mdc:src/report_generation/data/Health_history/): Health history visualizations
+  - [src/report_generation/data/Health_live/](mdc:src/report_generation/data/Health_live/): Health live visualizations
+  - [src/report_generation/data/Youtube_history/](mdc:src/report_generation/data/Youtube_history/): YouTube history visualizations
+  - [src/report_generation/data/Youtube_live/](mdc:src/report_generation/data/Youtube_live/): YouTube live JSON data
+
+## Output Directories
+
+Generated reports are saved to:
+
+- [src/report_generation/reports/](mdc:src/report_generation/reports/): Final reports
+- [src/report_generation/reports/temp/](mdc:src/report_generation/reports/temp/): Temporary files during processing
+
+## Data Processing
+
+The application handles several data formats:
+
+1. Images (PNG, JPG): Analyzed using vision-capable LLMs
+2. JSON data: Parsed and analyzed by specialized crews
+3. HTML files: Referenced for additional context

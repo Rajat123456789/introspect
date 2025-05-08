@@ -1,0 +1,11 @@
+{
+    "Data Source": "derived:com.google.activity.segment:com.google.android.gms:session_activity_segment",
+    "Data Points": [
+        {"fitValue":[{"value":{"intVal":97}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1624273500000000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1624269900000000000,"modifiedTimeMillis":1624494838929,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"intVal":1}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1624283486080000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1624282758111000000,"modifiedTimeMillis":1624351046013,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"intVal":97}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1624326180000000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1624320240000000000,"modifiedTimeMillis":1624494838929,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"intVal":97}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1624351029311000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1624351014166000000,"modifiedTimeMillis":1624351046013,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"intVal":1}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1632812605101000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1632811728719000000,"modifiedTimeMillis":1633001815742,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"intVal":1}}],"originDataSourceId":"derived:com.google.activity.segment:com.google.android.apps.fitness:session_activity_segment","endTimeNanos":1636376101955000000,"dataTypeName":"com.google.activity.segment","startTimeNanos":1636375466325000000,"modifiedTimeMillis":1636597962154,"rawTimestampNanos":0}
+    ]
+}

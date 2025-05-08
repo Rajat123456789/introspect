@@ -18,21 +18,40 @@ The project is organized into several main components:
    - `apple-health/`: Contains normalized health data
    - `spotify-analysis/`: Contains cleaned Spotify data
    - `youtube-analysis/`: Contains YouTube data analysis including LLaMA integration
+   - `youtube-livedata/`: Contains live data collection from YouTube
 
 2. Data Integration:
    - `combining-apple-spotify/`: Merges Apple Health and Spotify data
    - `combining-health-and-music/`: Combines health metrics with music listening patterns
    - `health-connect/`: Manages health data connections and cleaning
+   - `historical-health/`: Analyzes historical health data trends
 
 3. Knowledge Graph Analysis:
+   - `spotify-health-knowledge-graph/`: Knowledge graph connecting Spotify and health data
    - `spotify-knowledge-graph-insights/`: Knowledge graph analysis for Spotify data
    - `youtube-knowledge-graph-insights/`: Knowledge graph analysis for YouTube data
 
-4. Analysis Reports:
+4. AI Interaction & Insights:
+   - `chatbot-interface/`: Frontend and backend for user interaction
+   - `prompt-eng/`: Prompt engineering for AI interactions
+   - `finetune_introspect-llm/`: Fine-tuning LLMs for introspection
+
+5. Analysis Reports:
    - `analysis_reports/`: Contains timestamped analysis outputs
    - Various subdirectories contain specific analysis outputs for different components
 
 ## Key Entry Points
-- [run_visualization.py](mdc:run_visualization.py): Main script for running visualizations
-- [requirements.txt](mdc:requirements.txt): Project dependencies
+- Main analysis scripts are located in the root directories of each component
+- Each component has its own README with specific instructions
+- Integration between components happens through shared data formats and APIs
+
+## Development
+- `run-dev.bat`: Script for setting up the development environment
+- Environment files are located within respective component directories
+- Dependencies are managed through component-specific requirements.txt files
+
+## How to Navigate
+- Start with the component directories for specific functionality
+- See integration directories for how data flows between components
+- Consult READMEs for detailed component-specific documentation
 

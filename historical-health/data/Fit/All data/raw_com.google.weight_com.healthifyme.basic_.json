@@ -1,0 +1,14 @@
+{
+    "Data Source": "raw:com.google.weight:com.healthifyme.basic:",
+    "Data Points": [
+        {"fitValue":[{"value":{"fpVal":94}}],"originDataSourceId":"","endTimeNanos":1570109715376000000,"dataTypeName":"com.google.weight","startTimeNanos":1570023315376000000,"modifiedTimeMillis":1570112012757,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":100}}],"originDataSourceId":"","endTimeNanos":1624350351968000000,"dataTypeName":"com.google.weight","startTimeNanos":1624263951968000000,"modifiedTimeMillis":1624350539087,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":100}}],"originDataSourceId":"","endTimeNanos":1634020643804000000,"dataTypeName":"com.google.weight","startTimeNanos":1633934243804000000,"modifiedTimeMillis":1634021984488,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":97}}],"originDataSourceId":"","endTimeNanos":1648121395962000000,"dataTypeName":"com.google.weight","startTimeNanos":1648034995962000000,"modifiedTimeMillis":1648123582759,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":70.30000305175781}}],"originDataSourceId":"","endTimeNanos":1648828948080000000,"dataTypeName":"com.google.weight","startTimeNanos":1648742548080000000,"modifiedTimeMillis":1648828977776,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":97}}],"originDataSourceId":"","endTimeNanos":1649162643123000000,"dataTypeName":"com.google.weight","startTimeNanos":1649076243123000000,"modifiedTimeMillis":1649163365819,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":97}}],"originDataSourceId":"","endTimeNanos":1696739455242000000,"dataTypeName":"com.google.weight","startTimeNanos":1696653055242000000,"modifiedTimeMillis":1696740354662,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":105}}],"originDataSourceId":"","endTimeNanos":1696739750307000000,"dataTypeName":"com.google.weight","startTimeNanos":1696653350307000000,"modifiedTimeMillis":1696740354662,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":105}}],"originDataSourceId":"","endTimeNanos":1716861628098000000,"dataTypeName":"com.google.weight","startTimeNanos":1716775228098000000,"modifiedTimeMillis":1716865127060,"rawTimestampNanos":0}
+    ]
+}

@@ -1,0 +1,26 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Backend API
+
+The backend API provides FastAPI endpoints for the chatbot interface.
+
+## Key Files
+
+- [backend/api/__init__.py](mdc:backend/api/__init__.py): API initialization
+- [backend/api/introspect.py](mdc:backend/api/introspect.py): Endpoints for introspection data management
+- [backend/api/crew.py](mdc:backend/api/crew.py): Endpoints for CrewAI mental health analysis
+- [backend/api/llm_providers.py](mdc:backend/api/llm_providers.py): LLM provider configurations
+
+## Endpoints
+
+The backend provides several endpoints:
+
+- `/api/introspect/data`: Get/update raw introspection data
+- `/api/introspect/insights`: Get/update processed introspection insights
+- `/api/crew/analyze`: Start mental health analysis
+- `/api/crew/status/{task_id}`: Check analysis status
+- `/api/crew/result/{task_id}`: Get analysis results
+

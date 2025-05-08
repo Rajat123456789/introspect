@@ -1,0 +1,37 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Application Workflow
+
+This rule explains the typical workflow of the application.
+
+## Report Generation Process
+
+1. The process starts in [main.py](mdc:main.py), which calls `src/report_generation/main.py`
+2. [src/report_generation/main.py](mdc:src/report_generation/main.py) orchestrates the execution:
+   - Creates output directories
+   - Initializes crews for each data type
+   - Manages parallel or sequential execution
+   - Handles intermediate outputs and context window management
+
+## Crew Execution Flow
+
+Each crew follows a similar execution flow:
+
+1. Initialize agents and tasks from YAML configs
+2. Prepare data from data directories
+3. Execute tasks sequentially using the defined agents
+4. Generate intermediate outputs to manage context window limits
+5. Combine partial results into a final report
+6. Save the final report to the output directory
+
+## Error Handling
+
+The application includes robust error handling:
+
+- Logging to `report_generation.log`
+- Exception catching and reporting
+- Temporary file cleanup
+- Fallback mechanisms for missing data

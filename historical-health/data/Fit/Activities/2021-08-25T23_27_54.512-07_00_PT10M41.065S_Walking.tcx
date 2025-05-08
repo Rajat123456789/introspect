@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Walking">
+            <Id>2021-08-26T06:26:08.308Z</Id>
+            <Lap StartTime="2021-08-26T06:26:08.308Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-08-26T06:26:08.308Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>43.06269073486328</DistanceMeters>
+                        <Time>2021-08-26T06:27:54.512Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>43.06269073486328</DistanceMeters>
+                        <Time>2021-08-26T06:30:04.248Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>64.59403610229492</DistanceMeters>
+                        <Time>2021-08-26T06:30:56.048Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>64.59403610229492</DistanceMeters>
+                <TotalTimeSeconds>287.740006444</TotalTimeSeconds>
+                <Calories>18.16912841796875</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Walking">
+            <Id>2021-08-26T06:34:37.996Z</Id>
+            <Lap StartTime="2021-08-26T06:34:37.996Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-08-26T06:34:37.996Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-08-26T06:36:00.528Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>31.31831932067871</DistanceMeters>
+                        <Time>2021-08-26T06:37:36.528Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>31.31831932067871</DistanceMeters>
+                <TotalTimeSeconds>178.532533214</TotalTimeSeconds>
+                <Calories>15.44969654083252</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Walking">
+            <Id>2021-08-26T06:48:41.528Z</Id>
+            <Lap StartTime="2021-08-26T06:48:41.528Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-08-26T06:48:41.528Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>31.31831932067871</DistanceMeters>
+                        <Time>2021-08-26T06:49:53.780Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>31.31831932067871</DistanceMeters>
+                        <Time>2021-08-26T06:50:17.528Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>66.55142784118652</DistanceMeters>
+                        <Time>2021-08-26T06:51:18.568Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>95.91235160827637</DistanceMeters>
+                        <Time>2021-08-26T06:52:12.128Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>108.30918598175049</DistanceMeters>
+                        <Time>2021-08-26T06:54:59.588Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>108.30918598175049</DistanceMeters>
+                <TotalTimeSeconds>378.05947825</TotalTimeSeconds>
+                <Calories>30.66574478149414</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

@@ -1,0 +1,289 @@
+{% extends "base.html" %}
+
+{% block title %}Introspect | Chat Assistant{% endblock %}
+
+{% block additional_css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+{% endblock %}
+
+{% block content %}
+<div class="app-container">
+    <div class="sidebar">
+        <div class="sidebar-header">
+            <h2><i class="fas fa-database sidebar-icon"></i>Data Sources</h2>
+        </div>
+        <div class="data-source">
+            <div class="data-source-label">
+                <input type="checkbox" id="health-history" name="data-source" value="health-history">
+                <a href="{{ url_for('Health_history') }}" target="_blank" class="data-source-link">
+                    <i class="fas fa-heartbeat data-source-icon"></i>
+                    <label for="health-history">Health History</label>
+                    <i class="fas fa-external-link-alt external-link-icon"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="data-source">
+            <div class="data-source-label">
+                <input type="checkbox" id="health-live" name="data-source" value="health-live">
+                <a href="{{ url_for('Health_live') }}" target="_blank" class="data-source-link">
+                    <i class="fas fa-chart-line data-source-icon"></i>
+                    <label for="health-live">Health Live Data</label>
+                    <i class="fas fa-external-link-alt external-link-icon"></i>
+                </a>
+            </div>
+        </div>
+        
+        <div class="data-source">
+            <div class="data-source-label">
+                <input type="checkbox" id="youtube-history" name="data-source" value="youtube-history">
+                <a href="{{ url_for('Youtube_history') }}" target="_blank" class="data-source-link">
+                    <i class="fab fa-youtube data-source-icon"></i>
+                    <label for="youtube-history">YouTube History</label>
+                    <i class="fas fa-external-link-alt external-link-icon"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="chat-container">
+        <header class="chat-header">
+            <h1>Introspect Chat Assistant</h1>
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon theme-toggle-icon"></i>
+                <span class="theme-toggle-label">Dark Mode</span>
+            </div>
+        </header>
+        
+        <div class="chatbox-container">
+            <div id="chatbox1" class="chatbox base-model">
+                <div class="chatbox-header">
+                    <div>Base Model</div>
+                    <button class="reset-chat" aria-label="Reset chat" data-model="base">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                </div>
+                <div class="chatbox-messages">
+                    <div class="message bot-message">
+                        Hello! I'm the Base Model without any special context or prompting. Ask me anything, and I'll respond with my default capabilities.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="chatbox2" class="chatbox health-model">
+                <div class="chatbox-header">
+                    <div>Health LLM</div>
+                    <button class="reset-chat" aria-label="Reset chat" data-model="health">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                </div>
+                <div class="chatbox-messages">
+                    <div class="message bot-message">
+                        Hello! I'm Health LLM, a model enhanced with healthcare domain knowledge. I specialize in medical and health-related information, providing reliable guidance about health conditions, treatments, and wellness practices.
+                    </div>
+                </div>
+            </div>
+            
+            <div id="chatbox3" class="chatbox introspect-model">
+                <div class="chatbox-header">
+                    <div>Introspect Assistant</div>
+                    <button class="reset-chat" aria-label="Reset chat" data-model="introspect">
+                        <i class="fas fa-redo-alt"></i>
+                    </button>
+                </div>
+                <div class="chatbox-messages">
+                    <div class="message bot-message">
+                        Hello! I'm the Introspective Assistant. I analyze your digital and health data to help you reflect on your behaviors and patterns. I can provide insights about your YouTube viewing, Spotify listening, and health metrics to encourage self-awareness and personal growth through thoughtful questions.
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="common-input-container">
+            <div class="common-input-header">
+                <h3>Send to All Models at Once</h3>
+                <div class="settings-toggles">
+                    <label class="raw-toggle">
+                        <input type="checkbox" id="use-raw-data">
+                        <span>Use Raw Data</span>
+                    </label>
+                    <div class="api-provider-selector">
+                        <select id="api-provider">
+                            <option value="openai">OpenAI</option>
+                            <option value="gemini">Gemini</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <form id="chat-form">
+                <input type="text" id="chat-input" placeholder="Type a message to send to all chatbots simultaneously...">
+                <button type="submit" id="send-button">Send</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<!-- Debug Console -->
+<div id="debug-console" class="debug-console">
+    <div class="debug-console-header">
+        <div class="debug-console-title">Debug Console</div>
+        <div class="debug-console-close" id="debug-console-close">×</div>
+    </div>
+    <div class="debug-console-messages" id="debug-messages">
+        <!-- Debug messages will be added here -->
+    </div>
+</div>
+{% endblock %}
+
+{% block additional_js %}
+<script src="{{ url_for('static', path='/js/chat.js') }}"></script>
+<script>
+    // Add functionality for data source selection
+    document.addEventListener('DOMContentLoaded', function() {
+        const dataSourceCheckboxes = document.querySelectorAll('input[name="data-source"]');
+        const debugConsole = document.getElementById('debug-console');
+        const debugMessages = document.getElementById('debug-messages');
+        const themeToggle = document.getElementById('theme-toggle');
+        const resetButtons = document.querySelectorAll('.reset-chat');
+        
+        // Initialize debug console
+        initializeDebugConsole();
+        
+        // Initialize theme toggle
+        initializeThemeToggle();
+        
+        // Initialize reset buttons
+        initializeResetButtons();
+        
+        // Update the chat input based on selected data sources
+        dataSourceCheckboxes.forEach(checkbox => {
+            checkbox.addEventListener('change', function() {
+                updateSelectedDataSources();
+            });
+        });
+        
+        function updateSelectedDataSources() {
+            const selectedSources = [];
+            dataSourceCheckboxes.forEach(cb => {
+                if (cb.checked) {
+                    selectedSources.push(cb.value);
+                }
+            });
+            
+            // Store selected sources in the form data
+            const chatForm = document.getElementById('chat-form');
+            chatForm.dataset.selectedSources = JSON.stringify(selectedSources);
+            
+            // Log to debug console
+            logToDebugConsole('info', `Selected data sources: ${selectedSources.join(', ') || 'none'}`);
+            
+            // Update the form submission to include selected data sources
+            if (!chatForm._sourceListenerAdded) {
+                chatForm.addEventListener('submit', function(e) {
+                    // The existing form handler from chat.js will take care of the submission
+                    // This just ensures the data sources are included
+                    const selectedSourcesData = JSON.parse(this.dataset.selectedSources || '[]');
+                    logToDebugConsole('info', `Sending message with data sources: ${selectedSourcesData.join(', ') || 'none'}`);
+                });
+                chatForm._sourceListenerAdded = true;
+            }
+        }
+        
+        function initializeDebugConsole() {
+            // Show debug console with keyboard shortcut (Ctrl+Shift+D)
+            document.addEventListener('keydown', function(e) {
+                if (e.ctrlKey && e.shiftKey && e.key === 'D') {
+                    debugConsole.classList.toggle('show');
+                    e.preventDefault();
+                }
+            });
+            
+            // Close debug console
+            document.getElementById('debug-console-close').addEventListener('click', function() {
+                debugConsole.classList.remove('show');
+            });
+            
+            // Log initial message
+            logToDebugConsole('info', 'Debug console initialized. Press Ctrl+Shift+D to toggle visibility.');
+        }
+        
+        function logToDebugConsole(level, message) {
+            const timestamp = new Date().toLocaleTimeString();
+            const logElement = document.createElement('div');
+            logElement.classList.add('debug-log', level);
+            logElement.textContent = `[${timestamp}] ${message}`;
+            debugMessages.appendChild(logElement);
+            
+            // Auto-scroll to bottom
+            debugMessages.scrollTop = debugMessages.scrollHeight;
+            
+            // Also log to browser console
+            switch(level) {
+                case 'error':
+                    console.error(message);
+                    break;
+                case 'warn':
+                    console.warn(message);
+                    break;
+                default:
+                    console.log(message);
+            }
+        }
+        
+        function initializeThemeToggle() {
+            // Check for saved theme
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            
+            // Update toggle icon and text based on current theme
+            updateThemeToggle(savedTheme);
+            
+            // Toggle theme on click
+            themeToggle.addEventListener('click', function() {
+                const currentTheme = document.documentElement.getAttribute('data-theme') || 'light';
+                const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+                
+                document.documentElement.setAttribute('data-theme', newTheme);
+                localStorage.setItem('theme', newTheme);
+                
+                updateThemeToggle(newTheme);
+                logToDebugConsole('info', `Theme switched to ${newTheme} mode`);
+            });
+        }
+        
+        function updateThemeToggle(theme) {
+            const icon = themeToggle.querySelector('.theme-toggle-icon');
+            const label = themeToggle.querySelector('.theme-toggle-label');
+            
+            if (theme === 'dark') {
+                icon.className = 'fas fa-sun theme-toggle-icon';
+                label.textContent = 'Light Mode';
+            } else {
+                icon.className = 'fas fa-moon theme-toggle-icon';
+                label.textContent = 'Dark Mode';
+            }
+        }
+        
+        function initializeResetButtons() {
+            resetButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const modelType = this.getAttribute('data-model');
+                    const chatbox = this.closest('.chatbox');
+                    const messagesContainer = chatbox.querySelector('.chatbox-messages');
+                    
+                    // Clear all messages except the first one (welcome message)
+                    const allMessages = messagesContainer.querySelectorAll('.message');
+                    if (allMessages.length > 1) {
+                        Array.from(allMessages).slice(1).forEach(msg => msg.remove());
+                    }
+                    
+                    logToDebugConsole('info', `Reset chat for ${modelType} model`);
+                });
+            });
+        }
+        
+        // Initialize
+        updateSelectedDataSources();
+    });
+</script>
+{% endblock %} 

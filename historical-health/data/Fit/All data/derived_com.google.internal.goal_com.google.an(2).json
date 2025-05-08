@@ -1,0 +1,8 @@
+{
+    "Data Source": "derived:com.google.internal.goal:com.google.android.apps.fitness:com_google_step_count_delta.cumulative.day...sample",
+    "Data Points": [
+        {"fitValue":[{"blob":{"internalGoal":{"endTimeNanos":9223372036854000000,"dataTypeName":"com.google.step_count.delta","cumulativeObjective":{"objective":{"fieldName":"steps","value":{"intVal":10000},"operator":"GTE"}},"recurInterval":{"unit":"DAY","count":1},"startTimeNanos":1602086990693000000}}}],"originDataSourceId":"","endTimeNanos":1602086990693000000,"dataTypeName":"com.google.internal.goal","startTimeNanos":1602086990693000000,"modifiedTimeMillis":1602086994931,"rawTimestampNanos":0},
+        {"fitValue":[{"blob":{"internalGoal":{"endTimeNanos":9223372036854000000,"dataTypeName":"com.google.step_count.delta","cumulativeObjective":{"objective":{"fieldName":"steps","value":{"intVal":10000},"operator":"GTE"}},"recurInterval":{"unit":"DAY","count":1},"startTimeNanos":1629745121123000000}}}],"originDataSourceId":"","endTimeNanos":1629745121123000000,"dataTypeName":"com.google.internal.goal","startTimeNanos":1629745121123000000,"modifiedTimeMillis":1629745155106,"rawTimestampNanos":0},
+        {"fitValue":[{"blob":{"internalGoal":{"endTimeNanos":9223372036854000000,"dataTypeName":"com.google.step_count.delta","cumulativeObjective":{"objective":{"fieldName":"steps","value":{"intVal":10000},"operator":"GTE"}},"recurInterval":{"unit":"DAY","count":1},"startTimeNanos":1691828894883000000}}}],"originDataSourceId":"","endTimeNanos":1691828894883000000,"dataTypeName":"com.google.internal.goal","startTimeNanos":1691828894883000000,"modifiedTimeMillis":1691828916026,"rawTimestampNanos":0}
+    ]
+}

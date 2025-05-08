@@ -1,0 +1,15 @@
+{
+  "fitnessActivity": "weightlifting",
+  "startTime": "2021-06-22T08:36:54.166Z",
+  "endTime": "2021-06-22T08:37:09.311Z",
+  "duration": "13.777s",
+  "segment": [{
+    "fitnessActivity": "weightlifting",
+    "startTime": "2021-06-22T08:36:54.166Z",
+    "endTime": "2021-06-22T08:37:07.943Z"
+  }],
+  "aggregate": [{
+    "metricName": "com.google.calories.expended",
+    "floatValue": 2.325707699686166
+  }]
+}

@@ -1,0 +1,311 @@
+# Consolidated Youtube Data Analysis Report
+
+Date: 2025-05-07 16:05:46
+Based on analysis of 66 visualizations processed in 5 batches
+
+## Overview
+This report consolidates multiple analyses of YouTube data visualizations, focusing on metrics related to YouTube usage patterns and their correlation with mental health topics. This synthesis includes the types of content, numerical values, engagement patterns, and observable trends.
+
+## Summary of Key Findings
+
+### 1. Consumption Patterns by Content Category
+
+#### Highest and Lowest Engagement
+- **Vlogs** display a significant correlation with "mental health education," scoring 0.49.
+- **Comedy, Education, and Entertainment** categories show high correlations with topics like "motivation and mental strength" and "self-care practices," with scores reaching up to 0.86.
+- Comedy shows the highest scores with "motivation and mental strength" (0.83) and "self-care practices" (0.81).
+
+### 2. Sentiment and Mental Health Correlations
+
+#### Sentiment Scores
+- Categories related to self-improvement and motivation indicate a more positive reception, without specific detailed numerical scores displayed.
+- Self-improvement (n=3946) and Motivation (n=3547) have the largest sample sizes, reflecting strong interest.
+
+### 3. Impact of Content on Mental Health
+
+#### Average Scores
+- Categories like "Self-Improvement and Personal Growth" show high average scores (0.8), suggesting positive mental health impact.
+- Lower scores appear in categories like "Anxiety and Stress Management" (0.42) and "Depression and Emotional Support" (0.45).
+
+### 4. Day of the Week Consumption Patterns
+
+#### Weekday Trends
+- **Mondays** display high values for both "Addiction" (62.7%) and "Rabbit Holes" (40.4%).
+- **Sundays** and **Saturdays** show heightened engagement in addiction-related content (66.7% on Saturday).
+
+### 5. Daily Usage Heatmaps
+
+#### Heatmap Observations
+- "Addiction" peaks on Monday of Week 7 with 2709 recorded interactions, suggesting high engagement at the week's start.
+- **Escapism** shows a peak on Monday, Week 3, with 2709 interactions.
+
+### 6. Engagement Attributes and Mental Health
+
+#### Content Types Impact
+- **Informative and Controversial** content displays the most considerable impact on categories like "Self-Improvement and Personal Growth" (up to 0.8).
+
+### 7. Trends in Viewing Habits
+
+#### Temporal Viewing Patterns
+- Consistently high viewership during late 2024 to early 2025, particularly in categories like "Addiction" and "Escapism."
+- Declines noted towards mid-week, with lower consumption observed during weekends in specific engagements like "Rabbit Holes."
+
+## Correlations with Mental Health Indicators
+
+### Positive Correlations
+- **Self-Improvement and Personal Growth** consistently link to higher mental health scores, both in presence and engagement, across various content types.
+- **Motivation and Mental Strength** similarly maintain a positive correlation, with scores around 0.75 to 0.76.
+
+### Negative and Neutral Correlations
+- Lower scores in categories such as **Anxiety and Stress Management** indicate a less favorable impact on mental health, with stable low scores (0.45).
+
+## Conclusion
+The comprehensive analysis of YouTube consumption patterns reveals significant insights into user engagement, content preference, and potential correlations with mental health indicators. While specific modes of content demonstrate a positive influence on mental health awareness and education, others coincide with lesser beneficial impacts. These insights underscore complex interactions between digital media consumption and user well-being, strictly reflecting observed data without inference or recommendation.
+
+## Next Batch of Analyses
+
+This report summarizes key findings from multiple analyses of YouTube data visualizations, focusing on viewing patterns and metrics related to late-night activity, mental health trends, and various content themes.
+
+## Section 1: Late Night Viewing Patterns
+
+### 1. Visual Summary
+- **Chart Type**: Line chart with data points.
+- **Data Presented**: Total videos, late-night videos (10 PM - 4 AM), 7-day moving average for late-night videos.
+- **Key Consumption Patterns**: Late-night video counts show an upward trend, increasing from negligible numbers to peaks over 300 videos in later periods.
+
+### 2. Specific Numerical Observations
+- **Late-Night Video Range**: 0 to 100+ with significant peaks.
+- **7-Day Moving Average**: Shows stable trends around 0 to 50.
+
+## Section 2: Mental Health Index Trends
+
+### 1. Mental Health Index Visualization
+- **Chart Type**: Line charts focusing on Daily, Weekly, and Monthly indices and forecasts.
+- **Metrics**: Daily Mental Health Index, 7-day, and 30-day moving averages, with forecasts.
+
+### 2. Key Trends and Statistics
+- **Range**: Mental Health Index ranges from 0.60 to 0.75, showing a general decreasing trend with stabilization around 0.65 observed in early 2025.
+
+### 3. Insights and Patterns
+- **Forecast Stabilization**: A stabilization trend is anticipated around an index value of 0.65 in early 2025.
+
+## Section 3: Mental Health Themes
+
+### 1. Content Categories
+- **Categories**: Addiction awareness, anxiety and stress management, depression, emotional health, mental health education, mindfulness, motivation, self-care, and others.
+
+### 2. Key Observational Trends
+- **General Declines**: Many content themes (e.g., addiction awareness, motivation, self-care) show a declining pattern from mid-2024 into 2025.
+- **Specific Increases**: Anxiety and stress management shows a slight increase from mid-2024, improving focus in this category.
+
+### 3. Numerical Summaries
+- **Initial Highs and Lows**:
+  - Self-improvement and personal growth maintained high scores initially but declined from 0.95 to around 0.78 by early 2025.
+  - Areas like trauma awareness began low and declined further.
+
+### 4. Fluctuation Patterns
+- **Daily Variability**: Many themes exhibited significant daily fluctuations, indicating dynamic viewing habits.
+- **Monthly Trends**: Consistent decline in most categories from summer to winter months in both 2024 and 2025.
+
+## Section 4: Correlation Insights and Trends
+
+### 1. Mental Health Correlations
+- Although direct correlations with mental health are not explicitly detailed, generalized trends suggest declining engagement with several mental health-related topics over time.
+
+### 2. Peak Observations
+- Peaks in mental health content engagement (e.g., December 2024) might align with known periods of increased mental health vulnerabilities, although explicit correlations are not documented in the data.
+
+## Overall Summary
+
+This consolidated analysis captures YouTube's diverse viewing trends and consumption patterns across various mental health-related themes. While the data provides insights into consumption peaks and declines, it does not explicitly correlate these patterns with mental health outcomes. Viewing habits indicate a broad interaction with mental health content, with noticeable fluctuations and trends over the years analyzed.
+
+## Next Batch of Analyses
+
+## Overview
+
+This report consolidates findings from multiple data visualizations that depict YouTube viewing patterns in relation to mental health themes from July 2024 to March 2025. The data examines various mental health topics including therapy, trauma awareness, work-life balance, self-care, and more.
+
+## Data Visualization Types
+All analyses are primarily delivered through heatmaps and line charts visualizing mental health scores across different timeframes and categories. Metrics focus on "Scores" indicative of engagement or the thematic consumption aligned with mental health topics over specified periods.
+
+### Visualizations Analyzed
+1. Line charts for therapy, trauma awareness, work-life balance, and other general trends.
+2. Heatmaps providing hourly insights into specific topics such as addiction recovery, anxiety management, and more.
+
+## Key Metrics and Numerical Statistics
+
+### Line Chart Summary (July 2024 - March 2025)
+- **Daily Scores**: Fluctuating averages around 0.6, peaking as high as 0.87 initially.
+- **Weekly Scores**: Initial high of around 0.8, tapering to 0.55 by early 2025.
+- **Monthly Scores**: Visible decline from approximately 0.775 in July 2024 to 0.53 by March 2025.
+- Key themes include therapy, trauma awareness, and work-life balance, with all themes showing an initial high followed by a gradual decrease and eventual stabilization.
+
+### Heatmap Summary (Hourly Focus, Late January - Early February 2025)
+- **Peak Scores**:
+  - Higher activity and scores (green areas) during afternoon (15:00-18:00) through late evening (18:00-22:00).
+  - Higher scores maintained in mental health education and anxiety management content.
+- **Low Scores**:
+  - Early morning hours (0:00-6:00) show lower scores, indicating less engagement or interaction during these times.
+- **Specific Dates with High Scores**: February 1st, 7th, highlighting variations in daily mental health engagement.
+
+## Consumption Patterns
+
+### Daily Patterns
+- **Early Morning (0:00-6:00)**: Consistently low scores across categories, minimal engagement.
+- **Afternoon to Evening (12:00-20:00)**: Higher scores and engagement observed, with specific increase in anxiety and stress management.
+
+### Hourly Insights from Heatmaps
+- **Addiction Recovery and Emotional Support**:
+  - Higher scores during late afternoons (16:00-18:00) on dates like February 2nd.
+- **Anxiety and Stress Management**:
+  - Increased engagement from 18:00-21:00 on multiple days.
+- **Overall Mental Wellness**:
+  - Green scores suggest heightened consumption in mental wellness topics during midday and late afternoon periods.
+
+## Specific Trends in Mental Health Correlations
+- **Initial Peaks**: Across categories, there is a notable spike in the early months of data collection, followed by a gradual decline.
+- **Time-specific Engagement**: Evening and late afternoon hours on specific days recorded the highest engagement.
+- **Consistent Decline**: Most scores depict a declining trend which then stabilizes, potentially indicating shifts in user engagement or the evolving focus on mental health.
+
+## Overall Observations
+This comprehensive examination provides a look into how mental health content related to therapy, stress management, self-care, and mental wellness is consumed on YouTube over time. The data reflects patterns linked to daily rhythms and wider social engagement, offering detailed insights into specific dayparts and content themes without suggesting causation or implying actions. The documented fluctuations and time-based variances in viewing highlight the ebb and flow of mental health engagement among YouTube audiences during the specified period.
+
+## Next Batch of Analyses
+
+## Introduction
+This report consolidates multiple analyses on YouTube usage patterns, focusing on mental health indicators, consumption habits, and viewing tendencies. Findings are organized by type of analysis, metrics, and trends observed across various visualizations, including heatmaps, line graphs, bar charts, pie charts, and more, covering data from 2024 to 2025.
+
+## Hourly Trends Analysis
+
+### Social Anxiety and Relationships
+- **Visualization Type**: Heatmap
+- **Metrics & Time Period**: Hourly mental health scores from Jan 31 to Feb 13, 2025.
+- **Patterns**:
+  - High scores (indicative of better mental health) between 15:00-17:00.
+  - Lower scores (indicative of poorer mental health) during early morning hours (0:00-7:00).
+
+### Therapy and Mental Health Support
+- **Visualization Type**: Heatmap
+- **Patterns**:
+  - Elevated scores observed from 3 PM to 7 PM daily.
+  - Overnight hours (10 PM - 2 AM) show consistently lower mental health scores.
+
+### Trauma Awareness and Healing
+- **Visualization Type**: Heatmap
+- **Patterns**:
+  - Frequent high scores during late afternoon and early evening (14:00 - 19:00).
+  - Lower scores during early hours (0:00 - 6:00).
+
+### Work-life Balance and Burnout
+- **Visualization Type**: Heatmap
+- **Patterns**:
+  - Evening scores (20:00-23:00) are higher, particularly on specific dates (Feb 1 and 7).
+  - Consistently low morning scores (0:00-6:00) indicating peak stress/burnout periods.
+
+## Monthly & Weekly Trends
+
+### Monthly Analysis
+- **Visualization Type**: Line graph
+- **Metrics**: Monthly mental health scores from July 2024 to March 2025.
+- **Trends**:
+  - "Sleep and mental wellness" decreases from 0.9 to 0.6.
+  - Relative stability in "Therapy and mental health support."
+
+### Weekly Analysis
+- **Visualization Type**: Line Graph
+- **Trends**:
+  - General decline across categories, notably in "anxiety and stress management" from ~0.95 to ~0.75.
+  - Stabilization of scores post-November 2024.
+
+## Content Pattern Analysis
+
+### Consumption Patterns
+- **Metrics**: Video patterns across different categories.
+- **Observations**:
+  - "Addiction" and "Rabbit Holes" dominate the pattern distribution.
+
+### Music Genre Impact
+- **Visualization Type**: Bar graph
+- **Metrics**: Impact on average mental health scores.
+- **Findings**:
+  - K-Pop presents lowest average scores.
+  - Music and Hip Hop/Rap have high data points.
+
+## Correlation and Distribution Analysis
+
+### Correlation Heatmap
+- **Metrics**: Correlation coefficients between user habits and mental health indicators.
+- **Notable Correlations**:
+  - **Addiction & Doom_scrolling** (0.14) shows moderate positive correlation.
+
+### Pattern Distribution
+- **Visualization Type**: Pie Chart
+- **Observations**:
+  - "Addiction" (39.9%) and "Rabbit Holes" (26.6%) are significant patterns.
+  - "Negative Mood" shows no measurable data.
+
+### Pattern Count Summary
+- **Visualization Type**: Bar Chart
+- **Observations**:
+  - Highest count in "Addiction" (85,727 videos).
+  - Zero data for "Negative Mood."
+
+## Summary
+Throughout the data analyses, distinct patterns emerged indicating various consumption habits, predominantly in the afternoon and evening hours, with significant user engagement in "Addiction" and "Rabbit Holes" content. Seasonal shifts and weekly declines in mental health scores were observed across different content categories over the analyzed period. The data reveal insightful temporal and thematic trends relevant to YouTube consumption linked to mental health, without drawing implications or recommendations.
+
+## Next Batch of Analyses
+
+## Overview
+
+This report consolidates findings from multiple analyses of YouTube data visualizations, revealing patterns in user engagement with various content categories, particularly those linked with mental health. The analysis period spans from March 2024 to March 2025, focusing on significant metrics, viewing trends, and potential mental health correlations.
+
+## Summary of Key Findings
+
+### Time Series Analysis
+- **Visualization Type**: Stacked Area Chart and Multi-line Time Series.
+- **Metrics**: Number of videos viewed, categorized by content type.
+- **Consumption Patterns**:
+  - A notable increase in video engagement occurs from July 2024, peaking towards early 2025.
+  - Dips in activity are observed in March to May 2024.
+  - Highest video counts in Addiction, Escapism, and Rabbit Holes categories.
+
+### Viewing Patterns and Metrics
+- **Numerical Values**:
+  - Video counts in certain categories peak at around 600.
+  - Stabilized increases in the average number of videos viewed, with peaks nearing 120 in early 2025.
+  - Peaks and troughs generally correspond with categories indicative of escapism and addictive behavior.
+
+### Mental Health Correlations
+- **Content Categories with Negative Impact**:
+  - Top 10 videos with highest negative mental health impact scores range from approximately 0.10 to 0.30.
+  - Categories include elements of science, memes, and music, indicating diverse content impacting mental health.
+
+- **Content Categories with Positive Impact**:
+  - Videos with high positive scores (up to 1.0) involve themes like physical activity, motivation, and music.
+  - High engagement with content related to motivation and physical activity suggests a link to positive mental health outcomes.
+
+## Temporal Patterns in Viewing Habits
+
+### Viewing Time Counts
+- **Visualization Type**: Heatmap.
+- **Key Patterns**:
+  - Highest video views recorded at 14:00 with 1019 views for "self-improvement and personal growth."
+  - Lower activity between 0:00 to 5:00, with view counts generally below 300.
+
+### Viewing Time Patterns
+- **Metrics**: Average viewing scores across mental health categories.
+- **Highest Engagement**:
+  - Peaking at 0.82 for "self-improvement and personal growth" at 21:00.
+- **Daily Patterns**:
+  - Increased engagement in evenings, suggesting users predominantly consume content associated with personal growth and self-care at the end of the day.
+  - Lower engagement during daytime hours, particularly in categories like "depression and emotional support."
+
+## Patterns in Content Categories
+
+- **Addiction and Escapism**: These categories consistently show high engagement peaks, suggesting prevalent user interest or need.
+- **Self-Improvement and Personal Growth**: Frequent evening spikes in these categories noted, highlighting a preference for content that offers personal development insights and techniques.
+- **Negative Mood and Unhealthy Comparison**: Less pronounced but visibly associated with periods of high content consumption associated with mental health indicators.
+
+## Conclusion
+
+The consolidated data reflects a significant trend in YouTube video consumption related to behavioral and mental health themes. It shows varying levels of engagement throughout the year, with marked increases in content related to escapism and addiction, and highlights differences in content with positive versus negative mental health impacts. The variations in viewing patterns throughout the day further illustrate the complex interaction between digital media consumption and mental health dynamics.

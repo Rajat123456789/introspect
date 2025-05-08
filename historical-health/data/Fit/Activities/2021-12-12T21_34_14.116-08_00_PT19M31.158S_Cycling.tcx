@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Biking">
+            <Id>2021-12-13T05:34:14.116Z</Id>
+            <Lap StartTime="2021-12-13T05:34:14.116Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-12-13T05:34:14.116Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2021-12-13T05:38:03.296Z</Time>
+                        <Position>
+                            <LatitudeDegrees>19.83527946472168</LatitudeDegrees>
+                            <LongitudeDegrees>75.2925796508789</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>405.1999816894531</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>68.9640884399414</DistanceMeters>
+                        <Time>2021-12-13T05:40:05.219Z</Time>
+                        <Position>
+                            <LatitudeDegrees>19.835344314575195</LatitudeDegrees>
+                            <LongitudeDegrees>75.29192352294922</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>476.79998779296875</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>820.3913955688477</DistanceMeters>
+                        <Time>2021-12-13T05:42:06.726Z</Time>
+                        <Position>
+                            <LatitudeDegrees>19.83623504638672</LatitudeDegrees>
+                            <LongitudeDegrees>75.2990493774414</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>476.79998779296875</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>3996.6467666625977</DistanceMeters>
+                        <Time>2021-12-13T05:52:14.255Z</Time>
+                        <Position>
+                            <LatitudeDegrees>19.85200309753418</LatitudeDegrees>
+                            <LongitudeDegrees>75.32439422607422</LongitudeDegrees>
+                        </Position>
+                        <AltitudeMeters>501.6000061035156</AltitudeMeters>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>3996.6467666625977</DistanceMeters>
+                        <Time>2021-12-13T05:53:45.274Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>3996.6467666625977</DistanceMeters>
+                <TotalTimeSeconds>1171.158</TotalTimeSeconds>
+                <Calories>119.71836853027344</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

@@ -1,0 +1,7 @@
+{
+    "Data Source": "derived:com.google.internal.sleep_schedule:com.google.android.gms:merged",
+    "Data Points": [
+        {"fitValue":[{"blob":{"internalSleepSchedule":{"targetWakeupTime":{"hours":7},"targetBedTime":{"hours":23},"userInput":{}}}}],"originDataSourceId":"raw:com.google.internal.sleep_schedule:com.google.android.apps.fitness:user_input","endTimeNanos":1613490368008000000,"dataTypeName":"com.google.internal.sleep_schedule","startTimeNanos":1613490368008000000,"modifiedTimeMillis":1613525053231,"rawTimestampNanos":0},
+        {"fitValue":[{"blob":{"internalSleepSchedule":{"userInput":{}}}}],"originDataSourceId":"raw:com.google.internal.sleep_schedule:com.google.android.apps.fitness:user_input","endTimeNanos":1613490369593000000,"dataTypeName":"com.google.internal.sleep_schedule","startTimeNanos":1613490369593000000,"modifiedTimeMillis":1613525053231,"rawTimestampNanos":0}
+    ]
+}

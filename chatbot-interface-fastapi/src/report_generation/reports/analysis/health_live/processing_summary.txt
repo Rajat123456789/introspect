@@ -1,0 +1,22 @@
+# Image Analysis Processing Summary
+
+Date: 2025-05-07 14:25:40
+Directory: C:\Users\somes\Documents\GitHub\introspect\chatbot-interface-fastapi\src\report_generation\data\Health_live
+Analysis type: health
+Total images processed: 11
+Successful: 11
+Failed: 0
+
+## Processed Files
+
+1. activity_analysis.png - ✓ Success
+2. activity_insights.png - ✓ Success
+3. advanced_insights.png - ✓ Success
+4. body_composition_analysis.png - ✓ Success
+5. cardiovascular_analysis.png - ✓ Success
+6. combined_dashboard.png - ✓ Success
+7. correlation_matrix.png - ✓ Success
+8. fitness_progress.png - ✓ Success
+9. heart_rate_insights.png - ✓ Success
+10. nutrition_analysis.png - ✓ Success
+11. sleep_analysis.png - ✓ Success

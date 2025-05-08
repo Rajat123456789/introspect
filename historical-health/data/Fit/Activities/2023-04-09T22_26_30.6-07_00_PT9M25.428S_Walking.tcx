@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Walking">
+            <Id>2023-04-10T04:17:26.480Z</Id>
+            <Lap StartTime="2023-04-10T04:17:26.480Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T04:17:26.480Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T05:25:30.960Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>32.62324992868304</DistanceMeters>
+                        <Time>2023-04-10T05:26:30.600Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>77.64333483026563</DistanceMeters>
+                        <Time>2023-04-10T05:27:31.400Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>129.18806971758482</DistanceMeters>
+                        <Time>2023-04-10T05:28:31.760Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>129.18806971758482</DistanceMeters>
+                <TotalTimeSeconds>4265.279998775</TotalTimeSeconds>
+                <Calories>95.14569224232761</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Walking">
+            <Id>2023-04-10T05:27:31.400Z</Id>
+            <Lap StartTime="2023-04-10T05:27:31.400Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T05:27:31.400Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>51.5447348873192</DistanceMeters>
+                        <Time>2023-04-10T05:27:39.896Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>51.5447348873192</DistanceMeters>
+                        <Time>2023-04-10T05:28:31.760Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>103.0894697746384</DistanceMeters>
+                        <Time>2023-04-10T05:29:32.960Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>157.8965296548259</DistanceMeters>
+                        <Time>2023-04-10T05:30:34.400Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>212.7035895350134</DistanceMeters>
+                        <Time>2023-04-10T05:31:35.120Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>258.37613943516965</DistanceMeters>
+                        <Time>2023-04-10T05:32:34.560Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>279.90748438810044</DistanceMeters>
+                        <Time>2023-04-10T05:33:53.530Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>279.90748438810044</DistanceMeters>
+                <TotalTimeSeconds>382.129931086</TotalTimeSeconds>
+                <Calories>38.255970111111104</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Walking">
+            <Id>2023-04-10T05:33:53.530Z</Id>
+            <Lap StartTime="2023-04-10T05:33:53.530Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T05:33:53.530Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T05:46:35.000Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>1.3049299971473216</DistanceMeters>
+                        <Time>2023-04-10T05:46:37.200Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>23.48873994865179</DistanceMeters>
+                        <Time>2023-04-10T05:47:06.280Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>23.48873994865179</DistanceMeters>
+                <TotalTimeSeconds>792.750068408</TotalTimeSeconds>
+                <Calories>18.622081661896022</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+        <Activity Sport="Walking">
+            <Id>2023-04-10T05:46:37.200Z</Id>
+            <Lap StartTime="2023-04-10T05:46:37.200Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2023-04-10T05:46:37.200Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>22.183809951504468</DistanceMeters>
+                        <Time>2023-04-10T05:47:00.604Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>22.183809951504468</DistanceMeters>
+                        <Time>2023-04-10T05:47:06.280Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>39.147899914419654</DistanceMeters>
+                        <Time>2023-04-10T05:48:39.698Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>39.147899914419654</DistanceMeters>
+                <TotalTimeSeconds>122.497929748</TotalTimeSeconds>
+                <Calories>10.146124555555554</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

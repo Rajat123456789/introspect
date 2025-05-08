@@ -1,0 +1,34 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# LLM Fine-tuning Component
+
+This component manages the fine-tuning of large language models for introspection:
+
+## Structure and Main Components
+Located in `finetune_introspect-llm/`, this component includes:
+- Introspect-medalpaca fine-tuning in `introspect-medalpaca/`
+- Model configuration in `introspect-medalpaca/configs/`
+- Prompt templates in `introspect-medalpaca/prompt_templates/`
+
+## Key Components
+- Configuration files define model parameters and training settings
+- Prompt templates structure the input/output format for fine-tuning
+- Fine-tuning scripts adapt pre-trained models to introspection tasks
+
+## Data Flow
+1. Analysis data from various components is prepared for fine-tuning
+2. Prompt templates format the data for model training
+3. Configuration files specify the training parameters
+4. Fine-tuning scripts update the model weights
+5. Evaluation metrics assess model performance
+6. Fine-tuned models are deployed to the chatbot interface
+
+## Integration Points
+- Consumes data from the prompt engineering component
+- Takes insights from knowledge graph components
+- Feeds fine-tuned models to the chatbot interface
+- Incorporates health and multimedia data patterns
+

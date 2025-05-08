@@ -1,0 +1,15 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Overview
+
+This is an Agentic Report Generation system for multimodal data analysis. The project uses CrewAI to generate detailed reports from various data sources including health and YouTube data.
+
+## Main Components
+
+- [main.py](mdc:main.py): Entry point of the application
+- [src/report_generation/](mdc:src/report_generation/): Main package containing all report generation code
+- [backend/api/](mdc:backend/api/): FastAPI backend for the chatbot interface
+- [requirements.txt](mdc:requirements.txt): Project dependencies

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube History Data</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <style>
+        body {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .visualization-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .visualization-card {
+            background-color: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-sm);
+            overflow: hidden;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .visualization-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+        .visualization-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .visualization-title {
+            padding: 15px;
+            border-top: 1px solid var(--border-color);
+            font-weight: 500;
+        }
+        .header {
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .back-button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 8px 15px;
+            border-radius: var(--border-radius-sm);
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .back-button:hover {
+            background-color: var(--primary-dark);
+            text-decoration: none;
+        }
+        [data-theme="dark"] {
+            background-color: #212529;
+        }
+        [data-theme="dark"] .visualization-card {
+            background-color: #343a40;
+        }
+        .categories-container {
+            margin-bottom: 30px;
+        }
+        .category-title {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>YouTube History Visualizations</h1>
+        <a href="/" class="back-button"><i class="fas fa-arrow-left"></i> Back to Chat</a>
+    </div>
+    
+    <div class="categories-container">
+        <div class="category-title">Overview Visualizations</div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/viewing_time_patterns.png" alt="Viewing Time Patterns" class="visualization-image">
+                <div class="visualization-title">Viewing Time Patterns</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/viewing_time_counts.png" alt="Viewing Time Counts" class="visualization-image">
+                <div class="visualization-title">Viewing Time Counts</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/late_night_viewing_pattern.png" alt="Late Night Viewing Pattern" class="visualization-image">
+                <div class="visualization-title">Late Night Viewing Pattern</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/category_sentiment_viz.png" alt="Category Sentiment Visualization" class="visualization-image">
+                <div class="visualization-title">Category Sentiment</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/content_category_impact.png" alt="Content Category Impact" class="visualization-image">
+                <div class="visualization-title">Content Category Impact</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/music_genre_impact.png" alt="Music Genre Impact" class="visualization-image">
+                <div class="visualization-title">Music Genre Impact</div>
+            </div>
+        </div>
+        
+        <div class="category-title">Pattern Analysis</div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_time_series.png" alt="Pattern Time Series" class="visualization-image">
+                <div class="visualization-title">Pattern Time Series</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_time_series_smoothed.png" alt="Pattern Time Series (Smoothed)" class="visualization-image">
+                <div class="visualization-title">Pattern Time Series (Smoothed)</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_distribution_pie.png" alt="Pattern Distribution Pie" class="visualization-image">
+                <div class="visualization-title">Pattern Distribution Pie</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_percentage_summary.png" alt="Pattern Percentage Summary" class="visualization-image">
+                <div class="visualization-title">Pattern Percentage Summary</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_count_summary.png" alt="Pattern Count Summary" class="visualization-image">
+                <div class="visualization-title">Pattern Count Summary</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/pattern_correlation_heatmap.png" alt="Pattern Correlation Heatmap" class="visualization-image">
+                <div class="visualization-title">Pattern Correlation Heatmap</div>
+            </div>
+        </div>
+        
+        <div class="category-title">Temporal Analysis</div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/day_of_week_patterns.png" alt="Day of Week Patterns" class="visualization-image">
+                <div class="visualization-title">Day of Week Patterns</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/day_of_week_patterns_pct.png" alt="Day of Week Patterns (Percentage)" class="visualization-image">
+                <div class="visualization-title">Day of Week Patterns (Percentage)</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/day_of_week_heatmap.png" alt="Day of Week Heatmap" class="visualization-image">
+                <div class="visualization-title">Day of Week Heatmap</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/monthly_pattern_counts.png" alt="Monthly Pattern Counts" class="visualization-image">
+                <div class="visualization-title">Monthly Pattern Counts</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/monthly_pattern_stacked.png" alt="Monthly Pattern Stacked" class="visualization-image">
+                <div class="visualization-title">Monthly Pattern Stacked</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/monthly_pattern_heatmap.png" alt="Monthly Pattern Heatmap" class="visualization-image">
+                <div class="visualization-title">Monthly Pattern Heatmap</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/daily_pattern_counts.png" alt="Daily Pattern Counts" class="visualization-image">
+                <div class="visualization-title">Daily Pattern Counts</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/daily_pattern_stacked.png" alt="Daily Pattern Stacked" class="visualization-image">
+                <div class="visualization-title">Daily Pattern Stacked</div>
+            </div>
+        </div>
+        
+        <div class="category-title">Mental Health Trends</div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_trends_daily.png" alt="Mental Health Trends (Daily)" class="visualization-image">
+                <div class="visualization-title">Mental Health Trends (Daily)</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_trends_weekly.png" alt="Mental Health Trends (Weekly)" class="visualization-image">
+                <div class="visualization-title">Mental Health Trends (Weekly)</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_trends_monthly.png" alt="Mental Health Trends (Monthly)" class="visualization-image">
+                <div class="visualization-title">Mental Health Trends (Monthly)</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_weekly_trends.png" alt="Mental Health Weekly Trends" class="visualization-image">
+                <div class="visualization-title">Mental Health Weekly Trends</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_monthly_trends.png" alt="Mental Health Monthly Trends" class="visualization-image">
+                <div class="visualization-title">Mental Health Monthly Trends</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/mental_health_forecast_simple.png" alt="Mental Health Forecast (Simple)" class="visualization-image">
+                <div class="visualization-title">Mental Health Forecast (Simple)</div>
+            </div>
+        </div>
+        
+        <div class="category-title">Engagement Analysis</div>
+        <div class="visualization-grid">
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/engagement_heatmap.png" alt="Engagement Heatmap" class="visualization-image">
+                <div class="visualization-title">Engagement Heatmap</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/engagement_format_correlations.png" alt="Engagement Format Correlations" class="visualization-image">
+                <div class="visualization-title">Engagement Format Correlations</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/engagement_attributes_correlations.png" alt="Engagement Attributes Correlations" class="visualization-image">
+                <div class="visualization-title">Engagement Attributes Correlations</div>
+            </div>
+            
+            <div class="visualization-card">
+                <img src="/static/data/Youtube_history/category_correlations.png" alt="Category Correlations" class="visualization-image">
+                <div class="visualization-title">Category Correlations</div>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // Check for saved theme
+        const savedTheme = localStorage.getItem('theme') || 'light';
+        document.documentElement.setAttribute('data-theme', savedTheme);
+    </script>
+</body>
+</html> 

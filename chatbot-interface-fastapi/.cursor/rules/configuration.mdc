@@ -1,0 +1,32 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Configuration System
+
+The application uses YAML-based configuration files to define crew behavior.
+
+## Configuration Directories
+
+Each crew type has its own configuration directory:
+
+- [src/report_generation/config/health_history/](mdc:src/report_generation/config/health_history): Health history crew config
+- [src/report_generation/config/health_live/](mdc:src/report_generation/config/health_live): Health live crew config
+- [src/report_generation/config/youtube_history/](mdc:src/report_generation/config/youtube_history): YouTube history crew config
+- [src/report_generation/config/youtube_live/](mdc:src/report_generation/config/youtube_live): YouTube live crew config
+
+## Configuration Files
+
+Each configuration directory contains two main files:
+
+1. `agents.yaml`: Defines the agents in a crew (roles, goals, backstories)
+2. `tasks.yaml`: Defines the tasks for each agent (description, expected output)
+
+## Environment Variables
+
+The application also uses environment variables for API keys and other settings:
+
+- [.env](mdc:.env): Environment variable file
+- Main variable: `OPENAI_API_KEY` for accessing OpenAI's API
+

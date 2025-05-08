@@ -1,0 +1,31 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Prompt Engineering Component
+
+This component focuses on prompt generation and analysis extraction for AI interactions:
+
+## Structure and Main Components
+Located in `prompt-eng/`, this component includes:
+- Prompt generation utilities for AI interactions
+- Analysis extraction from reports
+- Context preparation for historical data
+
+## Key Scripts
+- [prompt-eng/generate_prompt.py](mdc:prompt-eng/generate_prompt.py): Creates tailored prompts for AI models
+- [prompt-eng/extract_analysis_from_html_report.py](mdc:prompt-eng/extract_analysis_from_html_report.py): Extracts structured data from HTML reports
+- [prompt-eng/prepare_history_context.py](mdc:prompt-eng/prepare_history_context.py): Prepares historical context for AI interactions
+
+## Data Flow
+1. Analysis data is extracted from reports using extraction scripts
+2. The extracted data is formatted for prompt integration
+3. Historical context is prepared and combined with the analysis
+4. Comprehensive prompts are generated for AI models
+5. Generated prompts are stored in `prompt-eng/generated_prompt/`
+
+## Integration Points
+- Connects with analysis reports from knowledge graph components
+- Feeds into the chatbot interface for user interactions
+- Supports fine-tuning efforts for introspect LLM

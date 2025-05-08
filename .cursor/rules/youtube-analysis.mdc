@@ -1,0 +1,40 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# YouTube Analysis Component
+
+This component focuses on analyzing YouTube usage and viewing patterns:
+
+## Structure and Main Components
+Located in `youtube-knowledge-graph-insights/`, this component includes:
+- Analyzer modules in `analyzer/`
+- LLM report generation tools in `llm_report_tools/`
+- Pattern analysis utilities in `pattern_analysis/`
+- User-specific reports in `user_reports/`
+- Combined report management in `combined_reports/`
+
+## Key Scripts
+- [youtube-knowledge-graph-insights/main.py](mdc:youtube-knowledge-graph-insights/main.py): Entry point for analysis execution
+- [youtube-knowledge-graph-insights/youtube_insight_agent.py](mdc:youtube-knowledge-graph-insights/youtube_insight_agent.py): AI agent for generating insights
+- [youtube-knowledge-graph-insights/date_range_analysis.py](mdc:youtube-knowledge-graph-insights/date_range_analysis.py): Time-based analysis of viewing patterns
+- [youtube-knowledge-graph-insights/combine_reports.py](mdc:youtube-knowledge-graph-insights/combine_reports.py): Combines multiple reports
+
+## Analysis Reports
+- Timestamped reports in `analysis_reports/`
+- Combined visualizations in `combined_reports/visualizations/`
+- User recommendations in `insights/user_recommendations/`
+
+## Data Flow
+1. Raw YouTube data is processed by analyzer modules
+2. Pattern analysis identifies trends and correlations
+3. LLM tools generate natural language insights
+4. Reports are generated and stored in timestamped directories
+5. Combined reports integrate multiple analysis outputs
+6. User-specific recommendations are generated
+
+## Integration Points
+- Connects with health data through the data integration components
+- Provides insights for the knowledge graph components
+- Feeds analysis results to the prompt engineering pipeline

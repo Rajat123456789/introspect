@@ -1,0 +1,13 @@
+# Agentic Data Pipeline Summary
+
+Date: 2025-05-07 16:31:13
+Total duration: 272.86 seconds
+
+## Youtube Live
+
+Status: Success
+JSON files processed: 1
+Total videos: 99
+Videos processed: 20
+Successful: 20
+

@@ -3,3 +3,40 @@ description:
 globs:
 alwaysApply: false
 ---
+# Health Data Format Guide
+
+## Data File Formats
+All cleaned data files in `Data/someshbgd3/Cleaned/` follow CSV format with standardized timestamps.
+
+### Exercise Sessions
+`exerciseSession_someshbgd3_Cleaned.csv`:
+- start: Timestamp of exercise start
+- end: Timestamp of exercise end
+- exerciseSession_exerciseType: Type of exercise
+- exerciseSession_total_time: Duration in minutes
+- exerciseSession_intensity: Exercise intensity score
+
+### Sleep Data
+`sleepSession_someshbgd3_Cleaned.csv`:
+- start: Sleep start timestamp
+- end: Sleep end timestamp
+- total_sleep_time: Total sleep duration
+- sleep_quality: Sleep quality metrics
+
+### Heart Rate
+`heartRate_someshbgd3_Cleaned.csv`:
+- timestamp: Measurement timestamp
+- heart_rate: Heart rate value in BPM
+
+### Nutrition
+`nutrition_someshbgd3_Cleaned.csv`:
+- timestamp: Food entry timestamp
+- calories: Total calories
+- protein: Protein content (g)
+- carbohydrates: Carb content (g)
+- fat: Fat content (g)
+
+### Weight
+`weight_someshbgd3_Cleaned.csv`:
+- timestamp: Measurement timestamp
+- weight: Weight value in kg

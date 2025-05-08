@@ -1,0 +1,30 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Report Generation Module
+
+The report generation module is the core of this application, responsible for analyzing multimodal data and generating insights.
+
+## Key Files
+
+- [src/report_generation/main.py](mdc:src/report_generation/main.py): Orchestrates the report generation process
+- [src/report_generation/crews/base_crew.py](mdc:src/report_generation/crews/base_crew.py): Base class for all crews
+
+## Crew System
+
+The application uses CrewAI to create specialized "crews" for different data types:
+
+- [src/report_generation/crews/health_history_crew.py](mdc:src/report_generation/crews/health_history_crew.py): Analyzes health history visualizations
+- [src/report_generation/crews/health_live_crew.py](mdc:src/report_generation/crews/health_live_crew.py): Analyzes real-time health data
+- [src/report_generation/crews/youtube_history_crew.py](mdc:src/report_generation/crews/youtube_history_crew.py): Analyzes YouTube history data
+- [src/report_generation/crews/youtube_live_crew.py](mdc:src/report_generation/crews/youtube_live_crew.py): Analyzes real-time YouTube data
+
+## Tools
+
+Each crew uses specialized tools for data processing:
+
+- [src/report_generation/tools/file_tools.py](mdc:src/report_generation/tools/file_tools.py): File operations and image loading
+- [src/report_generation/tools/vision_tools.py](mdc:src/report_generation/tools/vision_tools.py): Image analysis using vision-capable LLMs
+

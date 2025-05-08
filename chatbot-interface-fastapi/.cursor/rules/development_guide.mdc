@@ -1,0 +1,43 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Development Guide
+
+This rule provides guidance for developers working on this project.
+
+## Getting Started
+
+1. Clone the repository
+2. Create a virtual environment: `python -m venv venv`
+3. Activate it: `source venv/bin/activate` (or `venv\Scripts\activate` on Windows)
+4. Install dependencies: `pip install -r requirements.txt`
+5. Create a `.env` file with your OpenAI API key
+
+## Testing Changes
+
+To test your changes:
+
+1. Run the full system: `python main.py`
+2. Check the outputs in `src/report_generation/reports/`
+3. Examine the logs in `report_generation.log`
+
+## Common Modifications
+
+### Adding a New Crew Type
+
+1. Create a new crew class in `src/report_generation/crews/`
+2. Create configuration files in `src/report_generation/config/<crew_name>/`
+3. Add the crew to the list in [src/report_generation/main.py](mdc:src/report_generation/main.py)
+
+### Modifying Crew Behavior
+
+1. Edit the YAML files in the respective config directory
+2. Adjust agent roles, goals, and backstories in `agents.yaml`
+3. Modify task descriptions in `tasks.yaml`
+
+### Adding New Tools
+
+1. Add new tools to the appropriate file in `src/report_generation/tools/`
+2. Register tools in the crew's `_get_agent_tools` method

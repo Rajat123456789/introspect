@@ -1,0 +1,6 @@
+{
+    "Data Source": "derived:com.google.internal.goal:com.google.android.apps.fitness:com_google_active_minutes.cumulative.day...sample",
+    "Data Points": [
+        {"fitValue":[{"blob":{"internalGoal":{"endTimeNanos":9223372036854000000,"dataTypeName":"com.google.active_minutes","cumulativeObjective":{"objective":{"fieldName":"duration","value":{"intVal":60},"operator":"GTE"}},"recurInterval":{"unit":"DAY","count":1},"startTimeNanos":1570112000988000000}}}],"originDataSourceId":"","endTimeNanos":1570112000988000000,"dataTypeName":"com.google.internal.goal","startTimeNanos":1570112000988000000,"modifiedTimeMillis":1570112012757,"rawTimestampNanos":0}
+    ]
+}

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TrainingCenterDatabase
+    xmlns="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2"
+    xmlns:ns2="http://www.garmin.com/xmlschemas/UserProfile/v2"
+    xmlns:ns3="http://www.garmin.com/xmlschemas/ActivityExtension/v2"
+    xmlns:ns4="http://www.garmin.com/xmlschemas/ProfileExtension/v1"
+    xmlns:ns5="http://www.garmin.com/xmlschemas/ActivityGoals/v1"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.garmin.com/xmlschemas/TrainingCenterDatabase/v2 http://www.garmin.com/xmlschemas/TrainingCenterDatabasev2.xsd">
+    <Activities>
+        <Activity Sport="Walking">
+            <Id>2019-10-15T13:46:42.037Z</Id>
+            <Lap StartTime="2019-10-15T13:46:42.037Z">
+                <Track>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2019-10-15T13:46:42.037Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>0.0</DistanceMeters>
+                        <Time>2019-10-15T13:46:51.776Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>20.87887954711914</DistanceMeters>
+                        <Time>2019-10-15T13:47:55.776Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>45.67254829406738</DistanceMeters>
+                        <Time>2019-10-15T13:52:00.137Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>126.3881778717041</DistanceMeters>
+                        <Time>2019-10-15T13:52:59.933Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>209.26001167297363</DistanceMeters>
+                        <Time>2019-10-15T13:54:01.432Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>291.4413318634033</DistanceMeters>
+                        <Time>2019-10-15T13:55:02.318Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>380.80574226379395</DistanceMeters>
+                        <Time>2019-10-15T13:56:03.897Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>475.1216526031494</DistanceMeters>
+                        <Time>2019-10-15T13:57:04.846Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>568.6708469390869</DistanceMeters>
+                        <Time>2019-10-15T13:58:05.299Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>660.4614582061768</DistanceMeters>
+                        <Time>2019-10-15T13:59:06.603Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>755.5891132354736</DistanceMeters>
+                        <Time>2019-10-15T14:00:07.987Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>816.3873348236084</DistanceMeters>
+                        <Time>2019-10-15T14:00:49.945Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>892.0732707977295</DistanceMeters>
+                        <Time>2019-10-15T14:03:10.265Z</Time>
+                    </Trackpoint>
+                    <Trackpoint>
+                        <DistanceMeters>899.6291728019714</DistanceMeters>
+                        <Time>2019-10-15T14:03:50.550Z</Time>
+                    </Trackpoint>
+                </Track>
+                <DistanceMeters>899.6291728019714</DistanceMeters>
+                <TotalTimeSeconds>1028.513</TotalTimeSeconds>
+                <Calories>102.05134582519531</Calories>
+                <Intensity>Active</Intensity>
+                <TriggerMethod>Manual</TriggerMethod>
+            </Lap>
+        </Activity>
+    </Activities>
+    <Author xsi:type="Application_t">
+        <Name>Google Fit</Name>
+        <Build>
+            <Version>
+                <VersionMajor>0</VersionMajor>
+                <VersionMinor>0</VersionMinor>
+                <BuildMajor>0</BuildMajor>
+                <BuildMinor>0</BuildMinor>
+            </Version>
+        </Build>
+        <LangID>en</LangID>
+        <PartNumber>000-00000-00</PartNumber>
+    </Author>
+</TrainingCenterDatabase>

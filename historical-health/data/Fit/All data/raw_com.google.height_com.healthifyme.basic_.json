@@ -1,0 +1,14 @@
+{
+    "Data Source": "raw:com.google.height:com.healthifyme.basic:",
+    "Data Points": [
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1570109714746000000,"dataTypeName":"com.google.height","startTimeNanos":1570023314746000000,"modifiedTimeMillis":1570112012757,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1624350351964000000,"dataTypeName":"com.google.height","startTimeNanos":1624263951964000000,"modifiedTimeMillis":1624350539059,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1634020643801000000,"dataTypeName":"com.google.height","startTimeNanos":1633934243801000000,"modifiedTimeMillis":1634021984489,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1648121395958000000,"dataTypeName":"com.google.height","startTimeNanos":1648034995958000000,"modifiedTimeMillis":1648123582787,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.5700000524520874}}],"originDataSourceId":"","endTimeNanos":1648828948077000000,"dataTypeName":"com.google.height","startTimeNanos":1648742548077000000,"modifiedTimeMillis":1648828977775,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1649162643121000000,"dataTypeName":"com.google.height","startTimeNanos":1649076243121000000,"modifiedTimeMillis":1649163365818,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.75}}],"originDataSourceId":"","endTimeNanos":1696739455240000000,"dataTypeName":"com.google.height","startTimeNanos":1696653055240000000,"modifiedTimeMillis":1696740354662,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.7699999809265137}}],"originDataSourceId":"","endTimeNanos":1696739750302000000,"dataTypeName":"com.google.height","startTimeNanos":1696653350302000000,"modifiedTimeMillis":1696740354662,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":1.7699999809265137}}],"originDataSourceId":"","endTimeNanos":1716861628096000000,"dataTypeName":"com.google.height","startTimeNanos":1716775228096000000,"modifiedTimeMillis":1716865127060,"rawTimestampNanos":0}
+    ]
+}

@@ -1,0 +1,42 @@
+# Analysis of day_of_week_heatmap.png
+
+Analysis timestamp: 2025-05-07 14:31:16
+Processing time: 20.77 seconds
+
+### Visualization Type
+- **Chart Type:** Heatmap
+- **Graph Format:** Pattern percentage by day of the week
+
+### Data Presentation
+- **Metrics:** Percentage of viewership associated with different content categories.
+- **Time Periods:** Days of the week
+- **Categories:** Addiction, doom_scrolling, escapism, unhealthy_comparison, rabbit_holes
+
+### Specific Numerical Values
+- **Monday:** Addiction (62.7%), Doom_scrolling (16.7%), Escapism (46.5%), Unhealthy_comparison (6.3%), Rabbit_holes (40.4%)
+- **Tuesday:** Addiction (53.2%), Doom_scrolling (12.6%), Escapism (34.3%), Unhealthy_comparison (6.0%), Rabbit_holes (40.4%)
+- **Wednesday:** Addiction (60.9%), Doom_scrolling (15.3%), Escapism (53.2%), Unhealthy_comparison (6.4%), Rabbit_holes (40.5%)
+- **Thursday:** Addiction (54.8%), Doom_scrolling (15.4%), Escapism (26.7%), Unhealthy_comparison (6.6%), Rabbit_holes (39.1%)
+- **Friday:** Addiction (63.8%), Doom_scrolling (17.4%), Escapism (26.1%), Unhealthy_comparison (6.5%), Rabbit_holes (39.5%)
+- **Saturday:** Addiction (66.7%), Doom_scrolling (17.0%), Escapism (4.7%), Unhealthy_comparison (6.5%), Rabbit_holes (40.4%)
+- **Sunday:** Addiction (58.1%), Doom_scrolling (16.5%), Escapism (0.4%), Unhealthy_comparison (6.8%), Rabbit_holes (39.6%)
+
+### Consumption Patterns
+- **Addiction:** Peaks on Saturday (66.7%) and lowest on Tuesday (53.2%).
+- **Doom_scrolling:** Highest on Friday (17.4%) and lowest on Tuesday (12.6%).
+- **Escapism:** Highest on Wednesday (53.2%) and lowest on Sunday (0.4%).
+- **Unhealthy_comparison:** Fairly stable, peaking on Sunday (6.8%).
+- **Rabbit_holes:** Fairly stable with slight peak on Wednesday (40.5%).
+
+### Notable Trends
+- **Increases:** Addiction shows a noticeable increase on weekends, peaking on Saturday (66.7%).
+- **Decreases:** Escapism drops significantly on Sunday (0.4%).
+
+### Content Categories
+- **Most Frequent Content:** Addiction and Rabbit_holes have consistently higher percentages.
+- **Least Frequent Content:** Unhealthy_comparison and Escapism, particularly on weekends, show lower engagement.
+
+### Correlations with Mental Health Indicators
+- **Correlation Observations:** Increased addiction and rabbit_hole content on weekends (Saturday) suggests possible higher engagement in such patterns during leisure time. Escapism decreases significantly on Sundays, potentially indicating a shift in viewing habits.
+
+This detailed analysis of the heatmap provides insights solely based on the data presented, without drawing any conclusions beyond observed patterns.

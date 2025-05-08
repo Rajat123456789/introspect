@@ -1,0 +1,8 @@
+{
+    "Data Source": "raw:com.google.calories.expended:com.google.android.apps.fitness:user_input",
+    "Data Points": [
+        {"fitValue":[{"value":{"fpVal":500}}],"originDataSourceId":"","endTimeNanos":1624273500000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1624269900000000000,"modifiedTimeMillis":1624494838901,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":464}}],"originDataSourceId":"","endTimeNanos":1624326180000000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1624320240000000000,"modifiedTimeMillis":1624494838901,"rawTimestampNanos":0},
+        {"fitValue":[{"value":{"fpVal":65}}],"originDataSourceId":"","endTimeNanos":1636376101955000000,"dataTypeName":"com.google.calories.expended","startTimeNanos":1636375466325000000,"modifiedTimeMillis":1636597962078,"rawTimestampNanos":0}
+    ]
+}
