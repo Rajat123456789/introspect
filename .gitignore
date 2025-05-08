@@ -165,3 +165,9 @@ cython_debug/
 youtube-knowledge-graph-insights/pattern_analysis/archive/*
 youtube-knowledge-graph-insights/old-versions-code/*
 chatbot-interface/backend/.env
+chatbot-interface/frontend/node_modules/*
+chatbot-interface/frontend/dist/*
+chatbot-interface/frontend/build/*
+chatbot-interface/frontend/public/index.html
+chatbot-interface/frontend/public/manifest.json
+chatbot-interface/frontend/public/robots.txt
